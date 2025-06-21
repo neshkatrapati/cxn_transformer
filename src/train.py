@@ -5,7 +5,7 @@ import torch.nn as nn
 import torch.optim as optim
 from data import build_dataloader
 from model import TransformerLM, generate_square_subsequent_mask
-
+import tqdm
 
 def evaluate(model, data_loader, criterion, device):
     model.eval()
@@ -42,6 +42,8 @@ def train(args):
         )
 
     vocab_size = len(dataset.vocab)
+    
+    print(f"Loaded dataset with vocab : {vocab}")
     model = TransformerLM(
         vocab_size,
         args.d_model,
@@ -58,7 +60,7 @@ def train(args):
     for epoch in range(1, args.epochs + 1):
         model.train()
         total_loss = 0.0
-        for src, tgt in train_loader:
+        for src, tgt in tqdm.tqdm(train_loader):
             # src, tgt: [batch, seq]
             src = src.to(device)
             tgt = tgt.to(device)
