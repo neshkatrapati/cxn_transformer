@@ -154,6 +154,9 @@ def main():
             predict_with_generate=True,
             generation_max_length=args.max_len,
             save_total_limit=2,
+            logging_strategy = "steps",
+            logging_steps = 20,
+            learning_rate = 1e-3,
             logging_dir=str(out_dir / "logs"),
         )
         trainer = Seq2SeqTrainer(
