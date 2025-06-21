@@ -149,7 +149,6 @@ def main():
             generation_max_length=args.max_len,
             save_total_limit=2,
             logging_dir=str(out_dir / "logs"),
-            evaluation_strategy="epoch",
         )
         trainer = Seq2SeqTrainer(
             model=model,
