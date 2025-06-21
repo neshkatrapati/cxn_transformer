@@ -76,6 +76,8 @@ def main():
             save_total_limit=2,
             predict_with_generate=True,
             logging_dir=f"{args.output_dir}/logs",
+            generation_max_length=args.max_len,    # ← here!
+            
         )
         trainer = Seq2SeqTrainer(
             model=model,
@@ -107,6 +109,8 @@ def main():
             output_dir=args.output_dir,
             per_device_eval_batch_size=args.batch_size,
             predict_with_generate=True,
+            generation_max_length=args.max_len,    # ← also here
+            
         )
         eval_trainer = Seq2SeqTrainer(
             model=model,
