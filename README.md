@@ -3,6 +3,8 @@
 This project provides a small transformer-based causal language model
 implemented with PyTorch. The corpus should be a plain text file where
 tokens are separated by spaces and sentences by new lines.
+During preprocessing each line is treated independently so training
+samples never cross sentence boundaries.
 
 ## Requirements
 
