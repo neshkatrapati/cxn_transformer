@@ -48,7 +48,7 @@ def compute_accuracy(model, dataset, device):
             
         print(f"Pred : {[rvocab[x] for x in pred]}")
         target = tgt_ids[1:]  # skip bos
-        print(f"Target : {target}")
+        print(f"Target : {[rvocab[x] for x in target]}")
         
         length = min(len(pred), len(target))
         for p, t in zip(pred[:length], target[:length]):
