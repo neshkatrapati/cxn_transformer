@@ -39,7 +39,7 @@ def compute_accuracy(model, dataset, device):
     correct = 0
     total = 0
     
-    rvocab = {y : x for y in dataset.tgt_vocab.items()}
+    rvocab = {y : x for x, y in dataset.tgt_vocab.items()}
     for src_ids, tgt_ids in tqdm.tqdm(dataset.data):
         pred = greedy_decode(model, src_ids, dataset.src_vocab, dataset.tgt_vocab, device, max_len=len(tgt_ids)+2)
         # remove eos if present
