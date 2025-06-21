@@ -3,7 +3,7 @@ import torch
 from .model import Seq2SeqTransformer
 from .data import build_dataloader, collate_fn
 from ..model import generate_square_subsequent_mask
-
+import tqdm
 
 def load_model(path, device, d_model, nhead, num_layers, dim_ff, dropout):
     checkpoint = torch.load(path, map_location=device)
@@ -38,7 +38,7 @@ def greedy_decode(model, src, src_vocab, tgt_vocab, device, max_len=50):
 def compute_accuracy(model, dataset, device):
     correct = 0
     total = 0
-    for src_ids, tgt_ids in dataset.data:
+    for src_ids, tgt_ids in tqdm.tqdm(dataset.data):
         pred = greedy_decode(model, src_ids, dataset.src_vocab, dataset.tgt_vocab, device, max_len=len(tgt_ids)+2)
         # remove eos if present
         if pred and pred[-1] == dataset.tgt_vocab['<eos>']:
