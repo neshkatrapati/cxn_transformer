@@ -45,7 +45,9 @@ def compute_accuracy(model, dataset, device):
         # remove eos if present
         if pred and pred[-1] == dataset.tgt_vocab['<eos>']:
             pred = pred[:-1]
-            
+        
+        print(f"Input : {[rvocab[x] for x in src_ids]}")
+        
         print(f"Pred : {[rvocab[x] for x in pred]}")
         target = tgt_ids[1:]  # skip bos
         print(f"Target : {[rvocab[x] for x in target]}")
