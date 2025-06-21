@@ -9,16 +9,22 @@ class TransformerLM(nn.Module):
         self.d_model = d_model
         self.embedding = nn.Embedding(vocab_size, d_model)
         self.pos_encoder = PositionalEncoding(d_model, dropout)
-        encoder_layer = nn.TransformerEncoderLayer(d_model, nhead, dim_feedforward, dropout)
+        encoder_layer = nn.TransformerEncoderLayer(
+            d_model,
+            nhead,
+            dim_feedforward,
+            dropout,
+            batch_first=True,
+        )
         self.transformer = nn.TransformerEncoder(encoder_layer, num_layers)
         self.fc_out = nn.Linear(d_model, vocab_size)
 
     def forward(self, src, src_mask=None):
         src = self.embedding(src) * math.sqrt(self.d_model)
         src = self.pos_encoder(src)
-        output = self.transformer(src.transpose(0,1), mask=src_mask)
+        output = self.transformer(src, mask=src_mask)
         output = self.fc_out(output)
-        return output.transpose(0,1)
+        return output
 
 class PositionalEncoding(nn.Module):
     def __init__(self, d_model, dropout=0.1, max_len=5000):

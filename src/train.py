@@ -3,8 +3,8 @@ import math
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from data import build_dataloader
-from model import TransformerLM, generate_square_subsequent_mask
+from .data import build_dataloader
+from .model import TransformerLM, generate_square_subsequent_mask
 import tqdm
 
 def evaluate(model, data_loader, criterion, device):
