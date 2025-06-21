@@ -47,7 +47,7 @@ def collate_fn(batch):
     padded_tgt = [t + [0]*(tgt_len - len(t)) for t in tgt_batch]
     return torch.tensor(padded_src), torch.tensor(padded_tgt)
 
-def build_dataloader(src_path, tgt_path, batch_size=32, min_freq=1, shuffle=True):
+def build_dataloader(src_path, tgt_path, batch_size=32, min_freq=1, shuffle=False):
     dataset = ParallelTextDataset(src_path, tgt_path, min_freq)
     loader = DataLoader(dataset, batch_size=batch_size, shuffle=shuffle, collate_fn=collate_fn)
     return dataset, loader
