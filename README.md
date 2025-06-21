@@ -39,3 +39,23 @@ python -m src.generate --model model.pt --prompt "The" --length 20
 
 The architecture parameters should match those used during training and
 default to the same values as in `src.train`.
+
+## Sequence-to-Sequence Transformer
+
+The `src/seq2seq` package contains a small transformer model for tasks with
+parallel text files. Each line in the source file corresponds to a line in the
+target file. Training can be started with
+
+```bash
+python -m src.seq2seq.train --src path/to/train.src --tgt path/to/train.tgt \
+    --epochs 10 --batch-size 32
+```
+
+A trained model can be evaluated on a test set using
+
+```bash
+python -m src.seq2seq.evaluate --model seq2seq_model.pt \
+    --src path/to/test.src --tgt path/to/test.tgt
+```
+
+The evaluation script reports token accuracy based on greedy decoding.
