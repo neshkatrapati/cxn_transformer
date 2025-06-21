@@ -26,3 +26,14 @@ weights and vocabulary will be saved to `model.pt` by default.
 
 During training the script prints cross-entropy loss and perplexity to
 measure model quality.
+
+## Text Generation
+
+After training you can sample text using the saved model:
+
+```bash
+python -m src.generate --model model.pt --prompt "The" --length 20
+```
+
+The architecture parameters should match those used during training and
+default to the same values as in `src.train`.
