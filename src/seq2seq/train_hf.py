@@ -1,22 +1,20 @@
 #!/usr/bin/env python3
-# save as seq2seq_hf.py
-
 import argparse
 import numpy as np
-from datasets import Dataset, DatasetDict, load_from_disk
+from datasets import Dataset, DatasetDict
 from transformers import (
-    T5Tokenizer,
+    AutoTokenizer,
     T5ForConditionalGeneration,
+    DataCollatorForSeq2Seq,
     Seq2SeqTrainer,
     Seq2SeqTrainingArguments,
-    DataCollatorForSeq2Seq,
 )
 
 def load_parallel(src_path, tgt_path):
     with open(src_path, encoding='utf-8') as fs, open(tgt_path, encoding='utf-8') as ft:
         src_lines = [l.strip() for l in fs if l.strip()]
         tgt_lines = [l.strip() for l in ft if l.strip()]
-    assert len(src_lines) == len(tgt_lines)
+    assert len(src_lines) == len(tgt_lines), "Mismatched lines in src/tgt"
     return {"src": src_lines, "tgt": tgt_lines}
 
 def preprocess_batch(batch, tokenizer, max_length):
@@ -35,49 +33,43 @@ def compute_metrics(eval_pred, tokenizer):
     return {"exact_match_accuracy": acc}
 
 def main():
-    parser = argparse.ArgumentParser(description="Train / Eval a T5-style seq2seq on parallel files")
-    parser.add_argument("--src_train", help="train source file")
-    parser.add_argument("--tgt_train", help="train target file")
-    parser.add_argument("--src_test",  help="test source file")
-    parser.add_argument("--tgt_test",  help="test target file")
-    parser.add_argument("--model_name", default="t5-small", help="HF model name or path")
-    parser.add_argument("--model_path", help="If --do_eval only, path to a saved checkpoint")
-    parser.add_argument("--output_dir", default="./outputs", help="where to save/train model")
+    parser = argparse.ArgumentParser(description="Train / Eval a T5 seq2seq model")
+    parser.add_argument("--src_train", help="Path to training source file")
+    parser.add_argument("--tgt_train", help="Path to training target file")
+    parser.add_argument("--src_test",  help="Path to test source file")
+    parser.add_argument("--tgt_test",  help="Path to test target file")
+    parser.add_argument("--model_name", default="t5-small", help="HF model name or checkpoint")
+    parser.add_argument("--model_path", help="Path to saved model for eval-only")
+    parser.add_argument("--output_dir", default="./outputs", help="Save/fetch model here")
     parser.add_argument("--batch_size", type=int, default=16)
     parser.add_argument("--epochs",     type=int, default=3)
     parser.add_argument("--max_len",    type=int, default=64)
-    parser.add_argument("--do_train", action="store_true", help="Only run training")
-    parser.add_argument("--do_eval",  action="store_true", help="Only run evaluation")
+    parser.add_argument("--do_train", action="store_true", help="Run training only")
+    parser.add_argument("--do_eval",  action="store_true", help="Run evaluation only")
     args = parser.parse_args()
 
-    # 1. prepare raw datasets if training or both
-    if args.do_train or (not args.do_train and not args.do_eval):
+    # Load tokenizer
+    tokenizer = AutoTokenizer.from_pretrained(args.model_name, use_fast=True)
+
+    # TRAIN ONLY
+    if args.do_train:
+        # prepare datasets
         train_dict = load_parallel(args.src_train, args.tgt_train)
         test_dict  = load_parallel(args.src_test,  args.tgt_test)
-        raw_datasets = DatasetDict({
+        raw = DatasetDict({
             "train": Dataset.from_dict(train_dict),
-            "test":  Dataset.from_dict(test_dict ),
+            "test":  Dataset.from_dict(test_dict),
         })
-
-    # 2. load tokenizer & model
-    tokenizer = T5Tokenizer.from_pretrained(args.model_name)
-    model = T5ForConditionalGeneration.from_pretrained(
-        args.model_path if args.do_eval and args.model_path else args.model_name
-    )
-
-    # 3. tokenize if training or both
-    if args.do_train or (not args.do_train and not args.do_eval):
-        tokenized = raw_datasets.map(
+        tokenized = raw.map(
             lambda b: preprocess_batch(b, tokenizer, args.max_len),
-            batched=True,
-            remove_columns=["src", "tgt"],
+            batched=True, remove_columns=["src","tgt"]
         )
 
-        data_collator = DataCollatorForSeq2Seq(tokenizer, model=model)
-
-        training_args = Seq2SeqTrainingArguments(
+        # model & trainer
+        model = T5ForConditionalGeneration.from_pretrained(args.model_name)
+        collator = DataCollatorForSeq2Seq(tokenizer, model=model)
+        train_args = Seq2SeqTrainingArguments(
             output_dir=args.output_dir,
-            # evaluation_strategy="epoch",
             per_device_train_batch_size=args.batch_size,
             per_device_eval_batch_size=args.batch_size,
             num_train_epochs=args.epochs,
@@ -85,38 +77,53 @@ def main():
             predict_with_generate=True,
             logging_dir=f"{args.output_dir}/logs",
         )
-
         trainer = Seq2SeqTrainer(
             model=model,
-            args=training_args,
+            args=train_args,
             train_dataset=tokenized["train"],
-            eval_dataset= tokenized["test"],
+            eval_dataset=tokenized["test"],
             tokenizer=tokenizer,
-            data_collator=data_collator,
+            data_collator=collator,
             compute_metrics=lambda p: compute_metrics(p, tokenizer),
         )
 
-    # 4. run training
-    if args.do_train or (not args.do_train and not args.do_eval):
         trainer.train()
         trainer.save_model(args.output_dir)
-        metrics = trainer.evaluate(eval_dataset=tokenized["test"])
-        print("Eval metrics:", metrics)
 
-    # 5. run evaluation
-    if args.do_eval or (not args.do_train and not args.do_eval):
-        # if we just trained, `model` is updated in-place; otherwise it was loaded from --model_path
-        metrics = trainer.evaluate() if not args.do_eval else trainer.evaluate(eval_dataset=trainer.eval_dataset)
-        print("Eval metrics:", metrics)
+    # EVAL ONLY (or after training)
+    if args.do_eval:
+        load_dir = args.model_path or args.output_dir
+        model = T5ForConditionalGeneration.from_pretrained(load_dir)
 
-        preds = trainer.predict(tokenized["test"])
+        test_dict = load_parallel(args.src_test, args.tgt_test)
+        raw_test = Dataset.from_dict(test_dict)
+        tokenized_test = raw_test.map(
+            lambda b: preprocess_batch(b, tokenizer, args.max_len),
+            batched=True, remove_columns=["src","tgt"]
+        )
+
+        collator = DataCollatorForSeq2Seq(tokenizer, model=model)
+        eval_args = Seq2SeqTrainingArguments(
+            output_dir=args.output_dir,
+            per_device_eval_batch_size=args.batch_size,
+            predict_with_generate=True,
+        )
+        eval_trainer = Seq2SeqTrainer(
+            model=model,
+            args=eval_args,
+            eval_dataset=tokenized_test,
+            tokenizer=tokenizer,
+            data_collator=collator,
+            compute_metrics=lambda p: compute_metrics(p, tokenizer),
+        )
+
+        metrics = eval_trainer.evaluate()
+        print("Evaluation metrics:", metrics)
+
+        preds = eval_trainer.predict(tokenized_test)
         print("Test metrics:", preds.metrics)
-
-        # print first 5 examples
         decoded = tokenizer.batch_decode(preds.predictions, skip_special_tokens=True)
-        for src, tgt, pr in zip(raw_datasets["test"]["src"][:5],
-                                 raw_datasets["test"]["tgt"][:5],
-                                 decoded[:5]):
+        for src, tgt, pr in zip(test_dict["src"][:5], test_dict["tgt"][:5], decoded[:5]):
             print(f"\nINPUT   --> {src}")
             print(f"TARGET  --> {tgt}")
             print(f"PREDICT --> {pr}")
