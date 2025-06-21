@@ -1,7 +1,6 @@
 import argparse
 import torch
 from .model import Seq2SeqTransformer
-from .data import build_dataloader, collate_fn
 from ..model import generate_square_subsequent_mask
 import tqdm
 
@@ -15,6 +14,32 @@ def load_model(path, device, d_model, nhead, num_layers, dim_ff, dropout):
     model.load_state_dict(checkpoint['model_state_dict'])
     model.eval()
     return model, checkpoint['src_vocab'], checkpoint['tgt_vocab']
+
+
+def load_tokenized_dataset(src_path, tgt_path, src_vocab, tgt_vocab):
+    """Load tokenized parallel data using the given vocabularies."""
+    with open(src_path, 'r', encoding='utf-8') as f:
+        src_lines = [l.strip().split() for l in f if l.strip()]
+    with open(tgt_path, 'r', encoding='utf-8') as f:
+        tgt_lines = [l.strip().split() for l in f if l.strip()]
+    assert len(src_lines) == len(tgt_lines), "Source and target files must have same number of lines"
+
+    data = []
+    for s_tok, t_tok in zip(src_lines, tgt_lines):
+        src_ids = [src_vocab.get(tok, src_vocab.get('<unk>', 1)) for tok in s_tok]
+        tgt_ids = [tgt_vocab.get('<bos>')] + [tgt_vocab.get(tok, tgt_vocab.get('<unk>', 1)) for tok in t_tok] + [tgt_vocab.get('<eos>')]
+        data.append((src_ids, tgt_ids))
+
+    class SimpleDataset:
+        pass
+
+    dataset = SimpleDataset()
+    dataset.src_path = src_path
+    dataset.tgt_path = tgt_path
+    dataset.src_vocab = src_vocab
+    dataset.tgt_vocab = tgt_vocab
+    dataset.data = data
+    return dataset
 
 
 def greedy_decode(model, src, src_vocab, tgt_vocab, device, max_len=50):
@@ -76,10 +101,7 @@ def main():
     model, src_vocab, tgt_vocab = load_model(
         args.model, device, args.d_model, args.nhead, args.num_layers, args.dim_ff, args.dropout
     )
-    dataset, _ = build_dataloader(args.src, args.tgt, batch_size=1, shuffle=False, min_freq=1)
-    dataset.src_vocab = src_vocab
-    dataset.tgt_vocab = tgt_vocab
-    dataset.run(dataset.src_path, dataset.tgt_path)
+    dataset = load_tokenized_dataset(args.src, args.tgt, src_vocab, tgt_vocab)
     acc = compute_accuracy(model, dataset, device)
     print(f'Accuracy: {acc*100:.2f}%')
 
