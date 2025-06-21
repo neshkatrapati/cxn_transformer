@@ -38,6 +38,7 @@ def greedy_decode(model, src, src_vocab, tgt_vocab, device, max_len=50):
 def compute_accuracy(model, dataset, device):
     correct = 0
     total = 0
+    svocab = {y : x for x, y in dataset.src_vocab.items()}
     
     rvocab = {y : x for x, y in dataset.tgt_vocab.items()}
     for src_ids, tgt_ids in tqdm.tqdm(dataset.data):
@@ -46,7 +47,7 @@ def compute_accuracy(model, dataset, device):
         if pred and pred[-1] == dataset.tgt_vocab['<eos>']:
             pred = pred[:-1]
         
-        print(f"Input : {[rvocab[x] for x in src_ids]}")
+        print(f"Input : {[svocab[x] for x in src_ids]}")
         
         print(f"Pred : {[rvocab[x] for x in pred]}")
         target = tgt_ids[1:]  # skip bos
