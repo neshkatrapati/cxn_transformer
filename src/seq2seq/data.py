@@ -7,10 +7,12 @@ class ParallelTextDataset(Dataset):
     def __init__(self, src_path, tgt_path, min_freq=1):
         self.src_path = src_path
         self.tgt_path = tgt_path
-        
-        self.run(src_path, tgt_path, min_freq=1)
+
+        # honour the minimum frequency parameter when building vocabularies
+        self.run(src_path, tgt_path, min_freq)
         
     def run(self, src_path, tgt_path, min_freq=1):
+        """Load data and build vocabularies."""
         with open(src_path, 'r', encoding='utf-8') as f:
             src_lines = [l.strip() for l in f if l.strip()]
         with open(tgt_path, 'r', encoding='utf-8') as f:
@@ -38,6 +40,10 @@ class ParallelTextDataset(Dataset):
             src_ids = [self.src_vocab.get(tok, 1) for tok in s_tokens]
             tgt_ids = [2] + [self.tgt_vocab.get(tok, 1) for tok in t_tokens] + [3]
             self.data.append((src_ids, tgt_ids))
+
+        # count unknown tokens so training script can report them
+        self.src_unk_count = sum(tok == 1 for src_ids, _ in self.data for tok in src_ids)
+        self.tgt_unk_count = sum(tok == 1 for _, tgt_ids in self.data for tok in tgt_ids)
 
     def __len__(self):
         return len(self.data)
