@@ -51,7 +51,10 @@ python -m src.seq2seq.train --src path/to/train.src --tgt path/to/train.tgt \
     --epochs 10 --batch-size 32
 ```
 The training dataloader shuffles the data to encourage better optimisation.
-
+Before training starts the script prints how many `<unk>` tokens appear in the
+dataset so you can verify your vocabularies cover most tokens.
+During evaluation the script also reports `<unk>` counts so you can confirm the
+test set is well-covered by the learned vocabularies.
 
 A trained model can be evaluated on a test set using
 
