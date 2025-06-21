@@ -79,6 +79,7 @@ def main():
     dataset, _ = build_dataloader(args.src, args.tgt, batch_size=1, shuffle=False, min_freq=1)
     dataset.src_vocab = src_vocab
     dataset.tgt_vocab = tgt_vocab
+    dataset.run(dataset.src_path, dataset.tgt_path)
     acc = compute_accuracy(model, dataset, device)
     print(f'Accuracy: {acc*100:.2f}%')
 

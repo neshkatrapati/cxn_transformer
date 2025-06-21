@@ -4,7 +4,13 @@ from collections import Counter
 
 class ParallelTextDataset(Dataset):
     """Dataset for parallel text files."""
-    def __init__(self, src_path, tgt_path, min_freq=1):
+    def __init__(self, ):
+        self.src_path = src_path
+        self.tgt_path = tgt_path
+        
+        self.run(src_path, tgt_path, min_freq=1)
+        
+    def run(self, src_path, tgt_path, min_freq=1):
         with open(src_path, 'r', encoding='utf-8') as f:
             src_lines = [l.strip() for l in f if l.strip()]
         with open(tgt_path, 'r', encoding='utf-8') as f:
