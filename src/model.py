@@ -39,11 +39,12 @@ class PositionalEncoding(nn.Module):
         self.register_buffer('pe', pe)
 
     def forward(self, x):
+        # x shape: (batch, seq_len, d_model) when batch_first=True
         x = x + self.pe[:, :x.size(1)]
         return self.dropout(x)
 
 
 def generate_square_subsequent_mask(sz):
-    mask = (torch.triu(torch.ones(sz, sz)) == 1).transpose(0, 1)
-    mask = mask.float().masked_fill(mask == 0, float('-inf')).masked_fill(mask == 1, float(0.0))
+    """Return an upper-triangular matrix of -inf, 0.0 for masking future tokens."""
+    mask = torch.triu(torch.full((sz, sz), float('-inf')), diagonal=1)
     return mask
