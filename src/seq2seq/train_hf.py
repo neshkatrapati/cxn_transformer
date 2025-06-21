@@ -69,21 +69,36 @@ def preprocess(batch, tokenizer, max_len):
 
 def compute_metrics(preds_and_labels, tokenizer):
     preds, labels = preds_and_labels
-    # mask out the -100 padding tokens
-    mask = labels != -100
+    # both are numpy arrays
+    batch, L_label = labels.shape
+    L_pred = preds.shape[1]
+
+    if L_pred < L_label:
+        # pad preds on the right with pad_token_id
+        pad_width = L_label - L_pred
+        preds = np.pad(
+            preds,
+            ((0,0), (0, pad_width)),
+            constant_values=tokenizer.pad_token_id
+        )
+    elif L_pred > L_label:
+        # truncate preds
+        preds = preds[:, :L_label]
+
+    # now safe to compare element-wise
+    mask         = labels != -100
     total_tokens = mask.sum()
-    correct_tokens = ((preds == labels) & mask).sum()
-    tok_acc = correct_tokens.float() / total_tokens.float()
+    correct_tok  = ((preds == labels) & mask).sum()
+    tok_acc      = correct_tok / total_tokens
 
-    # keep your existing sequence‐level EM if you want
-    dec_preds  = tokenizer.batch_decode(preds, skip_special_tokens=True)
-    dec_labels = tokenizer.batch_decode(
-        np.where(labels != -100, labels, tokenizer.pad_token_id),
-        skip_special_tokens=True
-    )
-    seq_acc = np.mean([int(p==l) for p,l in zip(dec_preds, dec_labels)])
+    # (optional) sequence EM, same as before
+    decoded_preds  = tokenizer.batch_decode(preds,  skip_special_tokens=True)
+    labels_for_dec = np.where(labels != -100, labels, tokenizer.pad_token_id)
+    decoded_labels = tokenizer.batch_decode(labels_for_dec, skip_special_tokens=True)
+    seq_acc = np.mean([int(p==l) for p,l in zip(decoded_preds, decoded_labels)])
 
-    return {"token_acc": tok_acc.item(), "seq_acc": seq_acc}
+    return {"token_acc": tok_acc, "seq_acc": seq_acc}
+
 
 def main():
     p = argparse.ArgumentParser()
