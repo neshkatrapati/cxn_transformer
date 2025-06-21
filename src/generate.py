@@ -1,6 +1,6 @@
 import argparse
 import torch
-from model import TransformerLM, generate_square_subsequent_mask
+from .model import TransformerLM, generate_square_subsequent_mask
 
 
 def load_model(model_path, d_model, nhead, num_layers, dim_ff, dropout, device):
