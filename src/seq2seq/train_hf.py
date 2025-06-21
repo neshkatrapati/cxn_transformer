@@ -77,7 +77,7 @@ def main():
 
         training_args = Seq2SeqTrainingArguments(
             output_dir=args.output_dir,
-            evaluation_strategy="epoch",
+            # evaluation_strategy="epoch",
             per_device_train_batch_size=args.batch_size,
             per_device_eval_batch_size=args.batch_size,
             num_train_epochs=args.epochs,
@@ -100,6 +100,8 @@ def main():
     if args.do_train or (not args.do_train and not args.do_eval):
         trainer.train()
         trainer.save_model(args.output_dir)
+        metrics = trainer.evaluate(eval_dataset=tokenized["test"])
+        print("Eval metrics:", metrics)
 
     # 5. run evaluation
     if args.do_eval or (not args.do_train and not args.do_eval):
