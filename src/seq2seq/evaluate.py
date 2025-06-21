@@ -25,9 +25,22 @@ def load_tokenized_dataset(src_path, tgt_path, src_vocab, tgt_vocab):
     assert len(src_lines) == len(tgt_lines), "Source and target files must have same number of lines"
 
     data = []
+    unk_src = 0
+    unk_tgt = 0
     for s_tok, t_tok in zip(src_lines, tgt_lines):
-        src_ids = [src_vocab.get(tok, src_vocab.get('<unk>', 1)) for tok in s_tok]
-        tgt_ids = [tgt_vocab.get('<bos>')] + [tgt_vocab.get(tok, tgt_vocab.get('<unk>', 1)) for tok in t_tok] + [tgt_vocab.get('<eos>')]
+        src_ids = []
+        for tok in s_tok:
+            idx = src_vocab.get(tok, src_vocab.get('<unk>', 1))
+            if idx == src_vocab.get('<unk>', 1):
+                unk_src += 1
+            src_ids.append(idx)
+        tgt_ids = [tgt_vocab.get('<bos>')]
+        for tok in t_tok:
+            idx = tgt_vocab.get(tok, tgt_vocab.get('<unk>', 1))
+            if idx == tgt_vocab.get('<unk>', 1):
+                unk_tgt += 1
+            tgt_ids.append(idx)
+        tgt_ids.append(tgt_vocab.get('<eos>'))
         data.append((src_ids, tgt_ids))
 
     class SimpleDataset:
@@ -39,6 +52,8 @@ def load_tokenized_dataset(src_path, tgt_path, src_vocab, tgt_vocab):
     dataset.src_vocab = src_vocab
     dataset.tgt_vocab = tgt_vocab
     dataset.data = data
+    dataset.src_unk_count = unk_src
+    dataset.tgt_unk_count = unk_tgt
     return dataset
 
 
@@ -102,6 +117,10 @@ def main():
         args.model, device, args.d_model, args.nhead, args.num_layers, args.dim_ff, args.dropout
     )
     dataset = load_tokenized_dataset(args.src, args.tgt, src_vocab, tgt_vocab)
+    if dataset.src_unk_count or dataset.tgt_unk_count:
+        print(f"<unk> tokens in evaluation data - src: {dataset.src_unk_count}, tgt: {dataset.tgt_unk_count}")
+    else:
+        print("No <unk> tokens in evaluation data")
     acc = compute_accuracy(model, dataset, device)
     print(f'Accuracy: {acc*100:.2f}%')
 
