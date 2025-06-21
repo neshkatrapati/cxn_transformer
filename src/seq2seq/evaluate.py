@@ -38,11 +38,16 @@ def greedy_decode(model, src, src_vocab, tgt_vocab, device, max_len=50):
 def compute_accuracy(model, dataset, device):
     correct = 0
     total = 0
+    
+    rvocab = {y : x for y in dataset.tgt_vocab.items()}
     for src_ids, tgt_ids in tqdm.tqdm(dataset.data):
         pred = greedy_decode(model, src_ids, dataset.src_vocab, dataset.tgt_vocab, device, max_len=len(tgt_ids)+2)
         # remove eos if present
         if pred and pred[-1] == dataset.tgt_vocab['<eos>']:
             pred = pred[:-1]
+            
+        print(f"Target : {target}")
+        print(f"Pred : {[rvocab[x] for x in pred]}")
         target = tgt_ids[1:]  # skip bos
         length = min(len(pred), len(target))
         for p, t in zip(pred[:length], target[:length]):
