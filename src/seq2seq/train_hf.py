@@ -69,13 +69,21 @@ def preprocess(batch, tokenizer, max_len):
 
 def compute_metrics(preds_and_labels, tokenizer):
     preds, labels = preds_and_labels
-    dec_preds = tokenizer.batch_decode(preds, skip_special_tokens=True)
-    # replace -100 with pad_token_id for decoding
-    labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
-    dec_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
-    # exact string match
-    acc = np.mean([int(p == l) for p, l in zip(dec_preds, dec_labels)])
-    return {"exact_match": acc}
+    # mask out the -100 padding tokens
+    mask = labels != -100
+    total_tokens = mask.sum()
+    correct_tokens = ((preds == labels) & mask).sum()
+    tok_acc = correct_tokens.float() / total_tokens.float()
+
+    # keep your existing sequence‐level EM if you want
+    dec_preds  = tokenizer.batch_decode(preds, skip_special_tokens=True)
+    dec_labels = tokenizer.batch_decode(
+        np.where(labels != -100, labels, tokenizer.pad_token_id),
+        skip_special_tokens=True
+    )
+    seq_acc = np.mean([int(p==l) for p,l in zip(dec_preds, dec_labels)])
+
+    return {"token_acc": tok_acc.item(), "seq_acc": seq_acc}
 
 def main():
     p = argparse.ArgumentParser()
