@@ -121,6 +121,12 @@ def main():
         dropout_rate=args.dropout,
         is_encoder_decoder=True,
     )
+    
+    # after your T5Config(...) call
+    config.pad_token_id            = tok.pad_token_id
+    config.eos_token_id            = tok.eos_token_id
+    config.decoder_start_token_id  = tok.pad_token_id   # T5 uses pad as the <start> symbol
+    
     model = T5ForConditionalGeneration(config)
 
     # 3. Datasets + tokenization
