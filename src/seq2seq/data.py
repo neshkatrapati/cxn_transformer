@@ -4,7 +4,7 @@ from collections import Counter
 
 class ParallelTextDataset(Dataset):
     """Dataset for parallel text files."""
-    def __init__(self, ):
+    def __init__(self, src_path, tgt_path, min_freq=1):
         self.src_path = src_path
         self.tgt_path = tgt_path
         
