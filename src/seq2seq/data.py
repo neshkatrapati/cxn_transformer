@@ -7,10 +7,12 @@ class ParallelTextDataset(Dataset):
     def __init__(self, src_path, tgt_path, min_freq=1):
         self.src_path = src_path
         self.tgt_path = tgt_path
-        
-        self.run(src_path, tgt_path, min_freq=1)
+
+        # honour the minimum frequency parameter when building vocabularies
+        self.run(src_path, tgt_path, min_freq)
         
     def run(self, src_path, tgt_path, min_freq=1):
+        """Load data and build vocabularies."""
         with open(src_path, 'r', encoding='utf-8') as f:
             src_lines = [l.strip() for l in f if l.strip()]
         with open(tgt_path, 'r', encoding='utf-8') as f:

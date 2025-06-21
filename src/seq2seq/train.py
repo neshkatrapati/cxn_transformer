@@ -30,7 +30,7 @@ def evaluate(model, loader, criterion, device):
 def train(args):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     dataset, train_loader = build_dataloader(
-        args.src, args.tgt, args.batch_size, args.min_freq)
+        args.src, args.tgt, args.batch_size, args.min_freq, shuffle=True)
     val_loader = None
     if args.eval_src and args.eval_tgt:
         _, val_loader = build_dataloader(
