@@ -43,7 +43,7 @@ def train(args):
 
     vocab_size = len(dataset.vocab)
     
-    print(f"Loaded dataset with vocab : {vocab}")
+    print(f"Loaded dataset with vocab : {vocab_size}")
     model = TransformerLM(
         vocab_size,
         args.d_model,
