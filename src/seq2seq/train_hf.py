@@ -152,7 +152,6 @@ def main():
             per_device_eval_batch_size=args.batch_size,
             num_train_epochs=args.epochs,
             predict_with_generate=True,
-            generation_max_length=args.max_len,
             save_total_limit=2,
             logging_strategy = "steps",
             logging_steps = 20,
@@ -186,7 +185,6 @@ def main():
             output_dir=str(out_dir),
             per_device_eval_batch_size=args.batch_size,
             predict_with_generate=True,
-            generation_max_length=args.max_len,
         )
         eval_trainer = Seq2SeqTrainer(
             model=model,
