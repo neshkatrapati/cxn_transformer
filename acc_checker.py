@@ -1,20 +1,22 @@
 import sys
 
-orig_file = sys.argv[1]
-pred_file = sys.argv[2]
+src_file = sys.argv[1]
+orig_file = sys.argv[2]
+pred_file = sys.argv[3]
 
-with open(orig_file) as o, open(pred_file) as p:
+with open(src_file) as s, open(orig_file) as o, open(pred_file) as p:
+    slines = s.readlines()
     olines = o.readlines()
     plines = p.readlines()
    
     total = 0
     matched = 0
    
-    for oline, pline in zip(olines, plines):
+    for sline, oline, pline in zip(slines, olines, plines):
         oline, pline = oline.strip(), pline.strip()
         
         if oline != pline:
-            print(f"MISMATCH : ORIGINAL : {oline} \t || \t PRED : {pline}")
+            print(f"MISMATCH : SOURCE: {sline} \t || \t ORIGINAL : {oline} \t || \t PRED : {pline}")
         else:
             matched += 1
         
