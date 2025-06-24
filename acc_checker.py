@@ -10,7 +10,7 @@ with open(orig_file) as o, open(pred_file) as p:
     total = 0
     matched = 0
    
-    for oline, pline in zip(olines, pliines):
+    for oline, pline in zip(olines, plines):
         oline, pline = oline.strip(), pline.strip()
         
         if oline != pline:
