@@ -1,10 +1,10 @@
-(_+_+_+twice) [jump, opposite, right] and (_+_+_+thrice) [turn, opposite, right]
-(_+thrice) [run] after (_+around+_) [jump, left]
-(_+_+_+thrice) [walk, opposite, left] and (_+left+_) [jump, thrice]
-(_+left) [turn] after (_+twice) [jump]
-(_+right+_) [jump, thrice] and (_+left+_) [run, thrice]
-(_+twice) [run] after (_+opposite+_) [jump, left]
-(_+around+_) [jump, left] and (_+_+_+twice) [walk, opposite, left]
-(_+_+_+twice) [jump, around, right] after (_+left+_) [look, thrice]
-(_+opposite+_) [jump, left] and (_+left) [run]
-(_+_+_+thrice) [look, opposite, left] and (_+right+_) [jump, thrice]
+( _ right twice ) ( and ) ( _ around right ) ( thrice )
+( _ opposite right ) ( twice ) ( and ) ( _ opposite right ) ( thrice )
+( _ thrice ) ( after ) ( _ around left )
+( _ opposite left ) ( thrice ) ( and ) ( _ left thrice )
+( _ left ) ( after ) ( _ twice )
+( _ right thrice ) ( and ) ( _ left thrice )
+( _ twice ) ( after ) ( _ opposite left )
+( _ around left ) ( and ) ( _ opposite left ) ( twice )
+( _ around right ) ( twice ) ( after ) ( _ left thrice )
+( _ opposite left ) ( and ) ( _ left )
