@@ -1,10 +1,10 @@
-turn right twice and look around right thrice || look -> I_LOOK || I_TURN_RIGHT+_ I_TURN_RIGHT+_ I_TURN_RIGHT+_ I_TURN_RIGHT+_ I_TURN_RIGHT+_ I_TURN_RIGHT+_ I_TURN_RIGHT+_ I_TURN_RIGHT+_ I_TURN_RIGHT+_ I_TURN_RIGHT+_ I_TURN_RIGHT+_ I_TURN_RIGHT+_ I_TURN_RIGHT+_
-jump opposite right twice and turn opposite right thrice || jump -> I_JUMP || I_TURN_RIGHT+I_TURN_RIGHT+_ I_TURN_RIGHT+I_TURN_RIGHT+_ I_TURN_RIGHT+_ I_TURN_RIGHT+_ I_TURN_RIGHT+_
-run thrice after jump around left || jump -> I_JUMP, run -> I_RUN || I_TURN_LEFT+_ I_TURN_LEFT+_ I_TURN_LEFT+_ I_TURN_LEFT+_ I_RUN+_+I_RUN
-walk opposite left thrice and jump left thrice || jump -> I_JUMP, walk -> I_WALK || I_TURN_LEFT+I_TURN_LEFT+_ I_TURN_LEFT+I_TURN_LEFT+_ I_TURN_LEFT+I_TURN_LEFT+_ I_TURN_LEFT+_ I_TURN_LEFT+_ I_TURN_LEFT+_
-turn left after jump twice || jump -> I_JUMP || I_JUMP+I_JUMP+_
-jump right thrice and run left thrice || jump -> I_JUMP, run -> I_RUN || I_TURN_RIGHT+_ I_TURN_RIGHT+_ I_TURN_RIGHT+_ I_TURN_LEFT+_ I_TURN_LEFT+_ I_TURN_LEFT+_
-run twice after jump opposite left || jump -> I_JUMP, run -> I_RUN || I_TURN_LEFT+I_TURN_LEFT+_ _+I_RUN
-jump around left and walk opposite left twice || jump -> I_JUMP, walk -> I_WALK || I_TURN_LEFT+_ I_TURN_LEFT+_ I_TURN_LEFT+_ I_TURN_LEFT+_ I_TURN_LEFT+I_TURN_LEFT+_ I_TURN_LEFT+I_TURN_LEFT+_
-jump around right twice after look left thrice || jump -> I_JUMP, look -> I_LOOK || I_TURN_LEFT+_ I_TURN_LEFT+_ I_TURN_LEFT+_ I_TURN_RIGHT+_ I_TURN_RIGHT+_ I_TURN_RIGHT+_ I_TURN_RIGHT+_ I_TURN_RIGHT+_ I_TURN_RIGHT+_ I_TURN_RIGHT+_ I_TURN_RIGHT+_
-jump opposite left and run left || jump -> I_JUMP, run -> I_RUN || I_TURN_LEFT+I_TURN_LEFT+_ I_TURN_LEFT+_
+IN: turn right twice and look around right thrice || OUT: ( I_TURN_RIGHT W_1 ) ( I_TURN_RIGHT W_2 ) ( I_TURN_RIGHT W_2 ) ( I_TURN_RIGHT W_2 ) ( I_TURN_RIGHT W_2 ) ( I_TURN_RIGHT W_2 ) ( I_TURN_RIGHT W_2 ) ( I_TURN_RIGHT W_2 ) ( I_TURN_RIGHT W_2 ) ( I_TURN_RIGHT W_2 ) ( I_TURN_RIGHT W_2 ) ( I_TURN_RIGHT W_2 ) ( I_TURN_RIGHT W_2 ) || W: W_1
+IN: turn right twice and look around right thrice || OUT: ( I_TURN_RIGHT W_1 ) ( I_TURN_RIGHT W_2 ) ( I_TURN_RIGHT W_2 ) ( I_TURN_RIGHT W_2 ) ( I_TURN_RIGHT W_2 ) ( I_TURN_RIGHT W_2 ) ( I_TURN_RIGHT W_2 ) ( I_TURN_RIGHT W_2 ) ( I_TURN_RIGHT W_2 ) ( I_TURN_RIGHT W_2 ) ( I_TURN_RIGHT W_2 ) ( I_TURN_RIGHT W_2 ) ( I_TURN_RIGHT W_2 ) || W: W_2
+IN: jump opposite right twice and turn opposite right thrice || OUT: ( I_TURN_RIGHT I_TURN_RIGHT W_1 ) ( I_TURN_RIGHT I_TURN_RIGHT W_1 ) ( I_TURN_RIGHT W_2 ) ( I_TURN_RIGHT W_2 ) ( I_TURN_RIGHT W_2 ) || W: W_1
+IN: jump opposite right twice and turn opposite right thrice || OUT: ( I_TURN_RIGHT I_TURN_RIGHT W_1 ) ( I_TURN_RIGHT I_TURN_RIGHT W_1 ) ( I_TURN_RIGHT W_2 ) ( I_TURN_RIGHT W_2 ) ( I_TURN_RIGHT W_2 ) || W: W_2
+IN: run thrice after jump around left || OUT: ( I_TURN_LEFT W_1 ) ( I_TURN_LEFT W_1 ) ( I_TURN_LEFT W_1 ) ( I_TURN_LEFT W_1 ) ( W_2 W_2 W_2 ) || W: W_1
+IN: run thrice after jump around left || OUT: ( I_TURN_LEFT W_1 ) ( I_TURN_LEFT W_1 ) ( I_TURN_LEFT W_1 ) ( I_TURN_LEFT W_1 ) ( W_2 W_2 W_2 ) || W: W_2
+IN: walk opposite left thrice and jump left thrice || OUT: ( I_TURN_LEFT I_TURN_LEFT W_1 ) ( I_TURN_LEFT I_TURN_LEFT W_1 ) ( I_TURN_LEFT I_TURN_LEFT W_1 ) ( I_TURN_LEFT W_2 ) ( I_TURN_LEFT W_2 ) ( I_TURN_LEFT W_2 ) || W: W_1
+IN: walk opposite left thrice and jump left thrice || OUT: ( I_TURN_LEFT I_TURN_LEFT W_1 ) ( I_TURN_LEFT I_TURN_LEFT W_1 ) ( I_TURN_LEFT I_TURN_LEFT W_1 ) ( I_TURN_LEFT W_2 ) ( I_TURN_LEFT W_2 ) ( I_TURN_LEFT W_2 ) || W: W_2
+IN: turn left after jump twice || OUT: ( W_2 W_2 W_1 ) || W: W_2
+IN: turn left after jump twice || OUT: ( W_2 W_2 W_1 ) || W: W_1
