@@ -1,0 +1,10 @@
+jump || I_JUMP
+look opposite right thrice and walk left || I_TURN_RIGHT+I_TURN_RIGHT+_ I_TURN_RIGHT+I_TURN_RIGHT+_ I_TURN_RIGHT+I_TURN_RIGHT+_ I_TURN_LEFT+_
+run after run left || I_TURN_LEFT+_ I_RUN
+run twice and look left thrice || _+I_RUN I_TURN_LEFT+_ I_TURN_LEFT+_ I_TURN_LEFT+_
+run opposite left twice and turn opposite left || I_TURN_LEFT+I_TURN_LEFT+_ I_TURN_LEFT+I_TURN_LEFT+_ I_TURN_LEFT+_
+run around left thrice after run opposite left twice || I_TURN_LEFT+I_TURN_LEFT+_ I_TURN_LEFT+I_TURN_LEFT+_ I_TURN_LEFT+_ I_TURN_LEFT+_ I_TURN_LEFT+_ I_TURN_LEFT+_ I_TURN_LEFT+_ I_TURN_LEFT+_ I_TURN_LEFT+_ I_TURN_LEFT+_ I_TURN_LEFT+_ I_TURN_LEFT+_ I_TURN_LEFT+_ I_TURN_LEFT+_
+walk around right and look opposite left || I_TURN_RIGHT+_ I_TURN_RIGHT+_ I_TURN_RIGHT+_ I_TURN_RIGHT+_ I_TURN_LEFT+I_TURN_LEFT+_
+look opposite left thrice after walk around left || I_TURN_LEFT+_ I_TURN_LEFT+_ I_TURN_LEFT+_ I_TURN_LEFT+_ I_TURN_LEFT+I_TURN_LEFT+_ I_TURN_LEFT+I_TURN_LEFT+_ I_TURN_LEFT+I_TURN_LEFT+_
+run opposite right twice after look right thrice || I_TURN_RIGHT+_ I_TURN_RIGHT+_ I_TURN_RIGHT+_ I_TURN_RIGHT+I_TURN_RIGHT+_ I_TURN_RIGHT+I_TURN_RIGHT+_
+turn opposite left after walk opposite left thrice || I_TURN_LEFT+I_TURN_LEFT+_ I_TURN_LEFT+I_TURN_LEFT+_ I_TURN_LEFT+I_TURN_LEFT+_ I_TURN_LEFT+_
