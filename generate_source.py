@@ -14,7 +14,14 @@ with open(inp_file) as ip, open(src_file) as s, open(gen_file) as g:
     ilines = ip.readlines()
     for sid, sline in enumerate(slines):
         sline = sline.strip().split(" ")
-        ipline = ilines[sid].strip()
+        iline = ilines[sid].strip()
+        
+        ### W to W substitution
+        iline = iline.strip()
+        iline = iline.replace("( ", "").replace(") ", "").strip("() ")
+        print(iline)
+        break
+        
         gline = glines[sid].strip()
         #print(sline)
         #print(gline)
