@@ -10,7 +10,9 @@ rmap = {
     "I_JUMP" : "jump",
     "I_WALK" : "walk",
     "I_LOOK" : "look",
-    "I_RUN" : "run"
+    "I_RUN" : "run",
+    "I_TURN_RIGHT" : "right",
+    "I_TURN_LEFT" : "left"
 }
 rmap_r = {y : x for x, y in rmap.items()}
 
