@@ -33,7 +33,7 @@ with open(read_from) as f, open(check_with) as cw:
         #print(rwmap)
         new_line = []
         for w in line:
-            if w.startswith("W_") and (w in rwmap):
+            if w.startswith("C_") and (w in rwmap):
                 t = rwmap[w]
                 if t in rmap_r:
                     new_line.append(rmap_r[t])
