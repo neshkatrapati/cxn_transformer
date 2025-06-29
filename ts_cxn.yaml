@@ -1,0 +1,115 @@
+
+# ts_plain.yaml
+
+name: "ts_cxn"                # name of the experiment
+model_dir: "ts_cxn_model"    # where checkpoints & logs go
+fp16: False                       # half-precision off for stability
+random_seed: 42                   # for reproducibility
+
+data:
+  train: "data/ts/cxn/train"      # will read train.src and train.tgt
+  dev:   "data/ts/cxn/valid"       # dummy dev; JoeyNMT needs it but we skip validation
+  test:  "data/ts/cxn/test"
+  dataset_type: "plain"           # plain files: .src/.tgt suffixes
+  sample_train_subset: -1         # no subsampling
+  sample_dev_subset:   -1
+  src:
+    lang: "src"
+    max_length: 64
+    min_length: 1
+    lowercase: False
+    normalize: False
+    level: "word"
+    voc_limit: 4000
+    voc_min_freq: 1
+    tokenizer_type: "none"        # whitespace only
+    pretokenizer: "none"
+  trg:
+    lang: "tgt"
+    max_length: 64
+    min_length: 1
+    lowercase: False
+    normalize: False
+    level: "word"
+    voc_limit: 4000
+    voc_min_freq: 1
+    tokenizer_type: "none"
+    pretokenizer: "none"
+  special_symbols:
+    unk_token: "<unk>"
+    pad_token: "<pad>"
+    bos_token: "<bos>"
+    eos_token: "<eos>"
+    unk_id:  0
+    pad_id:  1
+    bos_id:  2
+    eos_id:  3
+
+testing:
+  # we’ll skip test during training; these are defaults for translate
+  beam_size: 5
+  batch_size: 128
+  eval_metrics: ["bleu"]
+  max_output_length: 64
+  min_output_length: 1
+
+training:
+  model_dir:          "ts_cxn_model"
+  optimizer:          "adamw"
+  adam_betas:         [0.9, 0.98]
+  learning_rate:      0.001
+  weight_decay:       0.0
+  loss:               "crossentropy"
+  label_smoothing:    0.0
+  batch_size:         128
+  batch_type:         "sentence"
+  normalization:      "batch"
+  scheduling:         "noam"
+  learning_rate_warmup: 4000
+  epochs:             30
+  validation_freq:    100        # no validation
+  logging_freq:       50
+  ckpt_freq:          5        # save every 5 epochs
+#  early_stopping_metric: "loss"
+  shuffle:            True
+  overwrite:          False
+  keep_best_ckpts:    3
+
+ # ─── Scheduler for Transformers ───
+  scheduling:           "noam"      # your model is a Transformer
+  learning_rate_warmup: 4000        # warm up for first 4k steps
+  learning_rate_min:    0.000000001        # let it decay very low before stopping
+model:
+  initializer:        "xavier_uniform"
+  init_gain:          1.0
+  bias_initializer:   "zeros"
+  embed_initializer:  "xavier_uniform"
+  embed_init_gain:    1.0
+  tied_embeddings:    False
+  tied_softmax:       True
+  encoder:
+    type:            "transformer"
+    num_layers:      4
+    num_heads:       4
+    embeddings:
+      embedding_dim: 256
+      scale:         True
+      freeze:        False
+    hidden_size:     256
+    ff_size:         1024
+    dropout:         0.0
+    layer_norm:      "pre"
+    activation:      "relu"
+  decoder:
+    type:            "transformer"
+    num_layers:      4
+    num_heads:       4
+    embeddings:
+      embedding_dim: 256
+      scale:         True
+      freeze:        False
+    hidden_size:     256
+    ff_size:         1024
+    dropout:         0.0
+    layer_norm:      "pre"
+    activation:      "relu"
