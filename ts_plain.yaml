@@ -8,7 +8,7 @@ random_seed: 42                 # for reproducibility
 data:
   task: "language_modeling"
   src: "en"
-	trg: "en"
+  trg: "en"
   train: "data/ts/plain/train.src"   # will read train.src and train.tgt
   dev: "data/ts/plain/valid.src"     # dummy dev; JoeyNMT needs it but we skip validation
   test: "data/ts/plain/test.src"
