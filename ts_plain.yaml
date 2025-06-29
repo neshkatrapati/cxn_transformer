@@ -1,55 +1,53 @@
-
 # ts_plain.yaml
 
 name: "ts_plain"                # name of the experiment
-model_dir: "ts_plain_model"    # where checkpoints & logs go
-fp16: False                       # half-precision off for stability
-random_seed: 42                   # for reproducibility
+model_dir: "ts_plain_model"     # where checkpoints & logs go
+fp16: false                     # half-precision off for stability
+random_seed: 42                 # for reproducibility
 
 data:
-	task: "language_modeling"
-	src: en
-  train: "data/ts/plain/train.src"      # will read train.src and train.tgt
-  dev:   "data/ts/plain/valid.src"       # dummy dev; JoeyNMT needs it but we skip validation
-  test:  "data/ts/plain/test.src"
-	lowercase: true
-	level: "word"
-	tokenizer: "default"
- 
+  task: "language_modeling"
+  src: "en"
+  train: "data/ts/plain/train.src"   # will read train.src and train.tgt
+  dev: "data/ts/plain/valid.src"     # dummy dev; JoeyNMT needs it but we skip validation
+  test: "data/ts/plain/test.src"
+  lowercase: true
+  level: "word"
+  tokenizer: "default"
 
 train:
-  batch_type: "token"                  # efficient on long lines
-  batch_size: 4096                     # tokens per batch
-  eval_batch_size: 2048                # dev/test
+  batch_type: "token"           # efficient on long lines
+  batch_size: 4096              # tokens per batch
+  eval_batch_size: 2048         # dev/test
   optimizer: "adam"
   learning_rate: 5e-4
-  scheduling: "plateau"                # reduce-on-plateau
+  scheduling: "plateau"         # reduce-on-plateau
   patience: 4
   clip_grad_norm: 10.0
   label_smoothing: 0.1
   epochs: 30
-  validation_freq: 2000                # update steps
+  validation_freq: 2000         # update steps
   logging_freq: 500
 
 # ---------- prediction / generation ----------
 predict:
-  beam_size: 1                         # greedy decoding for ppl
+  beam_size: 1                  # greedy decoding for ppl
   n_best: 1
   max_input_length: 512
-	
-model:
-	type:      "lm"                      # activates Joey’s decoder-only graph
-	  initializer: "xavier"
-	  embed_dim: 512                       # token-embedding size
-	  tie_embeddings: true                 # weight-tying ≈ faster convergence
 
-	  # --- decoder: Transformer language model ---
-	  decoder:
-	    type: "transformer_lm"             # decoder-only stack
-	    num_layers: 6
-	    num_heads: 8
-	    ffn_size: 2048
-	    dropout: 0.1
-	    embedding_dropout: 0.1
-	    layer_norm: "pre"                  # (pre|post)-norm
-	    positional_encoding: "sinusoidal"
+model:
+  type: "lm"                    # activates Joey’s decoder-only graph
+  initializer: "xavier"
+  embed_dim: 512                # token-embedding size
+  tie_embeddings: true          # weight-tying ≈ faster convergence
+
+  # --- decoder: Transformer language model ---
+  decoder:
+    type: "transformer_lm"      # decoder-only stack
+    num_layers: 6
+    num_heads: 8
+    ffn_size: 2048
+    dropout: 0.1
+    embedding_dropout: 0.1
+    layer_norm: "pre"           # (pre|post)-norm
+    positional_encoding: "sinusoidal"
