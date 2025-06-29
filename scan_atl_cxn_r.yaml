@@ -92,24 +92,24 @@ model:
     num_layers:      4
     num_heads:       4
     embeddings:
-      embedding_dim: 256
+      embedding_dim: 128
       scale:         True
       freeze:        False
-    hidden_size:     256
-    ff_size:         1024
+    hidden_size:     128
+    ff_size:         512
     dropout:         0.0
     layer_norm:      "pre"
     activation:      "relu"
   decoder:
     type:            "transformer"
-    num_layers:      4
+    num_layers:      2
     num_heads:       4
     embeddings:
-      embedding_dim: 256
+      embedding_dim: 128
       scale:         True
       freeze:        False
-    hidden_size:     256
-    ff_size:         1024
+    hidden_size:     128
+    ff_size:         512
     dropout:         0.0
     layer_norm:      "pre"
     activation:      "relu"
