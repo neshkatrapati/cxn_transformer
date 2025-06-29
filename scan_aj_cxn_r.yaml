@@ -1,15 +1,15 @@
 
-# scan_atl_cxn_r.yaml
+# scan_aj_cxn_r.yaml
 
-name: "scan_atl_cxn_r"                # name of the experiment
-model_dir: "scan_atl_cxn_r_model"    # where checkpoints & logs go
+name: "scan_aj_cxn_r"                # name of the experiment
+model_dir: "scan_aj_cxn_r_model"    # where checkpoints & logs go
 fp16: False                       # half-precision off for stability
 random_seed: 42                   # for reproducibility
 
 data:
-  train: "data/scan/cxn_around_right_reduced/train"      # will read train.src and train.tgt
-  dev:   "data/scan/cxn_around_right_reduced/valid"       # dummy dev; JoeyNMT needs it but we skip validation
-  test:  "data/scan/cxn_around_right_reduced/test"
+  train: "data/scan/cxn_add_jump_reduced/train"      # will read train.src and train.tgt
+  dev:   "data/scan/cxn_add_jump_reduced/valid"       # dummy dev; JoeyNMT needs it but we skip validation
+  test:  "data/scan/cxn_add_jump_reduced/test"
   dataset_type: "plain"           # plain files: .src/.tgt suffixes
   sample_train_subset: -1         # no subsampling
   sample_dev_subset:   -1
@@ -54,7 +54,7 @@ testing:
   min_output_length: 1
 
 training:
-  model_dir:          "scan_atl_cxn_r_model"
+  model_dir:          "scan_aj_cxn_r_model"
   optimizer:          "adamw"
   adam_betas:         [0.9, 0.98]
   learning_rate:      0.001
