@@ -30,10 +30,13 @@ training:
   logging_freq: 500
 
 # ---------- prediction / generation ----------
-predict:
+testing:
   beam_size: 1                  # greedy decoding for ppl
   n_best: 1
   max_input_length: 512
+	batch_size: 128
+  eval_metrics: ["ppl"]        # or ["bleu"] for MT
+	
 
 model:
   type: "lm"                    # activates Joey’s decoder-only graph
