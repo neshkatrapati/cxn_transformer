@@ -49,7 +49,7 @@ testing:
   # we’ll skip test during training; these are defaults for translate
   beam_size: 5
   batch_size: 128
-  eval_metrics: ["sequence_accuracy"]
+  eval_metrics: ["bleu"]
   max_output_length: 64
   min_output_length: 1
 
