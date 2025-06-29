@@ -15,7 +15,7 @@ data:
   level: "word"
   tokenizer: "default"
 
-train:
+training:
   batch_type: "token"           # efficient on long lines
   batch_size: 4096              # tokens per batch
   eval_batch_size: 2048         # dev/test
