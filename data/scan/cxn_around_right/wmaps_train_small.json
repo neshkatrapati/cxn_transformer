@@ -1,301 +1,145 @@
 [
     {
-        "walk": "C_5",
-        "left": "C_3",
-        "right": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "turn": "C_5"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
         "turn": "C_5",
         "left": "C_3",
-        "run": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "thrice": "C_4",
-        "turn": "C_5",
+        "look": "C_5",
         "right": "C_3"
     },
     {
         "walk": "C_5",
-        "thrice": "C_4",
-        "run": "C_5",
-        "right": "C_3"
+        "right": "C_3",
+        "jump": "C_5",
+        "left": "C_3"
     },
     {
-        "look": "C_5",
-        "thrice": "C_4",
         "run": "C_5",
-        "right": "C_3"
+        "twice": "C_4",
+        "left": "C_3"
     },
     {
         "run": "C_5",
         "left": "C_3"
     },
     {
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
         "run": "C_5",
-        "look": "C_5",
         "right": "C_3"
     },
     {
-        "run": "C_5",
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3",
-        "turn": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3",
+        "turn": "C_5",
+        "left": "C_3",
         "jump": "C_5"
     },
     {
         "turn": "C_5",
-        "right": "C_3",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "thrice": "C_4",
+        "twice": "C_4",
         "around": "C_2"
     },
     {
+        "look": "C_5",
+        "left": "C_3",
         "walk": "C_5",
+        "right": "C_3"
+    },
+    {
+        "jump": "C_5",
+        "walk": "C_5",
+        "twice": "C_4"
+    },
+    {
+        "run": "C_5",
+        "left": "C_3",
+        "jump": "C_5",
+        "twice": "C_4"
+    },
+    {
+        "run": "C_5",
+        "right": "C_3",
+        "around": "C_2"
+    },
+    {
+        "run": "C_5",
         "thrice": "C_4",
         "around": "C_2"
     },
     {
         "look": "C_5",
         "twice": "C_4",
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3",
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3",
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "jump": "C_5",
-        "twice": "C_4"
-    },
-    {
         "walk": "C_5",
-        "jump": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "turn": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3",
-        "look": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3",
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "twice": "C_4",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "thrice": "C_4",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "thrice": "C_4",
         "right": "C_3"
     },
     {
         "look": "C_5",
         "twice": "C_4",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4",
+        "turn": "C_5",
         "right": "C_3"
     },
     {
-        "look": "C_5",
-        "thrice": "C_4",
         "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3",
-        "jump": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3",
-        "thrice": "C_4"
-    },
-    {
-        "run": "C_5",
         "left": "C_3",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4",
         "run": "C_5",
-        "right": "C_3"
+        "thrice": "C_4"
     },
     {
         "around": "C_2",
         "twice": "C_4",
-        "turn": "C_5",
+        "look": "C_5",
         "right": "C_3"
     },
     {
-        "around": "C_2",
-        "thrice": "C_4",
         "turn": "C_5",
+        "right": "C_3",
+        "look": "C_5",
         "left": "C_3"
     },
     {
+        "turn": "C_5",
+        "twice": "C_4",
         "jump": "C_5",
-        "left": "C_3",
-        "right": "C_3"
+        "thrice": "C_4"
     },
     {
-        "look": "C_5",
-        "right": "C_3",
+        "run": "C_5",
+        "left": "C_3",
         "turn": "C_5"
     },
     {
+        "turn": "C_5",
+        "left": "C_3",
+        "walk": "C_5"
+    },
+    {
+        "run": "C_5",
         "walk": "C_5",
         "right": "C_3"
     },
     {
+        "jump": "C_5",
+        "twice": "C_4",
+        "look": "C_5",
+        "left": "C_3"
+    },
+    {
+        "walk": "C_5",
+        "left": "C_3"
+    },
+    {
+        "walk": "C_5",
+        "right": "C_3",
         "run": "C_5",
-        "twice": "C_4"
+        "left": "C_3"
     },
     {
         "turn": "C_5",
-        "thrice": "C_4",
-        "jump": "C_5",
-        "twice": "C_4"
+        "right": "C_3"
     },
     {
+        "walk": "C_5",
         "look": "C_5",
-        "thrice": "C_4",
-        "walk": "C_5"
+        "thrice": "C_4"
     },
     {
-        "jump": "C_5",
-        "left": "C_3",
+        "around": "C_2",
         "look": "C_5"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "turn": "C_5"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
     },
     {
         "walk": "C_5",
@@ -304,53 +148,8 @@
     },
     {
         "jump": "C_5",
-        "right": "C_3",
-        "look": "C_5"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
         "thrice": "C_4",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "twice": "C_4",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "thrice": "C_4",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3",
-        "turn": "C_5"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3",
-        "turn": "C_5"
+        "twice": "C_4"
     },
     {
         "run": "C_5",
@@ -360,423 +159,375 @@
     {
         "walk": "C_5",
         "right": "C_3",
-        "look": "C_5",
         "left": "C_3"
     },
     {
-        "jump": "C_5",
-        "right": "C_3",
-        "look": "C_5",
+        "around": "C_2",
+        "turn": "C_5",
         "left": "C_3"
     },
     {
-        "look": "C_5",
-        "left": "C_3",
-        "turn": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "turn": "C_5"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
         "turn": "C_5",
         "right": "C_3"
     },
     {
-        "run": "C_5",
+        "around": "C_2",
+        "twice": "C_4",
+        "walk": "C_5"
+    },
+    {
         "walk": "C_5",
-        "thrice": "C_4"
+        "thrice": "C_4",
+        "around": "C_2"
+    },
+    {
+        "walk": "C_5",
+        "twice": "C_4",
+        "turn": "C_5",
+        "right": "C_3"
+    },
+    {
+        "walk": "C_5",
+        "left": "C_3"
     },
     {
         "look": "C_5",
+        "thrice": "C_4",
+        "turn": "C_5",
+        "left": "C_3"
+    },
+    {
+        "turn": "C_5",
+        "right": "C_3",
+        "jump": "C_5"
+    },
+    {
+        "around": "C_2",
+        "twice": "C_4",
+        "turn": "C_5",
+        "left": "C_3"
+    },
+    {
+        "walk": "C_5",
+        "turn": "C_5"
+    },
+    {
+        "jump": "C_5",
+        "thrice": "C_4",
+        "around": "C_2",
+        "twice": "C_4"
+    },
+    {
+        "walk": "C_5",
+        "left": "C_3",
+        "run": "C_5"
+    },
+    {
+        "jump": "C_5",
+        "left": "C_3",
+        "turn": "C_5",
+        "twice": "C_4"
+    },
+    {
+        "turn": "C_5",
+        "right": "C_3",
+        "left": "C_3"
+    },
+    {
+        "run": "C_5",
+        "thrice": "C_4",
+        "turn": "C_5"
+    },
+    {
+        "walk": "C_5",
+        "left": "C_3",
+        "run": "C_5"
+    },
+    {
+        "turn": "C_5"
+    },
+    {
+        "run": "C_5",
+        "twice": "C_4",
+        "jump": "C_5",
+        "right": "C_3"
+    },
+    {
+        "jump": "C_5",
+        "twice": "C_4",
+        "turn": "C_5"
+    },
+    {
+        "look": "C_5",
+        "run": "C_5"
+    },
+    {
+        "look": "C_5",
+        "left": "C_3",
+        "around": "C_2"
+    },
+    {
+        "jump": "C_5",
+        "turn": "C_5"
+    },
+    {
         "run": "C_5",
         "thrice": "C_4"
     },
     {
+        "turn": "C_5",
+        "thrice": "C_4",
+        "walk": "C_5"
+    },
+    {
+        "jump": "C_5",
         "run": "C_5",
+        "left": "C_3"
+    },
+    {
+        "look": "C_5"
+    },
+    {
+        "turn": "C_5",
+        "thrice": "C_4",
+        "walk": "C_5",
+        "twice": "C_4"
+    },
+    {
+        "jump": "C_5",
+        "right": "C_3",
+        "run": "C_5",
+        "left": "C_3"
+    },
+    {
+        "run": "C_5",
+        "turn": "C_5",
+        "right": "C_3"
+    },
+    {
+        "jump": "C_5",
+        "left": "C_3",
+        "walk": "C_5"
+    },
+    {
+        "walk": "C_5",
+        "left": "C_3",
+        "run": "C_5"
+    },
+    {
+        "run": "C_5",
+        "left": "C_3",
         "look": "C_5",
+        "right": "C_3"
+    },
+    {
+        "jump": "C_5",
+        "around": "C_2"
+    },
+    {
+        "look": "C_5",
+        "right": "C_3",
+        "run": "C_5"
+    },
+    {
+        "jump": "C_5",
+        "run": "C_5"
+    },
+    {
+        "run": "C_5",
+        "jump": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "jump": "C_5",
+        "twice": "C_4"
+    },
+    {
+        "jump": "C_5",
+        "turn": "C_5",
         "thrice": "C_4"
     },
     {
         "around": "C_2",
+        "walk": "C_5",
+        "twice": "C_4"
+    },
+    {
+        "jump": "C_5",
+        "left": "C_3",
+        "look": "C_5"
+    },
+    {
+        "turn": "C_5",
+        "twice": "C_4",
+        "look": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "run": "C_5",
+        "look": "C_5",
+        "left": "C_3"
+    },
+    {
+        "around": "C_2",
+        "look": "C_5",
+        "left": "C_3"
+    },
+    {
+        "turn": "C_5",
+        "right": "C_3",
+        "around": "C_2",
+        "twice": "C_4"
+    },
+    {
+        "look": "C_5",
+        "jump": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "run": "C_5",
+        "left": "C_3",
         "turn": "C_5"
+    },
+    {
+        "jump": "C_5",
+        "twice": "C_4"
+    },
+    {
+        "look": "C_5",
+        "right": "C_3"
+    },
+    {
+        "look": "C_5",
+        "around": "C_2",
+        "thrice": "C_4"
+    },
+    {
+        "look": "C_5"
+    },
+    {
+        "jump": "C_5",
+        "left": "C_3",
+        "look": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "run": "C_5",
+        "left": "C_3",
+        "look": "C_5"
+    },
+    {
+        "run": "C_5",
+        "left": "C_3",
+        "jump": "C_5"
+    },
+    {
+        "turn": "C_5",
+        "jump": "C_5",
+        "twice": "C_4"
     },
     {
         "around": "C_2",
         "jump": "C_5"
     },
     {
-        "around": "C_2",
+        "jump": "C_5",
         "run": "C_5"
+    },
+    {
+        "jump": "C_5",
+        "thrice": "C_4",
+        "left": "C_3"
+    },
+    {
+        "look": "C_5",
+        "left": "C_3",
+        "around": "C_2"
+    },
+    {
+        "walk": "C_5",
+        "run": "C_5",
+        "right": "C_3"
+    },
+    {
+        "jump": "C_5",
+        "right": "C_3",
+        "run": "C_5"
+    },
+    {
+        "around": "C_2",
+        "run": "C_5",
+        "right": "C_3"
+    },
+    {
+        "jump": "C_5",
+        "right": "C_3",
+        "run": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "jump": "C_5",
+        "thrice": "C_4",
+        "walk": "C_5"
     },
     {
         "turn": "C_5",
         "right": "C_3",
-        "jump": "C_5",
-        "left": "C_3"
+        "thrice": "C_4"
     },
     {
-        "jump": "C_5",
-        "right": "C_3",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3",
         "walk": "C_5",
-        "left": "C_3"
+        "thrice": "C_4",
+        "look": "C_5"
     },
     {
-        "look": "C_5",
-        "twice": "C_4",
         "walk": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4",
-        "jump": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3",
+        "thrice": "C_4",
         "jump": "C_5"
     },
     {
         "run": "C_5",
+        "left": "C_3",
+        "around": "C_2"
+    },
+    {
+        "walk": "C_5"
+    },
+    {
+        "look": "C_5",
+        "jump": "C_5",
         "left": "C_3"
     },
     {
+        "walk": "C_5"
+    },
+    {
+        "jump": "C_5",
         "look": "C_5",
         "left": "C_3"
     },
     {
-        "walk": "C_5",
-        "right": "C_3",
+        "walk": "C_5"
+    },
+    {
+        "jump": "C_5",
+        "thrice": "C_4",
         "turn": "C_5"
     },
     {
         "turn": "C_5",
         "right": "C_3",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4",
-        "run": "C_5"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4",
-        "run": "C_5"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4",
-        "jump": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "twice": "C_4",
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4",
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4",
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "look": "C_5"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4",
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4",
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
         "run": "C_5"
     },
     {
         "jump": "C_5",
-        "run": "C_5"
+        "left": "C_3"
     },
     {
         "run": "C_5",
-        "walk": "C_5"
-    },
-    {
-        "look": "C_5",
-        "twice": "C_4",
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4",
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "turn": "C_5",
         "right": "C_3",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
         "jump": "C_5",
-        "left": "C_3",
-        "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "jump": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3",
-        "run": "C_5",
         "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "jump": "C_5"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4",
-        "walk": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4",
-        "turn": "C_5"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "look": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "thrice": "C_4",
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "thrice": "C_4",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4",
-        "jump": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4",
-        "turn": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4",
-        "turn": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "turn": "C_5",
-        "look": "C_5"
     },
     {
         "run": "C_5",
@@ -784,458 +535,13 @@
         "around": "C_2"
     },
     {
-        "jump": "C_5",
+        "run": "C_5",
         "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "look": "C_5"
-    },
-    {
-        "run": "C_5",
-        "turn": "C_5"
-    },
-    {
-        "turn": "C_5",
-        "look": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4",
-        "turn": "C_5"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4",
-        "turn": "C_5"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4",
-        "twice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
         "walk": "C_5"
     },
     {
-        "jump": "C_5"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "thrice": "C_4",
-        "look": "C_5"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4",
-        "turn": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "twice": "C_4",
-        "turn": "C_5"
-    },
-    {
-        "run": "C_5",
+        "look": "C_5",
         "right": "C_3",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "look": "C_5"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3",
-        "jump": "C_5"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3",
-        "look": "C_5"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3",
-        "jump": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3",
-        "run": "C_5"
-    },
-    {
-        "look": "C_5",
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5",
-        "look": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "turn": "C_5"
-    },
-    {
-        "run": "C_5",
-        "jump": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "run": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "turn": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "jump": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "jump": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "look": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "look": "C_5",
-        "twice": "C_4",
-        "turn": "C_5"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4",
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4",
-        "run": "C_5"
-    },
-    {
-        "run": "C_5",
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3",
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3",
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "turn": "C_5"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "look": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "turn": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "jump": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
         "jump": "C_5",
         "left": "C_3"
     },
@@ -1245,147 +551,124 @@
         "run": "C_5"
     },
     {
-        "turn": "C_5",
-        "walk": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
         "jump": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
         "look": "C_5"
     },
     {
         "look": "C_5",
-        "twice": "C_4",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "twice": "C_4",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
         "left": "C_3",
-        "around": "C_2"
+        "thrice": "C_4"
     },
     {
         "look": "C_5",
         "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "run": "C_5",
         "right": "C_3"
     },
     {
         "look": "C_5",
-        "turn": "C_5",
+        "right": "C_3",
         "left": "C_3"
     },
     {
         "look": "C_5",
         "left": "C_3",
-        "turn": "C_5"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3",
-        "jump": "C_5"
+        "walk": "C_5"
     },
     {
         "run": "C_5",
-        "left": "C_3",
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
         "right": "C_3"
     },
     {
-        "around": "C_2",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
         "walk": "C_5",
         "left": "C_3",
-        "run": "C_5",
+        "jump": "C_5",
         "twice": "C_4"
     },
     {
-        "turn": "C_5",
-        "left": "C_3",
-        "thrice": "C_4"
+        "look": "C_5",
+        "walk": "C_5",
+        "left": "C_3"
     },
     {
-        "look": "C_5",
-        "left": "C_3",
+        "walk": "C_5",
+        "left": "C_3"
+    },
+    {
         "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "twice": "C_4",
-        "jump": "C_5"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4"
+        "left": "C_3",
+        "jump": "C_5",
+        "twice": "C_4"
     },
     {
         "jump": "C_5",
+        "left": "C_3",
+        "walk": "C_5"
+    },
+    {
+        "walk": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "walk": "C_5",
+        "right": "C_3",
+        "look": "C_5",
+        "left": "C_3"
+    },
+    {
+        "jump": "C_5",
+        "walk": "C_5"
+    },
+    {
+        "jump": "C_5",
+        "left": "C_3",
+        "walk": "C_5"
+    },
+    {
+        "walk": "C_5",
+        "right": "C_3",
+        "around": "C_2"
+    },
+    {
+        "jump": "C_5",
+        "right": "C_3",
+        "run": "C_5"
+    },
+    {
+        "turn": "C_5",
+        "right": "C_3",
+        "walk": "C_5"
+    },
+    {
+        "turn": "C_5",
+        "right": "C_3",
+        "walk": "C_5"
+    },
+    {
+        "jump": "C_5",
+        "twice": "C_4"
+    },
+    {
+        "walk": "C_5",
+        "jump": "C_5",
+        "right": "C_3"
+    },
+    {
+        "walk": "C_5",
         "twice": "C_4",
+        "around": "C_2"
+    },
+    {
+        "run": "C_5",
+        "look": "C_5",
+        "left": "C_3"
+    },
+    {
+        "around": "C_2",
+        "jump": "C_5"
+    },
+    {
+        "walk": "C_5",
+        "left": "C_3",
         "look": "C_5"
     },
     {
@@ -1395,493 +678,117 @@
         "thrice": "C_4"
     },
     {
-        "turn": "C_5",
-        "left": "C_3",
         "walk": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
         "left": "C_3",
         "run": "C_5",
         "twice": "C_4"
     },
     {
-        "walk": "C_5",
+        "run": "C_5",
         "twice": "C_4",
-        "run": "C_5"
+        "jump": "C_5"
+    },
+    {
+        "walk": "C_5",
+        "jump": "C_5"
+    },
+    {
+        "run": "C_5",
+        "right": "C_3",
+        "walk": "C_5"
     },
     {
         "look": "C_5",
-        "twice": "C_4",
-        "turn": "C_5"
+        "right": "C_3",
+        "left": "C_3"
     },
     {
-        "turn": "C_5",
+        "around": "C_2",
+        "jump": "C_5",
         "twice": "C_4"
     },
     {
         "look": "C_5",
-        "twice": "C_4",
-        "turn": "C_5"
+        "left": "C_3",
+        "run": "C_5"
     },
     {
         "walk": "C_5",
         "thrice": "C_4",
-        "look": "C_5"
+        "run": "C_5",
+        "right": "C_3"
     },
     {
-        "turn": "C_5",
-        "twice": "C_4",
         "walk": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
         "left": "C_3",
-        "around": "C_2"
+        "twice": "C_4"
     },
     {
-        "look": "C_5",
-        "right": "C_3",
-        "around": "C_2"
+        "walk": "C_5",
+        "right": "C_3"
     },
     {
-        "turn": "C_5",
-        "right": "C_3",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "turn": "C_5"
-    },
-    {
+        "run": "C_5",
+        "left": "C_3",
         "walk": "C_5"
     },
     {
         "jump": "C_5",
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
         "walk": "C_5",
         "left": "C_3"
     },
     {
         "run": "C_5",
-        "left": "C_3"
+        "walk": "C_5"
     },
     {
-        "jump": "C_5"
-    },
-    {
-        "run": "C_5"
+        "jump": "C_5",
+        "right": "C_3",
+        "look": "C_5"
     },
     {
         "look": "C_5"
     },
     {
         "run": "C_5",
-        "left": "C_3"
+        "left": "C_3",
+        "jump": "C_5"
     },
     {
-        "run": "C_5",
+        "around": "C_2",
+        "jump": "C_5"
+    },
+    {
+        "turn": "C_5",
+        "right": "C_3"
+    },
+    {
+        "turn": "C_5",
+        "right": "C_3",
+        "jump": "C_5"
+    },
+    {
         "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
         "walk": "C_5",
-        "turn": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "run": "C_5",
         "thrice": "C_4"
     },
     {
         "walk": "C_5",
         "twice": "C_4",
-        "look": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "thrice": "C_4",
-        "look": "C_5"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "jump": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "turn": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3",
         "jump": "C_5"
     },
     {
         "walk": "C_5",
-        "left": "C_3",
-        "look": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3",
-        "look": "C_5"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "jump": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "jump": "C_5"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "jump": "C_5"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "turn": "C_5"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "look": "C_5"
-    },
-    {
-        "look": "C_5",
-        "run": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "look": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3",
-        "run": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "turn": "C_5"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "turn": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "run": "C_5",
         "right": "C_3"
     },
     {
         "run": "C_5",
-        "left": "C_3",
-        "turn": "C_5"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "look": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "twice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3",
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3",
-        "jump": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3",
-        "turn": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3",
-        "run": "C_5",
         "left": "C_3"
     },
     {
         "run": "C_5",
         "right": "C_3",
-        "walk": "C_5",
         "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "look": "C_5"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "turn": "C_5"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "right": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "look": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "jump": "C_5"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "look": "C_5"
     },
     {
         "look": "C_5",
@@ -1889,97 +796,24 @@
         "run": "C_5"
     },
     {
-        "turn": "C_5",
-        "left": "C_3",
-        "look": "C_5"
-    },
-    {
         "jump": "C_5",
-        "right": "C_3",
-        "look": "C_5"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3",
-        "turn": "C_5"
+        "left": "C_3"
     },
     {
         "walk": "C_5",
         "left": "C_3",
-        "turn": "C_5"
+        "run": "C_5",
+        "twice": "C_4"
     },
     {
         "turn": "C_5",
         "right": "C_3",
-        "walk": "C_5"
-    },
-    {
         "run": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "look": "C_5",
         "left": "C_3"
     },
     {
         "jump": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5"
-    },
-    {
-        "around": "C_2",
+        "right": "C_3",
         "turn": "C_5"
     },
     {
@@ -1989,221 +823,127 @@
     },
     {
         "walk": "C_5",
-        "left": "C_3",
-        "look": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "turn": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "turn": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "twice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3",
-        "jump": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "twice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3",
-        "run": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4",
-        "jump": "C_5"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4",
-        "turn": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "twice": "C_4",
-        "walk": "C_5"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "turn": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "walk": "C_5"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3",
-        "jump": "C_5"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3",
         "run": "C_5"
     },
     {
+        "around": "C_2",
+        "twice": "C_4",
+        "run": "C_5"
+    },
+    {
+        "walk": "C_5"
+    },
+    {
+        "around": "C_2",
+        "twice": "C_4",
+        "look": "C_5"
+    },
+    {
+        "run": "C_5",
+        "left": "C_3"
+    },
+    {
+        "look": "C_5",
+        "left": "C_3",
+        "run": "C_5",
+        "right": "C_3"
+    },
+    {
+        "look": "C_5",
+        "twice": "C_4",
+        "walk": "C_5"
+    },
+    {
         "walk": "C_5",
         "left": "C_3",
+        "look": "C_5"
+    },
+    {
+        "turn": "C_5",
+        "twice": "C_4",
+        "look": "C_5"
+    },
+    {
+        "walk": "C_5",
+        "twice": "C_4",
+        "right": "C_3"
+    },
+    {
+        "turn": "C_5"
+    },
+    {
+        "run": "C_5",
+        "jump": "C_5",
+        "right": "C_3"
+    },
+    {
+        "walk": "C_5",
+        "right": "C_3",
+        "around": "C_2"
+    },
+    {
+        "look": "C_5"
+    },
+    {
+        "around": "C_2",
+        "jump": "C_5",
+        "left": "C_3"
+    },
+    {
+        "look": "C_5",
+        "thrice": "C_4",
+        "left": "C_3"
+    },
+    {
+        "look": "C_5",
+        "left": "C_3"
+    },
+    {
+        "walk": "C_5",
+        "twice": "C_4",
+        "jump": "C_5",
+        "left": "C_3"
+    },
+    {
+        "run": "C_5",
+        "left": "C_3"
+    },
+    {
+        "run": "C_5"
+    },
+    {
+        "jump": "C_5",
+        "right": "C_3",
+        "walk": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "jump": "C_5"
+    },
+    {
+        "run": "C_5"
+    },
+    {
+        "turn": "C_5",
+        "left": "C_3"
+    },
+    {
+        "around": "C_2",
+        "run": "C_5",
+        "left": "C_3"
+    },
+    {
+        "turn": "C_5",
+        "left": "C_3",
+        "walk": "C_5"
+    },
+    {
+        "walk": "C_5",
         "turn": "C_5"
     },
     {
         "walk": "C_5",
-        "left": "C_3",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3",
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
         "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3",
-        "look": "C_5"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "twice": "C_4",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "thrice": "C_4",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4",
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "jump": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3",
-        "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "look": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3",
-        "look": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5",
-        "jump": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "look": "C_5"
     },
     {
         "walk": "C_5",
@@ -2212,77 +952,115 @@
     },
     {
         "jump": "C_5",
-        "left": "C_3",
-        "run": "C_5"
+        "left": "C_3"
     },
     {
-        "run": "C_5",
+        "around": "C_2",
+        "turn": "C_5",
         "right": "C_3"
     },
     {
+        "look": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "walk": "C_5",
+        "left": "C_3",
         "look": "C_5"
+    },
+    {
+        "around": "C_2",
+        "walk": "C_5"
+    },
+    {
+        "run": "C_5",
+        "left": "C_3"
+    },
+    {
+        "jump": "C_5",
+        "left": "C_3",
+        "thrice": "C_4"
+    },
+    {
+        "around": "C_2",
+        "run": "C_5"
+    },
+    {
+        "turn": "C_5",
+        "left": "C_3",
+        "jump": "C_5"
+    },
+    {
+        "run": "C_5",
+        "left": "C_3",
+        "look": "C_5",
+        "right": "C_3"
     },
     {
         "jump": "C_5"
     },
     {
-        "run": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "look": "C_5"
-    },
-    {
-        "look": "C_5",
+        "run": "C_5",
         "left": "C_3"
     },
     {
         "walk": "C_5",
-        "left": "C_3",
-        "look": "C_5"
+        "thrice": "C_4",
+        "jump": "C_5"
     },
     {
-        "around": "C_2",
-        "turn": "C_5"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
+        "run": "C_5",
         "right": "C_3"
     },
     {
         "run": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
+        "left": "C_3"
     },
     {
-        "look": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
+        "jump": "C_5",
+        "left": "C_3"
+    },
+    {
+        "run": "C_5",
+        "right": "C_3",
+        "jump": "C_5"
     },
     {
         "turn": "C_5",
-        "left": "C_3",
-        "run": "C_5"
+        "jump": "C_5",
+        "left": "C_3"
+    },
+    {
+        "run": "C_5",
+        "left": "C_3"
+    },
+    {
+        "around": "C_2",
+        "look": "C_5",
+        "left": "C_3"
+    },
+    {
+        "around": "C_2",
+        "thrice": "C_4",
+        "jump": "C_5"
+    },
+    {
+        "around": "C_2",
+        "twice": "C_4",
+        "look": "C_5"
     },
     {
         "look": "C_5",
+        "right": "C_3",
+        "around": "C_2"
+    },
+    {
+        "around": "C_2",
+        "twice": "C_4",
+        "look": "C_5",
+        "thrice": "C_4"
+    },
+    {
         "jump": "C_5",
         "thrice": "C_4"
     },
@@ -2291,214 +1069,12 @@
         "twice": "C_4"
     },
     {
-        "walk": "C_5",
-        "jump": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4",
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4",
-        "jump": "C_5"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4",
-        "jump": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "run": "C_5"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "run": "C_5"
-    },
-    {
         "run": "C_5",
         "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "look": "C_5"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3",
-        "turn": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "run": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "look": "C_5"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "jump": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "thrice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3",
-        "jump": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "turn": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3",
-        "jump": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3",
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3",
-        "run": "C_5"
-    },
-    {
-        "run": "C_5",
-        "look": "C_5"
-    },
-    {
-        "run": "C_5",
-        "jump": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "jump": "C_5"
     },
     {
         "around": "C_2",
-        "thrice": "C_4",
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4",
-        "walk": "C_5"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4",
-        "run": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4",
-        "run": "C_5"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4",
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4",
-        "jump": "C_5"
-    },
-    {
-        "jump": "C_5",
+        "run": "C_5",
         "left": "C_3"
     },
     {
@@ -2506,113 +1082,76 @@
         "left": "C_3"
     },
     {
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "turn": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4",
-        "jump": "C_5"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4",
-        "jump": "C_5"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4",
-        "look": "C_5"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "jump": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "twice": "C_4",
-        "look": "C_5"
-    },
-    {
-        "turn": "C_5",
-        "thrice": "C_4",
-        "run": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4",
-        "run": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4",
-        "right": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "twice": "C_4",
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4",
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "turn": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
         "around": "C_2"
+    },
+    {
+        "run": "C_5",
+        "left": "C_3",
+        "jump": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "jump": "C_5",
+        "left": "C_3"
+    },
+    {
+        "look": "C_5"
+    },
+    {
+        "walk": "C_5",
+        "right": "C_3",
+        "turn": "C_5",
+        "left": "C_3"
+    },
+    {
+        "turn": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "look": "C_5",
+        "twice": "C_4",
+        "turn": "C_5",
+        "left": "C_3"
+    },
+    {
+        "around": "C_2",
+        "jump": "C_5",
+        "right": "C_3"
+    },
+    {
+        "jump": "C_5",
+        "run": "C_5",
+        "left": "C_3"
+    },
+    {
+        "turn": "C_5",
+        "right": "C_3",
+        "jump": "C_5"
+    },
+    {
+        "around": "C_2",
+        "twice": "C_4",
+        "look": "C_5",
+        "right": "C_3"
+    },
+    {
+        "run": "C_5",
+        "walk": "C_5"
+    },
+    {
+        "turn": "C_5",
+        "thrice": "C_4",
+        "look": "C_5"
+    },
+    {
+        "around": "C_2",
+        "thrice": "C_4",
+        "jump": "C_5"
+    },
+    {
+        "run": "C_5",
+        "right": "C_3",
+        "walk": "C_5"
     },
     {
         "turn": "C_5",
@@ -2621,530 +1160,99 @@
     },
     {
         "walk": "C_5",
-        "right": "C_3",
+        "left": "C_3",
+        "jump": "C_5"
+    },
+    {
+        "run": "C_5",
+        "jump": "C_5",
+        "right": "C_3"
+    },
+    {
+        "run": "C_5",
+        "walk": "C_5",
+        "left": "C_3"
+    },
+    {
+        "turn": "C_5",
+        "jump": "C_5",
+        "left": "C_3"
+    },
+    {
+        "run": "C_5"
+    },
+    {
+        "run": "C_5",
+        "left": "C_3",
+        "jump": "C_5"
+    },
+    {
+        "turn": "C_5",
+        "thrice": "C_4",
+        "look": "C_5"
+    },
+    {
+        "jump": "C_5",
+        "twice": "C_4",
         "around": "C_2"
     },
     {
-        "look": "C_5"
-    },
-    {
-        "turn": "C_5",
-        "jump": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "walk": "C_5"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "twice": "C_4",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4",
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "thrice": "C_4",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "run": "C_5"
-    },
-    {
-        "run": "C_5",
-        "jump": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "jump": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3",
-        "thrice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3",
         "jump": "C_5",
         "thrice": "C_4"
     },
     {
         "look": "C_5",
-        "run": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3",
-        "run": "C_5"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "look": "C_5"
-    },
-    {
-        "look": "C_5",
-        "turn": "C_5"
+        "around": "C_2"
     },
     {
         "look": "C_5",
         "twice": "C_4",
-        "run": "C_5"
+        "walk": "C_5",
+        "right": "C_3"
     },
     {
-        "run": "C_5",
-        "thrice": "C_4"
+        "walk": "C_5",
+        "right": "C_3"
     },
     {
-        "run": "C_5",
+        "turn": "C_5",
         "twice": "C_4",
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3",
-        "jump": "C_5"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "turn": "C_5"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
         "jump": "C_5",
         "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3",
-        "jump": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "look": "C_5"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "turn": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3",
-        "look": "C_5"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "turn": "C_5"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
     },
     {
         "run": "C_5",
         "thrice": "C_4",
-        "walk": "C_5"
-    },
-    {
-        "turn": "C_5",
-        "thrice": "C_4",
         "jump": "C_5"
     },
     {
-        "look": "C_5",
-        "twice": "C_4",
-        "run": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
+        "turn": "C_5",
         "left": "C_3"
     },
     {
         "jump": "C_5",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "turn": "C_5"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
         "turn": "C_5",
         "right": "C_3"
     },
     {
-        "look": "C_5",
-        "right": "C_3",
-        "walk": "C_5"
+        "around": "C_2",
+        "walk": "C_5",
+        "left": "C_3"
     },
     {
-        "walk": "C_5",
-        "right": "C_3",
+        "run": "C_5",
         "jump": "C_5"
     },
     {
-        "jump": "C_5",
-        "right": "C_3",
-        "look": "C_5"
-    },
-    {
         "turn": "C_5",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
+        "twice": "C_4",
         "look": "C_5",
         "left": "C_3"
     },
     {
-        "around": "C_2",
-        "thrice": "C_4",
+        "jump": "C_5",
+        "left": "C_3",
         "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4",
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4",
-        "run": "C_5"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4",
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4",
-        "turn": "C_5"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4",
-        "turn": "C_5",
-        "thrice": "C_4"
     },
     {
         "jump": "C_5",
@@ -3152,783 +1260,290 @@
         "around": "C_2"
     },
     {
-        "walk": "C_5",
-        "right": "C_3",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
         "around": "C_2",
-        "thrice": "C_4",
         "look": "C_5",
         "twice": "C_4"
     },
     {
+        "walk": "C_5",
+        "twice": "C_4"
+    },
+    {
+        "run": "C_5",
+        "right": "C_3",
         "around": "C_2",
-        "twice": "C_4",
-        "turn": "C_5",
         "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4",
-        "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "turn": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "look": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3",
-        "walk": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3",
-        "look": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3",
-        "twice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3",
-        "run": "C_5"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3",
-        "look": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "thrice": "C_4",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "twice": "C_4",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3",
-        "jump": "C_5"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "jump": "C_5"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4",
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "walk": "C_5"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4",
-        "turn": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4",
-        "run": "C_5"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4",
-        "run": "C_5"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4",
-        "walk": "C_5"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4",
-        "look": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3",
-        "run": "C_5"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "jump": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "run": "C_5"
-    },
-    {
-        "run": "C_5",
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "turn": "C_5"
-    },
-    {
-        "look": "C_5",
-        "turn": "C_5"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3",
-        "run": "C_5"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "thrice": "C_4",
-        "look": "C_5"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4",
-        "jump": "C_5"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "jump": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "twice": "C_4",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "thrice": "C_4",
-        "right": "C_3"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "thrice": "C_4",
-        "look": "C_5"
-    },
-    {
-        "turn": "C_5",
-        "twice": "C_4",
-        "jump": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4",
-        "look": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5"
     },
     {
         "jump": "C_5",
         "turn": "C_5"
     },
     {
+        "turn": "C_5",
+        "left": "C_3"
+    },
+    {
+        "walk": "C_5",
         "look": "C_5",
+        "left": "C_3"
+    },
+    {
+        "around": "C_2",
+        "look": "C_5",
+        "right": "C_3"
+    },
+    {
+        "walk": "C_5",
+        "turn": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "run": "C_5",
+        "left": "C_3"
+    },
+    {
+        "around": "C_2",
+        "jump": "C_5",
+        "left": "C_3"
+    },
+    {
+        "look": "C_5",
+        "walk": "C_5",
+        "left": "C_3"
+    },
+    {
+        "run": "C_5"
+    },
+    {
+        "run": "C_5",
+        "right": "C_3",
+        "around": "C_2"
+    },
+    {
+        "run": "C_5",
+        "thrice": "C_4",
         "walk": "C_5"
     },
     {
-        "run": "C_5",
-        "twice": "C_4",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "twice": "C_4",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "thrice": "C_4",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
         "jump": "C_5"
+    },
+    {
+        "look": "C_5",
+        "run": "C_5"
+    },
+    {
+        "around": "C_2",
+        "walk": "C_5",
+        "right": "C_3"
+    },
+    {
+        "walk": "C_5"
+    },
+    {
+        "around": "C_2",
+        "twice": "C_4",
+        "run": "C_5",
+        "left": "C_3"
+    },
+    {
+        "look": "C_5",
+        "right": "C_3",
+        "run": "C_5",
+        "left": "C_3"
+    },
+    {
+        "jump": "C_5",
+        "left": "C_3"
+    },
+    {
+        "around": "C_2",
+        "jump": "C_5",
+        "left": "C_3"
+    },
+    {
+        "look": "C_5",
+        "left": "C_3",
+        "jump": "C_5",
+        "twice": "C_4"
+    },
+    {
+        "look": "C_5",
+        "around": "C_2",
+        "twice": "C_4"
+    },
+    {
+        "walk": "C_5"
+    },
+    {
+        "walk": "C_5",
+        "twice": "C_4",
+        "around": "C_2",
+        "thrice": "C_4"
+    },
+    {
+        "around": "C_2",
+        "run": "C_5",
+        "left": "C_3"
+    },
+    {
+        "look": "C_5",
+        "twice": "C_4"
+    },
+    {
+        "run": "C_5",
+        "right": "C_3"
+    },
+    {
+        "run": "C_5",
+        "twice": "C_4",
+        "walk": "C_5",
+        "left": "C_3"
+    },
+    {
+        "look": "C_5",
+        "twice": "C_4"
+    },
+    {
+        "run": "C_5",
+        "twice": "C_4",
+        "around": "C_2"
+    },
+    {
+        "walk": "C_5",
+        "look": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "look": "C_5",
+        "jump": "C_5",
+        "left": "C_3"
+    },
+    {
+        "around": "C_2",
+        "thrice": "C_4",
+        "jump": "C_5"
+    },
+    {
+        "look": "C_5",
+        "around": "C_2"
+    },
+    {
+        "around": "C_2",
+        "twice": "C_4"
+    },
+    {
+        "around": "C_2",
+        "jump": "C_5",
+        "left": "C_3"
+    },
+    {
+        "run": "C_5",
+        "left": "C_3"
+    },
+    {
+        "jump": "C_5",
+        "left": "C_3"
+    },
+    {
+        "walk": "C_5",
+        "look": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "look": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "turn": "C_5",
+        "right": "C_3",
+        "walk": "C_5"
+    },
+    {
+        "around": "C_2"
+    },
+    {
+        "turn": "C_5",
+        "jump": "C_5",
+        "left": "C_3"
+    },
+    {
+        "around": "C_2",
+        "walk": "C_5",
+        "right": "C_3"
+    },
+    {
+        "run": "C_5",
+        "jump": "C_5"
+    },
+    {
+        "look": "C_5",
+        "left": "C_3"
     },
     {
         "walk": "C_5",
         "left": "C_3",
+        "around": "C_2"
+    },
+    {
+        "around": "C_2",
+        "run": "C_5"
+    },
+    {
+        "jump": "C_5",
+        "run": "C_5",
+        "left": "C_3"
+    },
+    {
+        "look": "C_5",
+        "run": "C_5",
+        "left": "C_3"
+    },
+    {
+        "turn": "C_5",
+        "left": "C_3"
+    },
+    {
+        "turn": "C_5",
+        "jump": "C_5",
+        "left": "C_3"
+    },
+    {
+        "look": "C_5",
+        "left": "C_3"
+    },
+    {
+        "look": "C_5",
+        "around": "C_2",
+        "thrice": "C_4"
+    },
+    {
+        "walk": "C_5",
+        "twice": "C_4",
+        "around": "C_2"
+    },
+    {
+        "jump": "C_5",
+        "look": "C_5"
+    },
+    {
+        "jump": "C_5",
         "turn": "C_5"
     },
     {
-        "look": "C_5",
-        "left": "C_3"
+        "jump": "C_5"
+    },
+    {
+        "around": "C_2",
+        "look": "C_5"
     },
     {
         "walk": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "twice": "C_4",
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5",
         "right": "C_3",
         "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "around": "C_2",
         "twice": "C_4"
     },
     {
         "walk": "C_5",
-        "left": "C_3",
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "jump": "C_5"
-    },
-    {
-        "run": "C_5",
-        "turn": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "look": "C_5"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5",
-        "run": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "look": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "run": "C_5"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
         "look": "C_5"
     },
     {
@@ -3937,190 +1552,38 @@
         "around": "C_2"
     },
     {
-        "look": "C_5",
-        "right": "C_3",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "thrice": "C_4",
-        "look": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4",
-        "look": "C_5"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
         "run": "C_5",
-        "walk": "C_5"
-    },
-    {
-        "walk": "C_5",
+        "left": "C_3",
         "look": "C_5"
     },
     {
-        "turn": "C_5",
-        "run": "C_5"
-    },
-    {
         "around": "C_2",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4",
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
         "run": "C_5"
     },
     {
         "run": "C_5",
-        "right": "C_3",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
         "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "jump": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "turn": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2",
         "twice": "C_4"
     },
     {
-        "walk": "C_5"
-    },
-    {
+        "around": "C_2",
         "run": "C_5"
     },
     {
-        "jump": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "twice": "C_4",
+        "run": "C_5",
+        "left": "C_3",
         "around": "C_2"
     },
     {
         "run": "C_5",
-        "twice": "C_4",
-        "around": "C_2"
+        "jump": "C_5"
     },
     {
         "jump": "C_5",
+        "around": "C_2"
+    },
+    {
+        "turn": "C_5",
         "thrice": "C_4",
         "around": "C_2"
     },
@@ -4130,115 +1593,30 @@
         "left": "C_3"
     },
     {
-        "around": "C_2",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4"
+        "walk": "C_5"
     },
     {
         "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "twice": "C_4",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "twice": "C_4",
+        "left": "C_3",
         "around": "C_2"
     },
     {
         "jump": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "twice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "turn": "C_5",
         "right": "C_3"
     },
     {
-        "turn": "C_5",
         "walk": "C_5",
-        "left": "C_3"
+        "left": "C_3",
+        "thrice": "C_4"
     },
     {
-        "around": "C_2",
-        "twice": "C_4",
-        "jump": "C_5"
+        "run": "C_5",
+        "thrice": "C_4",
+        "look": "C_5"
+    },
+    {
+        "turn": "C_5",
+        "twice": "C_4"
     },
     {
         "around": "C_2",
@@ -4246,831 +1624,77 @@
         "look": "C_5"
     },
     {
+        "turn": "C_5",
+        "jump": "C_5",
+        "twice": "C_4"
+    },
+    {
+        "walk": "C_5",
+        "run": "C_5",
+        "left": "C_3"
+    },
+    {
+        "run": "C_5",
+        "left": "C_3"
+    },
+    {
+        "turn": "C_5",
+        "run": "C_5",
+        "right": "C_3"
+    },
+    {
         "around": "C_2",
+        "turn": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "jump": "C_5",
         "twice": "C_4",
         "run": "C_5"
     },
     {
-        "jump": "C_5",
-        "around": "C_2"
-    },
-    {
         "run": "C_5",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "jump": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "look": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3",
-        "run": "C_5"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3",
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "run": "C_5"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "run": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "look": "C_5",
-        "walk": "C_5"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
         "left": "C_3",
         "around": "C_2"
     },
     {
+        "run": "C_5",
+        "left": "C_3",
         "look": "C_5",
+        "twice": "C_4"
+    },
+    {
+        "run": "C_5",
         "right": "C_3",
         "around": "C_2"
     },
     {
-        "jump": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5"
-    },
-    {
         "walk": "C_5",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "run": "C_5",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "run": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3",
-        "look": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3",
-        "run": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "run": "C_5",
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "turn": "C_5",
         "twice": "C_4",
-        "around": "C_2"
-    },
-    {
         "jump": "C_5",
-        "twice": "C_4",
-        "around": "C_2"
+        "left": "C_3"
     },
     {
-        "look": "C_5",
+        "walk": "C_5",
+        "left": "C_3"
+    },
+    {
+        "around": "C_2",
         "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "walk": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "walk": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "jump": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "jump": "C_5"
-    },
-    {
-        "run": "C_5",
-        "walk": "C_5"
-    },
-    {
-        "turn": "C_5"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5"
-    },
-    {
-        "around": "C_2",
         "turn": "C_5"
     },
     {
         "around": "C_2",
-        "walk": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3",
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "jump": "C_5"
-    },
-    {
-        "run": "C_5",
-        "walk": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "turn": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
-    },
-    {
-        "run": "C_5",
-        "jump": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "turn": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "walk": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "walk": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "look": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "twice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "run": "C_5"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "look": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "turn": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "turn": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "thrice": "C_4",
-        "walk": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "twice": "C_4",
-        "run": "C_5"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4",
-        "run": "C_5"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4",
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4",
-        "jump": "C_5"
-    },
-    {
-        "turn": "C_5",
-        "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
         "look": "C_5",
         "right": "C_3"
     },
     {
-        "walk": "C_5",
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
         "jump": "C_5",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4",
-        "run": "C_5"
-    },
-    {
-        "look": "C_5",
-        "twice": "C_4",
-        "run": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "run": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "turn": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "thrice": "C_4",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "thrice": "C_4",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4",
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4",
-        "walk": "C_5"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4",
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
         "walk": "C_5",
         "left": "C_3"
     },
     {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4",
-        "run": "C_5",
+        "look": "C_5",
         "left": "C_3"
     },
     {
@@ -5080,48 +1704,16 @@
         "left": "C_3"
     },
     {
-        "around": "C_2",
-        "twice": "C_4",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "twice": "C_4"
-    },
-    {
         "look": "C_5",
         "thrice": "C_4"
     },
     {
-        "run": "C_5",
-        "twice": "C_4"
-    },
-    {
         "around": "C_2",
         "look": "C_5",
         "twice": "C_4"
     },
     {
-        "around": "C_2",
-        "jump": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2"
-    },
-    {
         "run": "C_5",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
         "around": "C_2"
     },
     {
@@ -5131,39 +1723,11 @@
         "left": "C_3"
     },
     {
-        "run": "C_5",
-        "twice": "C_4",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "twice": "C_4",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
         "walk": "C_5",
         "left": "C_3"
     },
     {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
+        "run": "C_5",
         "left": "C_3"
     },
     {
@@ -5171,48 +1735,17 @@
         "thrice": "C_4"
     },
     {
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
+        "run": "C_5",
         "around": "C_2"
     },
     {},
     {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
+        "look": "C_5",
         "left": "C_3",
         "walk": "C_5"
     },
     {
-        "walk": "C_5",
-        "left": "C_3",
-        "turn": "C_5"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
+        "jump": "C_5",
         "right": "C_3",
         "around": "C_2"
     },
@@ -5220,12 +1753,9 @@
         "around": "C_2"
     },
     {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
+        "jump": "C_5",
+        "left": "C_3",
+        "walk": "C_5"
     },
     {
         "run": "C_5",
@@ -5233,174 +1763,57 @@
         "jump": "C_5"
     },
     {
+        "look": "C_5",
+        "right": "C_3"
+    },
+    {
         "jump": "C_5",
+        "left": "C_3"
+    },
+    {
+        "walk": "C_5",
         "left": "C_3",
         "run": "C_5",
         "right": "C_3"
     },
     {
-        "jump": "C_5",
-        "left": "C_3",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
         "walk": "C_5",
-        "left": "C_3",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
         "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
         "left": "C_3"
     },
     {
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
+        "turn": "C_5",
         "jump": "C_5"
     },
     {
-        "jump": "C_5",
-        "left": "C_3",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "run": "C_5",
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "look": "C_5"
-    },
-    {
-        "look": "C_5",
-        "run": "C_5"
-    },
-    {
-        "look": "C_5"
-    },
-    {
         "around": "C_2",
         "twice": "C_4"
     },
     {
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "turn": "C_5",
+        "walk": "C_5",
         "twice": "C_4",
         "around": "C_2"
     },
     {
-        "look": "C_5",
-        "twice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
         "run": "C_5",
         "left": "C_3",
         "around": "C_2"
     },
     {
-        "look": "C_5",
+        "walk": "C_5",
+        "left": "C_3"
+    },
+    {
+        "around": "C_2",
+        "turn": "C_5",
         "right": "C_3"
     },
     {
-        "turn": "C_5",
-        "left": "C_3"
+        "around": "C_2"
     },
     {
         "walk": "C_5",
         "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4",
-        "walk": "C_5",
-        "twice": "C_4"
     },
     {
         "around": "C_2",
@@ -5408,40 +1821,31 @@
         "walk": "C_5"
     },
     {
-        "around": "C_2",
-        "twice": "C_4",
-        "run": "C_5"
-    },
-    {
         "look": "C_5",
-        "turn": "C_5",
-        "twice": "C_4"
-    },
-    {
         "jump": "C_5",
-        "turn": "C_5",
         "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5"
     },
     {
         "turn": "C_5"
     },
     {
-        "jump": "C_5"
-    },
-    {
-        "look": "C_5",
+        "jump": "C_5",
         "left": "C_3"
     },
     {
+        "run": "C_5",
+        "thrice": "C_4",
         "walk": "C_5",
         "left": "C_3"
+    },
+    {
+        "turn": "C_5",
+        "walk": "C_5",
+        "left": "C_3"
+    },
+    {
+        "around": "C_2",
+        "walk": "C_5"
     },
     {
         "run": "C_5",
@@ -5449,398 +1853,122 @@
     },
     {
         "look": "C_5",
-        "twice": "C_4",
+        "around": "C_2"
+    },
+    {
+        "walk": "C_5",
         "jump": "C_5",
+        "left": "C_3"
+    },
+    {
+        "look": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "run": "C_5"
+    },
+    {
+        "run": "C_5",
+        "right": "C_3",
+        "around": "C_2"
+    },
+    {
+        "around": "C_2",
+        "run": "C_5",
         "left": "C_3"
     },
     {
         "look": "C_5",
         "thrice": "C_4",
-        "jump": "C_5",
-        "left": "C_3"
+        "around": "C_2",
+        "twice": "C_4"
     },
     {
         "jump": "C_5",
-        "twice": "C_4",
-        "left": "C_3"
+        "left": "C_3",
+        "around": "C_2"
     },
     {
-        "jump": "C_5",
+        "turn": "C_5",
         "left": "C_3"
     },
     {
         "walk": "C_5",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
+        "left": "C_3",
+        "around": "C_2",
+        "thrice": "C_4"
     },
     {
         "around": "C_2",
+        "twice": "C_4"
+    },
+    {
+        "jump": "C_5",
+        "left": "C_3"
+    },
+    {
         "look": "C_5"
     },
     {
+        "walk": "C_5",
+        "right": "C_3"
+    },
+    {
         "around": "C_2",
-        "walk": "C_5"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
         "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
         "thrice": "C_4"
     },
     {
         "jump": "C_5",
-        "twice": "C_4"
+        "look": "C_5"
     },
     {
-        "look": "C_5",
-        "twice": "C_4"
+        "around": "C_2"
     },
     {
-        "run": "C_5"
-    },
-    {
-        "turn": "C_5"
+        "around": "C_2"
     },
     {
         "jump": "C_5"
     },
     {
-        "turn": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
         "look": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "look": "C_5"
-    },
-    {
         "run": "C_5"
     },
     {
-        "walk": "C_5"
+        "look": "C_5",
+        "around": "C_2"
     },
     {
-        "turn": "C_5"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
         "look": "C_5",
         "thrice": "C_4"
     },
     {
-        "around": "C_2",
-        "run": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "look": "C_5"
-    },
-    {
-        "walk": "C_5",
+        "look": "C_5",
+        "left": "C_3",
         "run": "C_5"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "turn": "C_5",
-        "run": "C_5"
-    },
-    {
-        "turn": "C_5",
-        "walk": "C_5"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "look": "C_5"
     },
     {
         "walk": "C_5",
         "right": "C_3",
         "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3",
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3",
-        "around": "C_2",
         "thrice": "C_4"
     },
     {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
+        "run": "C_5",
         "left": "C_3"
     },
     {
         "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
         "right": "C_3"
     },
     {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
         "look": "C_5",
         "twice": "C_4",
         "around": "C_2"
     },
     {
-        "jump": "C_5",
-        "twice": "C_4",
-        "around": "C_2"
-    },
-    {
         "run": "C_5",
-        "twice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
         "right": "C_3",
         "around": "C_2"
     },
@@ -5849,56 +1977,16 @@
         "twice": "C_4"
     },
     {
-        "jump": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "twice": "C_4"
-    },
-    {
         "look": "C_5",
         "around": "C_2"
+    },
+    {
+        "jump": "C_5",
+        "left": "C_3"
     },
     {
         "run": "C_5",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
         "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "around": "C_2"
     },
     {
         "run": "C_5",
@@ -5908,795 +1996,27 @@
         "around": "C_2"
     },
     {
-        "look": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
         "turn": "C_5",
         "twice": "C_4"
     },
     {
-        "around": "C_2",
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
         "run": "C_5",
         "right": "C_3"
     },
     {
-        "walk": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "twice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "twice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "twice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "look": "C_5"
-    },
-    {
-        "turn": "C_5",
-        "walk": "C_5"
-    },
-    {
-        "turn": "C_5",
-        "jump": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "jump": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "walk": "C_5"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "look": "C_5"
-    },
-    {
-        "look": "C_5",
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5",
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "twice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "walk": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "around": "C_2"
-    },
-    {
         "around": "C_2",
         "look": "C_5",
         "left": "C_3"
     },
     {
         "around": "C_2",
-        "walk": "C_5",
-        "right": "C_3"
+        "turn": "C_5",
+        "thrice": "C_4"
     },
     {
         "around": "C_2",
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
+        "turn": "C_5",
         "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "turn": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "jump": "C_5"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "jump": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
     },
     {
         "walk": "C_5",
@@ -6705,89 +2025,199 @@
     },
     {
         "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
+        "thrice": "C_4",
+        "around": "C_2"
     },
     {
         "walk": "C_5",
+        "look": "C_5"
+    },
+    {
+        "walk": "C_5",
+        "left": "C_3",
+        "around": "C_2"
+    },
+    {
+        "walk": "C_5",
+        "left": "C_3",
+        "look": "C_5"
+    },
+    {
+        "run": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "around": "C_2",
+        "thrice": "C_4"
+    },
+    {
+        "walk": "C_5",
+        "right": "C_3"
+    },
+    {
+        "turn": "C_5",
+        "left": "C_3",
+        "around": "C_2"
+    },
+    {
+        "look": "C_5",
+        "right": "C_3"
+    },
+    {
+        "run": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "jump": "C_5"
+    },
+    {
+        "run": "C_5",
+        "look": "C_5"
+    },
+    {
+        "around": "C_2",
+        "run": "C_5"
+    },
+    {
+        "jump": "C_5",
+        "left": "C_3",
+        "around": "C_2"
+    },
+    {
+        "jump": "C_5",
         "left": "C_3"
     },
     {
         "look": "C_5",
-        "left": "C_3"
+        "left": "C_3",
+        "around": "C_2"
     },
     {
+        "around": "C_2",
         "walk": "C_5",
         "left": "C_3"
     },
     {
-        "run": "C_5",
-        "left": "C_3"
+        "around": "C_2",
+        "jump": "C_5"
     },
     {
         "jump": "C_5",
+        "right": "C_3"
+    },
+    {
+        "look": "C_5"
+    },
+    {
         "around": "C_2"
     },
     {
-        "walk": "C_5",
-        "around": "C_2"
+        "around": "C_2",
+        "thrice": "C_4"
+    },
+    {
+        "around": "C_2",
+        "turn": "C_5",
+        "twice": "C_4"
     },
     {
         "turn": "C_5",
         "around": "C_2"
     },
     {
-        "walk": "C_5",
-        "around": "C_2"
+        "run": "C_5",
+        "right": "C_3"
     },
     {
+        "jump": "C_5"
+    },
+    {
+        "around": "C_2",
         "turn": "C_5",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2"
+        "twice": "C_4"
     },
     {
         "jump": "C_5",
+        "left": "C_3"
+    },
+    {
+        "run": "C_5",
+        "around": "C_2",
+        "twice": "C_4"
+    },
+    {
+        "around": "C_2",
+        "jump": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "around": "C_2"
+    },
+    {
+        "walk": "C_5",
+        "left": "C_3",
+        "around": "C_2"
+    },
+    {
+        "around": "C_2",
+        "run": "C_5",
         "twice": "C_4"
     },
     {
         "walk": "C_5",
+        "twice": "C_4",
+        "around": "C_2"
+    },
+    {
+        "around": "C_2",
+        "look": "C_5",
+        "twice": "C_4"
+    },
+    {
+        "turn": "C_5",
         "thrice": "C_4"
     },
     {
-        "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
+        "turn": "C_5",
         "left": "C_3"
     },
     {
+        "run": "C_5",
+        "twice": "C_4"
+    },
+    {
+        "look": "C_5",
+        "left": "C_3",
         "jump": "C_5",
-        "left": "C_3"
+        "twice": "C_4"
     },
     {
+        "run": "C_5",
+        "around": "C_2"
+    },
+    {
+        "around": "C_2",
         "look": "C_5",
         "left": "C_3"
     },
     {
+        "around": "C_2",
+        "look": "C_5",
+        "left": "C_3"
+    },
+    {
+        "turn": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "jump": "C_5"
+    },
+    {
+        "around": "C_2",
+        "look": "C_5"
+    },
+    {
+        "look": "C_5",
         "around": "C_2",
         "twice": "C_4"
     },
@@ -6796,38 +2226,86 @@
         "thrice": "C_4"
     },
     {
-        "run": "C_5"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "jump": "C_5",
+        "around": "C_2",
+        "look": "C_5",
         "left": "C_3"
     },
     {
-        "jump": "C_5",
-        "left": "C_3",
+        "walk": "C_5",
+        "around": "C_2",
+        "thrice": "C_4"
+    },
+    {
+        "look": "C_5",
+        "thrice": "C_4"
+    },
+    {
         "look": "C_5"
     },
     {
         "look": "C_5",
+        "left": "C_3"
+    },
+    {
+        "walk": "C_5",
         "left": "C_3",
-        "jump": "C_5"
+        "around": "C_2"
     },
     {
-        "jump": "C_5"
+        "around": "C_2"
     },
     {
-        "run": "C_5"
+        "walk": "C_5",
+        "around": "C_2"
     },
     {
-        "look": "C_5"
+        "walk": "C_5",
+        "left": "C_3",
+        "around": "C_2"
     },
     {
+        "turn": "C_5",
+        "twice": "C_4",
+        "around": "C_2"
+    },
+    {
+        "walk": "C_5",
+        "left": "C_3"
+    },
+    {
+        "look": "C_5",
+        "left": "C_3"
+    },
+    {
+        "jump": "C_5",
+        "around": "C_2"
+    },
+    {
+        "jump": "C_5",
+        "around": "C_2"
+    },
+    {
+        "run": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "walk": "C_5",
+        "around": "C_2"
+    },
+    {
+        "look": "C_5",
+        "left": "C_3"
+    },
+    {
+        "around": "C_2",
+        "thrice": "C_4"
+    },
+    {
+        "walk": "C_5"
+    },
+    {
+        "jump": "C_5",
+        "left": "C_3",
         "run": "C_5"
     },
     {
@@ -6838,42 +2316,12 @@
     },
     {
         "around": "C_2",
-        "twice": "C_4",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
         "thrice": "C_4",
-        "run": "C_5",
+        "look": "C_5",
         "left": "C_3"
     },
     {
-        "around": "C_2",
-        "twice": "C_4",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2"
-    },
-    {
         "turn": "C_5",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
         "around": "C_2"
     },
     {
@@ -6887,39 +2335,11 @@
         "left": "C_3"
     },
     {
-        "around": "C_2",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
+        "run": "C_5",
         "thrice": "C_4"
     },
     {
         "look": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
         "left": "C_3",
         "around": "C_2"
     },
@@ -6927,24 +2347,6 @@
         "around": "C_2",
         "run": "C_5",
         "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5"
     },
     {
         "around": "C_2",
@@ -6952,25 +2354,7 @@
     },
     {
         "around": "C_2",
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
         "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
         "left": "C_3"
     },
     {
@@ -6978,34 +2362,13 @@
         "left": "C_3"
     },
     {
-        "look": "C_5",
+        "walk": "C_5",
         "left": "C_3",
-        "turn": "C_5"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "jump": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "around": "C_2"
+        "look": "C_5"
     },
     {
         "walk": "C_5",
         "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4"
     },
     {
         "around": "C_2",
@@ -7017,26 +2380,6 @@
         "around": "C_2"
     },
     {
-        "jump": "C_5",
-        "twice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
         "around": "C_2",
         "jump": "C_5",
         "right": "C_3"
@@ -7047,66 +2390,23 @@
     },
     {
         "jump": "C_5",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
         "right": "C_3"
     },
     {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
         "around": "C_2"
     },
     {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
         "jump": "C_5",
         "left": "C_3"
     },
     {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
         "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
         "walk": "C_5",
+        "left": "C_3"
+    },
+    {
+        "around": "C_2",
         "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
         "thrice": "C_4"
     },
     {
@@ -7115,188 +2415,62 @@
     {
         "around": "C_2",
         "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
         "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
-        "right": "C_3"
     },
     {
         "around": "C_2",
         "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4",
-        "walk": "C_5",
         "left": "C_3"
     },
     {
         "around": "C_2",
         "thrice": "C_4",
+        "turn": "C_5",
+        "left": "C_3"
+    },
+    {
+        "run": "C_5"
+    },
+    {
         "jump": "C_5",
         "left": "C_3"
     },
     {
         "around": "C_2",
-        "twice": "C_4",
-        "look": "C_5",
-        "left": "C_3"
+        "run": "C_5",
+        "twice": "C_4"
     },
     {
-        "jump": "C_5"
+        "around": "C_2",
+        "run": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "around": "C_2",
+        "look": "C_5",
+        "left": "C_3"
     },
     {
         "look": "C_5"
     },
     {
-        "run": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
+        "around": "C_2",
         "walk": "C_5",
         "left": "C_3"
     },
     {
-        "look": "C_5",
-        "right": "C_3"
+        "jump": "C_5",
+        "left": "C_3"
     },
     {
         "around": "C_2",
         "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
         "twice": "C_4"
     },
     {
-        "around": "C_2",
         "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "thrice": "C_4",
+        "twice": "C_4",
         "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "run": "C_5"
     },
     {
         "turn": "C_5"
@@ -7305,85 +2479,53 @@
         "jump": "C_5"
     },
     {
-        "look": "C_5"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
         "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
         "left": "C_3"
     },
     {
         "around": "C_2"
     },
     {
-        "walk": "C_5",
-        "right": "C_3",
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
         "turn": "C_5",
-        "right": "C_3",
+        "left": "C_3",
         "around": "C_2",
         "twice": "C_4"
     },
     {
-        "walk": "C_5",
-        "left": "C_3",
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
         "around": "C_2",
         "turn": "C_5",
         "thrice": "C_4"
     },
     {
-        "around": "C_2",
-        "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
         "jump": "C_5",
         "left": "C_3",
         "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4",
-        "turn": "C_5",
-        "left": "C_3"
     },
     {
         "around": "C_2",
         "twice": "C_4",
-        "walk": "C_5",
+        "look": "C_5",
+        "left": "C_3"
+    },
+    {
+        "run": "C_5",
+        "around": "C_2"
+    },
+    {
+        "around": "C_2",
+        "thrice": "C_4"
+    },
+    {
+        "turn": "C_5",
+        "around": "C_2"
+    },
+    {
+        "around": "C_2",
+        "jump": "C_5",
         "right": "C_3"
+    },
+    {
+        "around": "C_2"
     },
     {
         "around": "C_2",
@@ -7392,105 +2534,13 @@
         "left": "C_3"
     },
     {
-        "look": "C_5",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5"
-    },
-    {
         "around": "C_2",
         "walk": "C_5"
     },
     {
         "around": "C_2",
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
         "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "jump": "C_5"
+        "left": "C_3"
     },
     {
         "walk": "C_5"
@@ -7499,53 +2549,21 @@
         "around": "C_2"
     },
     {
-        "jump": "C_5",
+        "turn": "C_5",
         "twice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4",
         "around": "C_2"
     },
     {
         "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
         "right": "C_3"
     },
     {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3",
-        "around": "C_2"
-    },
-    {
         "run": "C_5",
         "right": "C_3",
         "around": "C_2"
     },
     {
-        "look": "C_5",
-        "left": "C_3",
         "around": "C_2"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4"
     },
     {
         "around": "C_2",
@@ -7553,16 +2571,6 @@
     },
     {
         "walk": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
         "right": "C_3",
         "around": "C_2"
     },
@@ -7571,38 +2579,10 @@
         "left": "C_3"
     },
     {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5"
-    },
-    {
         "turn": "C_5"
     },
     {
-        "walk": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
         "look": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
     },
     {
         "walk": "C_5",
@@ -7611,147 +2591,16 @@
     {
         "around": "C_2",
         "walk": "C_5"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5"
     },
     {
         "run": "C_5"
     },
     {
-        "turn": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "twice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
         "walk": "C_5"
     },
     {
         "walk": "C_5",
-        "left": "C_3",
-        "jump": "C_5"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
         "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4"
     },
     {
         "around": "C_2",
@@ -7759,62 +2608,56 @@
     },
     {
         "turn": "C_5",
-        "twice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
         "thrice": "C_4",
         "around": "C_2"
     },
     {
-        "walk": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
         "around": "C_2",
         "thrice": "C_4"
     },
     {
+        "jump": "C_5"
+    },
+    {
+        "around": "C_2",
+        "walk": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "run": "C_5",
+        "left": "C_3",
+        "walk": "C_5"
+    },
+    {
+        "look": "C_5",
+        "left": "C_3",
+        "around": "C_2"
+    },
+    {
+        "around": "C_2",
+        "look": "C_5",
+        "left": "C_3"
+    },
+    {
+        "around": "C_2",
+        "thrice": "C_4"
+    },
+    {
+        "look": "C_5",
+        "twice": "C_4",
+        "around": "C_2"
+    },
+    {
         "walk": "C_5",
         "left": "C_3",
         "around": "C_2",
         "twice": "C_4"
     },
     {
-        "look": "C_5"
+        "jump": "C_5"
     },
     {
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "turn": "C_5"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3"
+        "jump": "C_5"
     },
     {
         "walk": "C_5",
@@ -7822,14 +2665,6 @@
     },
     {
         "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "thrice": "C_4"
     },
     {
         "turn": "C_5",
@@ -7839,151 +2674,23 @@
         "around": "C_2"
     },
     {
-        "jump": "C_5"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
         "look": "C_5"
     },
     {
         "run": "C_5"
     },
     {
-        "look": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
         "around": "C_2",
         "run": "C_5"
     },
     {
-        "around": "C_2",
-        "turn": "C_5"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
         "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3"
     },
     {
         "run": "C_5",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2"
-    },
-    {
+        "left": "C_3",
         "around": "C_2",
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5"
+        "twice": "C_4"
     },
     {
         "around": "C_2",
@@ -7991,57 +2698,55 @@
     },
     {
         "around": "C_2",
+        "twice": "C_4",
+        "run": "C_5",
+        "left": "C_3"
+    },
+    {
+        "run": "C_5",
+        "twice": "C_4"
+    },
+    {
+        "around": "C_2",
+        "thrice": "C_4"
+    },
+    {
+        "around": "C_2"
+    },
+    {
+        "run": "C_5",
+        "right": "C_3"
+    },
+    {
+        "jump": "C_5",
+        "around": "C_2"
+    },
+    {
+        "around": "C_2",
+        "run": "C_5"
+    },
+    {
+        "around": "C_2"
+    },
+    {
+        "around": "C_2",
         "run": "C_5"
     },
     {
         "jump": "C_5"
     },
     {
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
+        "run": "C_5",
         "around": "C_2"
     },
     {
         "jump": "C_5",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
         "twice": "C_4",
         "around": "C_2"
     },
     {
-        "turn": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4",
-        "around": "C_2"
-    },
-    {
         "around": "C_2",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
+        "jump": "C_5",
         "left": "C_3"
     },
     {
@@ -8052,43 +2757,17 @@
         "around": "C_2"
     },
     {
+        "around": "C_2"
+    },
+    {
         "walk": "C_5",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
         "left": "C_3",
         "around": "C_2"
     },
     {},
     {
         "look": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4"
+        "thrice": "C_4"
     },
     {
         "around": "C_2"
@@ -8098,11 +2777,199 @@
         "thrice": "C_4"
     },
     {
+        "look": "C_5",
+        "left": "C_3"
+    },
+    {
+        "around": "C_2",
+        "jump": "C_5"
+    },
+    {
+        "around": "C_2",
+        "turn": "C_5"
+    },
+    {
+        "look": "C_5",
+        "around": "C_2"
+    },
+    {
+        "run": "C_5",
+        "right": "C_3",
+        "around": "C_2"
+    },
+    {
         "jump": "C_5",
+        "right": "C_3",
+        "around": "C_2"
+    },
+    {
+        "around": "C_2",
+        "run": "C_5",
+        "left": "C_3"
+    },
+    {
+        "jump": "C_5",
+        "right": "C_3"
+    },
+    {
+        "around": "C_2"
+    },
+    {
+        "around": "C_2"
+    },
+    {
+        "around": "C_2"
+    },
+    {
+        "turn": "C_5",
+        "around": "C_2"
+    },
+    {
+        "walk": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "around": "C_2"
+    },
+    {
+        "run": "C_5",
+        "right": "C_3",
+        "around": "C_2"
+    },
+    {
+        "around": "C_2",
+        "thrice": "C_4"
+    },
+    {
+        "around": "C_2",
+        "walk": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "look": "C_5",
+        "right": "C_3"
+    },
+    {
+        "around": "C_2"
+    },
+    {
+        "around": "C_2",
+        "walk": "C_5",
+        "left": "C_3"
+    },
+    {
+        "around": "C_2"
+    },
+    {
+        "jump": "C_5",
+        "around": "C_2"
+    },
+    {
+        "walk": "C_5",
+        "around": "C_2",
+        "twice": "C_4"
+    },
+    {
+        "around": "C_2",
+        "walk": "C_5",
+        "left": "C_3"
+    },
+    {
+        "walk": "C_5"
+    },
+    {
+        "around": "C_2",
+        "thrice": "C_4"
+    },
+    {
+        "walk": "C_5"
+    },
+    {
+        "around": "C_2",
+        "twice": "C_4"
+    },
+    {
+        "run": "C_5"
+    },
+    {
+        "around": "C_2"
+    },
+    {
+        "around": "C_2",
+        "turn": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "around": "C_2",
         "twice": "C_4"
     },
     {
         "walk": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "turn": "C_5",
+        "left": "C_3"
+    },
+    {
+        "around": "C_2",
+        "run": "C_5"
+    },
+    {
+        "look": "C_5",
+        "left": "C_3",
+        "around": "C_2",
+        "thrice": "C_4"
+    },
+    {
+        "jump": "C_5",
+        "right": "C_3"
+    },
+    {
+        "jump": "C_5"
+    },
+    {
+        "look": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "look": "C_5",
+        "around": "C_2"
+    },
+    {
+        "walk": "C_5",
+        "right": "C_3"
+    },
+    {
+        "around": "C_2",
+        "walk": "C_5"
+    },
+    {
+        "run": "C_5",
+        "around": "C_2"
+    },
+    {
+        "around": "C_2"
+    },
+    {
+        "around": "C_2",
+        "turn": "C_5",
+        "left": "C_3"
+    },
+    {
+        "around": "C_2",
+        "jump": "C_5"
+    },
+    {
+        "jump": "C_5",
+        "around": "C_2",
+        "thrice": "C_4"
+    },
+    {
+        "around": "C_2"
+    },
+    {
+        "around": "C_2",
         "twice": "C_4"
     },
     {
@@ -8110,7 +2977,30 @@
         "left": "C_3"
     },
     {
+        "around": "C_2",
+        "twice": "C_4"
+    },
+    {
         "run": "C_5",
+        "left": "C_3"
+    },
+    {
+        "run": "C_5",
+        "around": "C_2"
+    },
+    {
+        "turn": "C_5",
+        "right": "C_3",
+        "around": "C_2"
+    },
+    {
+        "run": "C_5",
+        "left": "C_3",
+        "around": "C_2"
+    },
+    {
+        "around": "C_2",
+        "look": "C_5",
         "left": "C_3"
     },
     {
@@ -8118,12 +3008,31 @@
         "left": "C_3"
     },
     {
-        "around": "C_2",
-        "walk": "C_5"
+        "run": "C_5",
+        "twice": "C_4"
+    },
+    {
+        "walk": "C_5",
+        "look": "C_5"
+    },
+    {
+        "around": "C_2"
     },
     {
         "around": "C_2",
         "look": "C_5"
+    },
+    {
+        "around": "C_2",
+        "walk": "C_5"
+    },
+    {
+        "look": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "around": "C_2",
+        "twice": "C_4"
     },
     {
         "around": "C_2",
@@ -8131,795 +3040,97 @@
     },
     {
         "around": "C_2",
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5"
-    },
-    {
-        "run": "C_5",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "right": "C_3",
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "turn": "C_5",
         "thrice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "turn": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
-    },
-    {
-        "run": "C_5",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5",
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "jump": "C_5"
-    },
-    {
-        "look": "C_5",
-        "turn": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "turn": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4"
     },
     {
         "around": "C_2",
         "thrice": "C_4",
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4",
         "walk": "C_5"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4",
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
     },
     {
         "around": "C_2",
         "run": "C_5"
     },
     {
-        "run": "C_5"
-    },
-    {
         "jump": "C_5"
     },
     {
-        "walk": "C_5"
-    },
-    {
         "around": "C_2",
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
+        "look": "C_5",
         "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4"
     },
     {
         "around": "C_2",
         "thrice": "C_4"
     },
     {
-        "run": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "walk": "C_5"
+        "look": "C_5"
     },
     {
         "look": "C_5"
     },
     {
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
+        "run": "C_5",
         "left": "C_3",
         "around": "C_2"
     },
     {
         "look": "C_5",
         "left": "C_3",
+        "around": "C_2",
+        "thrice": "C_4"
+    },
+    {
+        "around": "C_2",
+        "look": "C_5"
+    },
+    {
+        "around": "C_2",
+        "walk": "C_5"
+    },
+    {
+        "run": "C_5",
         "around": "C_2"
     },
     {
-        "run": "C_5",
-        "left": "C_3",
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
         "walk": "C_5",
-        "left": "C_3",
+        "left": "C_3"
+    },
+    {
         "around": "C_2",
-        "thrice": "C_4"
+        "jump": "C_5"
+    },
+    {
+        "walk": "C_5"
+    },
+    {
+        "jump": "C_5"
+    },
+    {
+        "around": "C_2",
+        "run": "C_5"
     },
     {
         "run": "C_5",
-        "left": "C_3",
+        "left": "C_3"
+    },
+    {
+        "look": "C_5",
+        "left": "C_3"
+    },
+    {
+        "around": "C_2"
+    },
+    {
+        "walk": "C_5"
+    },
+    {
+        "around": "C_2"
+    },
+    {
         "around": "C_2",
-        "thrice": "C_4"
+        "run": "C_5",
+        "left": "C_3"
     },
     {
         "around": "C_2",
@@ -8927,214 +3138,26 @@
     },
     {
         "around": "C_2",
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "turn": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "turn": "C_5"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5"
-    },
-    {
-        "around": "C_2",
         "twice": "C_4"
     },
     {
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "around": "C_2"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
         "walk": "C_5",
+        "right": "C_3"
+    },
+    {
+        "jump": "C_5",
+        "around": "C_2"
+    },
+    {
+        "around": "C_2"
+    },
+    {
+        "jump": "C_5",
         "left": "C_3",
         "around": "C_2"
     },
     {
         "jump": "C_5"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5"
     },
     {},
     {
@@ -9145,43 +3168,11 @@
         "left": "C_3"
     },
     {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "around": "C_2"
-    },
-    {
         "walk": "C_5",
         "around": "C_2"
     },
     {
-        "turn": "C_5",
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
+        "walk": "C_5",
         "around": "C_2"
     },
     {
@@ -9192,23 +3183,7 @@
         "jump": "C_5"
     },
     {
-        "look": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "jump": "C_5",
-        "twice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "twice": "C_4",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
+        "turn": "C_5",
         "thrice": "C_4",
         "around": "C_2"
     },
@@ -9216,26 +3191,7 @@
         "walk": "C_5"
     },
     {
-        "jump": "C_5"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "walk": "C_5",
-        "around": "C_2"
-    },
-    {
         "look": "C_5",
-        "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
         "around": "C_2"
     },
     {
@@ -9244,28 +3200,13 @@
         "around": "C_2"
     },
     {
-        "run": "C_5",
-        "left": "C_3",
         "around": "C_2"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5"
     },
     {
         "jump": "C_5"
     },
     {
-        "look": "C_5"
-    },
-    {
         "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4"
     },
     {
         "around": "C_2",
@@ -9276,19 +3217,7 @@
         "left": "C_3"
     },
     {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
         "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4"
     },
     {
         "around": "C_2",
@@ -9299,38 +3228,16 @@
     },
     {
         "around": "C_2",
-        "turn": "C_5"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5"
+        "run": "C_5"
     },
     {
         "walk": "C_5",
-        "right": "C_3",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
         "left": "C_3",
         "around": "C_2"
     },
     {},
     {
         "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4"
     },
     {
         "around": "C_2",
@@ -9339,140 +3246,52 @@
     },
     {
         "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5"
-    },
-    {
-        "around": "C_2",
         "look": "C_5"
     },
     {
-        "look": "C_5",
-        "around": "C_2"
-    },
-    {
         "walk": "C_5",
         "around": "C_2"
-    },
-    {
-        "run": "C_5",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
     },
     {
         "jump": "C_5",
         "left": "C_3"
     },
     {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "turn": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "turn": "C_5",
-        "right": "C_3",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
+        "look": "C_5",
         "right": "C_3",
         "around": "C_2"
     },
     {},
     {
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "look": "C_5"
+        "jump": "C_5"
     },
     {},
     {
-        "run": "C_5",
-        "right": "C_3"
-    },
-    {
-        "turn": "C_5",
+        "walk": "C_5",
         "left": "C_3"
     },
     {
-        "turn": "C_5",
-        "right": "C_3"
-    },
-    {
         "jump": "C_5"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "walk": "C_5"
     },
     {
         "around": "C_2"
     },
     {
-        "run": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "thrice": "C_4"
-    },
-    {
-        "look": "C_5",
-        "twice": "C_4"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "look": "C_5"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
         "jump": "C_5",
+        "thrice": "C_4"
+    },
+    {
+        "look": "C_5"
+    },
+    {
+        "around": "C_2"
+    },
+    {
+        "look": "C_5"
+    },
+    {
+        "around": "C_2",
+        "look": "C_5",
         "left": "C_3"
     },
     {
@@ -9483,44 +3302,18 @@
     },
     {},
     {
-        "walk": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
         "look": "C_5",
         "left": "C_3",
         "around": "C_2"
     },
     {
-        "run": "C_5",
-        "left": "C_3",
         "around": "C_2"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "jump": "C_5"
-    },
-    {
-        "look": "C_5"
     },
     {
         "walk": "C_5"
     },
     {
-        "jump": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
         "run": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
         "left": "C_3",
         "around": "C_2"
     },
@@ -9529,14 +3322,6 @@
     },
     {
         "walk": "C_5",
-        "right": "C_3"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
         "left": "C_3"
     },
     {
@@ -9554,50 +3339,16 @@
     {},
     {
         "around": "C_2",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
         "jump": "C_5",
         "left": "C_3"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
-        "run": "C_5"
     },
     {
         "turn": "C_5"
     },
     {
         "around": "C_2",
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
         "jump": "C_5",
-        "right": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "right": "C_3"
+        "left": "C_3"
     },
     {
         "look": "C_5",
@@ -9605,15 +3356,7 @@
     },
     {
         "around": "C_2",
-        "walk": "C_5"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
+        "jump": "C_5"
     },
     {},
     {
@@ -9625,72 +3368,32 @@
         "around": "C_2"
     },
     {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
         "run": "C_5",
         "left": "C_3"
     },
     {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
         "around": "C_2"
     },
     {
         "around": "C_2"
     },
     {
-        "run": "C_5",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "around": "C_2"
-    },
-    {
-        "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "around": "C_2",
         "jump": "C_5",
-        "left": "C_3"
+        "around": "C_2"
+    },
+    {
+        "around": "C_2"
     },
     {
         "around": "C_2",
         "look": "C_5",
         "left": "C_3"
-    },
-    {
-        "run": "C_5"
     },
     {
         "turn": "C_5"
     },
     {
-        "look": "C_5"
-    },
-    {
         "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3"
     },
     {
         "jump": "C_5",
@@ -9698,9 +3401,6 @@
     },
     {
         "around": "C_2"
-    },
-    {
-        "turn": "C_5"
     },
     {
         "jump": "C_5"
@@ -9709,15 +3409,6 @@
         "look": "C_5"
     },
     {
-        "look": "C_5"
-    },
-    {
-        "turn": "C_5"
-    },
-    {
-        "walk": "C_5"
-    },
-    {
         "around": "C_2"
     },
     {
@@ -9725,22 +3416,10 @@
         "run": "C_5"
     },
     {
-        "around": "C_2",
-        "jump": "C_5"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
-    },
-    {
         "around": "C_2"
     },
     {
         "around": "C_2"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4"
     },
     {
         "around": "C_2",
@@ -9748,15 +3427,7 @@
     },
     {
         "around": "C_2",
-        "run": "C_5"
-    },
-    {
-        "around": "C_2",
-        "look": "C_5"
-    },
-    {
-        "around": "C_2",
-        "jump": "C_5"
+        "walk": "C_5"
     },
     {
         "around": "C_2"
@@ -9770,19 +3441,11 @@
     },
     {
         "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
         "twice": "C_4"
     },
     {
         "around": "C_2",
         "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4"
     },
     {
         "around": "C_2"
@@ -9796,10 +3459,6 @@
     {
         "around": "C_2",
         "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4"
     },
     {
         "around": "C_2"
@@ -9809,15 +3468,7 @@
     },
     {},
     {
-        "walk": "C_5",
-        "left": "C_3"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
+        "jump": "C_5",
         "left": "C_3"
     },
     {},
@@ -9826,10 +3477,6 @@
         "thrice": "C_4"
     },
     {
-        "around": "C_2",
-        "twice": "C_4"
-    },
-    {
         "around": "C_2"
     },
     {
@@ -9844,10 +3491,6 @@
     },
     {
         "around": "C_2",
-        "twice": "C_4"
-    },
-    {
-        "around": "C_2",
         "thrice": "C_4"
     },
     {
@@ -9856,40 +3499,14 @@
     {
         "around": "C_2",
         "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "run": "C_5",
-        "around": "C_2"
     },
     {
         "jump": "C_5",
         "around": "C_2"
     },
     {
-        "look": "C_5",
-        "around": "C_2"
-    },
-    {
         "around": "C_2",
         "twice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "jump": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
-        "left": "C_3",
-        "around": "C_2"
     },
     {
         "run": "C_5",
@@ -9905,10 +3522,6 @@
     },
     {
         "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
         "twice": "C_4"
     },
     {},
@@ -9920,16 +3533,10 @@
     },
     {},
     {},
-    {
-        "jump": "C_5"
-    },
     {
         "walk": "C_5"
     },
     {
-        "look": "C_5"
-    },
-    {
         "around": "C_2"
     },
     {
@@ -9942,15 +3549,7 @@
         "around": "C_2"
     },
     {
-        "look": "C_5",
-        "left": "C_3"
-    },
-    {
-        "run": "C_5",
-        "left": "C_3"
-    },
-    {
-        "walk": "C_5",
+        "jump": "C_5",
         "left": "C_3"
     },
     {
@@ -9961,17 +3560,7 @@
     },
     {},
     {
-        "jump": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "walk": "C_5",
-        "left": "C_3",
-        "around": "C_2"
-    },
-    {
-        "look": "C_5",
+        "run": "C_5",
         "left": "C_3",
         "around": "C_2"
     },
@@ -10003,12 +3592,6 @@
     {},
     {},
     {
-        "jump": "C_5"
-    },
-    {
-        "run": "C_5"
-    },
-    {
         "look": "C_5"
     },
     {
@@ -10028,10 +3611,6 @@
     },
     {
         "around": "C_2",
-        "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
         "twice": "C_4"
     },
     {
@@ -10048,10 +3627,6 @@
     {
         "around": "C_2",
         "thrice": "C_4"
-    },
-    {
-        "around": "C_2",
-        "twice": "C_4"
     },
     {
         "around": "C_2"
