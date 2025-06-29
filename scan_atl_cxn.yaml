@@ -66,7 +66,7 @@ training:
   normalization:      "batch"
   scheduling:         "noam"
   learning_rate_warmup: 4000
-  epochs:             10
+  epochs:             30
   validation_freq:    500        # no validation
   logging_freq:       100
   ckpt_freq:          5        # save every 5 epochs
