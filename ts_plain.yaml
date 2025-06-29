@@ -36,7 +36,6 @@ testing:
   max_input_length: 512
   batch_size: 128
   eval_metrics: ["ppl"]        # or ["bleu"] for MT
-	
 
 model:
   type: "lm"                    # activates Joey’s decoder-only graph
