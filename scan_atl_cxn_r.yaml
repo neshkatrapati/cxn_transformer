@@ -89,7 +89,7 @@ model:
   tied_softmax:       True
   encoder:
     type:            "transformer"
-    num_layers:      2
+    num_layers:      4
     num_heads:       4
     embeddings:
       embedding_dim: 128
@@ -102,7 +102,7 @@ model:
     activation:      "relu"
   decoder:
     type:            "transformer"
-    num_layers:      2
+    num_layers:      4
     num_heads:       4
     embeddings:
       embedding_dim: 128
