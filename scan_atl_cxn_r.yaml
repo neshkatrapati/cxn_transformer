@@ -67,8 +67,8 @@ training:
   scheduling:         "noam"
   learning_rate_warmup: 4000
   epochs:             10
-  validation_freq:    500        # no validation
-  logging_freq:       100
+  validation_freq:    100        # no validation
+  logging_freq:       50
   ckpt_freq:          5        # save every 5 epochs
 #  early_stopping_metric: "loss"
   shuffle:            True
