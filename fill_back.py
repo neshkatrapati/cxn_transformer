@@ -35,7 +35,7 @@ with open(read_from) as f, open(check_with) as cw:
                 rwmap[y] = []
             rwmap[y].append(x)
             
-        print(rwmap)
+        #print(rwmap)
         c_count = {}
         
         new_line = []
@@ -44,13 +44,15 @@ with open(read_from) as f, open(check_with) as cw:
             if w.startswith("C_") and (w in rwmap):
                 if w not in c_count:
                     c_count[w] = 0
-                
-                print(w, c_count)
+                else:
+                    c_count[w] += 1
+                    
+                #print(w, c_count)
                 t = rwmap[w][c_count[w]]
                 if t in rmap_r:
                     new_line.append(rmap_r[t])
                     
-                c_count[w] += 1
+                
                 
             else:
                 new_line.append(w)
