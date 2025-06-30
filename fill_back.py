@@ -47,7 +47,7 @@ with open(read_from) as f, open(check_with) as cw:
                 else:
                     c_count[w] += 1
                     
-                #print(w, c_count)
+                print(w, c_count)
                 t = rwmap[w][c_count[w]]
                 if t in rmap_r:
                     new_line.append(rmap_r[t])
