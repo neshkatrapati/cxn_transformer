@@ -49,9 +49,10 @@ with open(read_from) as f, open(check_with) as cw:
                     
                 #print(w, c_count)
                 # t = rwmap[w][c_count[w]]
-                t = wmap[str(wi)][-1]
+                #t = wmap[str(wi)][-1]
+                t = wmap[wi]
                 if t in rmap_r:
-                    new_line.append(rmap_r[t])
+                    new_line.append(t)
                     
                 
                 
