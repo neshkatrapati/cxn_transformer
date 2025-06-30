@@ -41,7 +41,7 @@ with open(read_from) as f, open(check_with) as cw:
         new_line = []
         for wi, w in enumerate(line):
             
-            if w.startswith("C_") and (w in rwmap):
+            if w.startswith("C_"):
                 # if w not in c_count:
  #                    c_count[w] = 0
  #                else:
