@@ -33,7 +33,7 @@ with open(read_from) as f, open(check_with) as cw:
         for x, y in wmap.items():
             if y not in rwmap:
                 rwmap[y] = []
-            rwmap.append(x)
+            rwmap[y].append(x)
             
         #print(rwmap)
         c_count = {}
