@@ -35,7 +35,7 @@ with open(read_from) as f, open(check_with) as cw:
  #                rwmap[y] = []
  #            rwmap[y].append(x)
  #
-        print(rwmap)
+        print(wmap)
         c_count = {}
         
         new_line = []
