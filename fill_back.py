@@ -26,7 +26,7 @@ with open(read_from) as f, open(check_with) as cw:
     for li, line in enumerate(f):
         total+=1
         line = line.strip().split()
-        #print(line)
+        print(line)
         
         wmap = wmaps[li]
         # rwmap = {}
