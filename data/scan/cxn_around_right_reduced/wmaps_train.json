@@ -1,33 +1,104 @@
 [
     {
+        "jump": "W_1",
+        "right": "W_4",
+        "run": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "run": "W_3",
+        "left": "W_4"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2",
+        "look": "W_3",
+        "right": "W_4"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "jump": "W_3",
+        "left": "W_4"
+    },
+    {
+        "run": "W_1",
+        "right": "W_2",
+        "walk": "W_3",
+        "left": "W_4"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_4",
+        "look": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "thrice": "W_2",
         "turn": "W_3",
         "left": "W_4"
     },
     {
+        "walk": "W_1",
+        "thrice": "W_2",
         "run": "W_3",
-        "right": "W_2",
         "left": "W_4"
     },
     {
-        "walk": "W_3",
-        "twice": "W_2",
-        "left": "W_4"
+        "run": "W_1",
+        "thrice": "W_2",
+        "jump": "W_3",
+        "right": "W_4"
+    },
+    {
+        "jump": "W_3",
+        "right": "W_2"
     },
     {
         "jump": "W_1",
         "left": "W_2",
-        "run": "W_3"
+        "walk": "W_3"
     },
     {
-        "walk": "W_1",
-        "turn": "W_2",
+        "run": "W_1",
+        "left": "W_2",
+        "look": "W_3"
+    },
+    {
+        "look": "W_2",
         "right": "W_3"
     },
     {
+        "jump": "W_1",
+        "run": "W_2",
+        "left": "W_3"
+    },
+    {
         "walk": "W_1",
+        "look": "W_2",
+        "right": "W_3"
+    },
+    {
+        "jump": "W_1",
         "left": "W_2",
-        "jump": "W_3",
+        "walk": "W_3",
         "right": "W_4"
+    },
+    {
+        "walk": "W_1",
+        "right": "W_2",
+        "look": "W_3",
+        "left": "W_4"
+    },
+    {
+        "run": "W_3",
+        "right": "W_4"
+    },
+    {
+        "walk": "W_1",
+        "thrice": "W_4",
+        "around": "W_3"
     },
     {
         "look": "W_1",
@@ -36,19 +107,64 @@
         "thrice": "W_4"
     },
     {
+        "turn": "W_1",
+        "thrice": "W_4",
+        "around": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_4",
+        "turn": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
         "turn": "W_3",
-        "right": "W_2",
-        "left": "W_4"
+        "right": "W_4"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_4",
+        "turn": "W_3"
     },
     {
         "run": "W_1",
-        "jump": "W_2",
+        "turn": "W_2",
         "twice": "W_3"
+    },
+    {
+        "look": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "turn": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "walk": "W_3",
+        "left": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "run": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "look": "W_3"
     },
     {
         "look": "W_1",
         "right": "W_2",
-        "walk": "W_3"
+        "around": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "around": "W_3"
     },
     {
         "jump": "W_1",
@@ -56,12 +172,22 @@
         "around": "W_3"
     },
     {
+        "jump": "W_1",
+        "twice": "W_2",
+        "around": "W_3"
+    },
+    {
         "look": "W_1",
+        "twice": "W_2",
+        "around": "W_3"
+    },
+    {
+        "turn": "W_1",
         "thrice": "W_2",
         "around": "W_3"
     },
     {
-        "run": "W_1",
+        "walk": "W_1",
         "thrice": "W_2",
         "look": "W_3",
         "left": "W_4"
@@ -72,31 +198,393 @@
         "left": "W_3"
     },
     {
+        "run": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_3",
+        "thrice": "W_2",
+        "right": "W_4"
+    },
+    {
         "look": "W_1",
+        "thrice": "W_2",
+        "jump": "W_3",
+        "right": "W_4"
+    },
+    {
+        "look": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3",
+        "left": "W_4"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "walk": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "jump": "W_1",
+        "right": "W_2",
+        "walk": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "walk": "W_1",
         "left": "W_2",
-        "run": "W_3"
+        "turn": "W_3"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_2",
+        "run": "W_3",
+        "left": "W_4"
     },
     {
         "around": "W_1",
         "twice": "W_2",
-        "walk": "W_3",
+        "run": "W_3",
         "right": "W_4"
     },
     {
+        "around": "W_1",
+        "twice": "W_2",
+        "look": "W_3",
+        "left": "W_4"
+    },
+    {
         "run": "W_1",
+        "left": "W_4",
+        "walk": "W_3"
+    },
+    {
+        "look": "W_1",
         "left": "W_2",
         "jump": "W_3",
         "right": "W_4"
     },
     {
-        "turn": "W_1",
-        "walk": "W_2",
-        "thrice": "W_3"
+        "walk": "W_1",
+        "right": "W_4",
+        "look": "W_3"
+    },
+    {
+        "walk": "W_3",
+        "thrice": "W_2",
+        "twice": "W_4"
+    },
+    {
+        "run": "W_1",
+        "thrice": "W_2",
+        "look": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "run": "W_1",
+        "thrice": "W_2",
+        "jump": "W_3",
+        "twice": "W_4"
     },
     {
         "around": "W_1",
-        "walk": "W_2",
+        "look": "W_2",
         "left": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "look": "W_2",
+        "right": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "right": "W_3"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "look": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2",
+        "look": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2",
+        "right": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "run": "W_2",
+        "right": "W_3"
+    },
+    {
+        "run": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "look": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3",
+        "left": "W_4"
+    },
+    {
+        "run": "W_1",
+        "thrice": "W_2",
+        "look": "W_3",
+        "left": "W_4"
+    },
+    {
+        "walk": "W_3",
+        "twice": "W_2",
+        "left": "W_4"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "look": "W_3"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "turn": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "jump": "W_3",
+        "right": "W_4"
+    },
+    {
+        "walk": "W_3",
+        "right": "W_2",
+        "left": "W_4"
+    },
+    {
+        "run": "W_1",
+        "left": "W_4",
+        "jump": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_4",
+        "jump": "W_3"
+    },
+    {
+        "run": "W_3",
+        "right": "W_4"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2",
+        "walk": "W_3",
+        "right": "W_4"
+    },
+    {
+        "run": "W_1",
+        "turn": "W_2"
+    },
+    {
+        "look": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "left": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "run": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "thrice": "W_4",
+        "jump": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "twice": "W_2",
+        "run": "W_3"
+    },
+    {
+        "turn": "W_3",
+        "twice": "W_2",
+        "thrice": "W_4"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "look": "W_3",
+        "left": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2",
+        "walk": "W_3",
+        "right": "W_4"
+    },
+    {
+        "run": "W_1",
+        "right": "W_2",
+        "jump": "W_3",
+        "left": "W_4"
+    },
+    {
+        "run": "W_1",
+        "right": "W_2",
+        "look": "W_3",
+        "left": "W_4"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "right": "W_3"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2",
+        "right": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "jump": "W_3",
+        "left": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "run": "W_3"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_2",
+        "run": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "walk": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_4",
+        "run": "W_3"
+    },
+    {
+        "run": "W_1",
+        "twice": "W_2",
+        "around": "W_3"
+    },
+    {
+        "run": "W_1",
+        "thrice": "W_2",
+        "around": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "thrice": "W_2",
+        "around": "W_3"
+    },
+    {
+        "look": "W_1",
+        "twice": "W_2",
+        "jump": "W_3",
+        "left": "W_4"
+    },
+    {
+        "run": "W_1",
+        "twice": "W_2",
+        "walk": "W_3",
+        "right": "W_4"
+    },
+    {
+        "turn": "W_3",
+        "twice": "W_2",
+        "left": "W_4"
+    },
+    {
+        "walk": "W_3",
+        "left": "W_2"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "run": "W_3"
+    },
+    {
+        "jump": "W_3",
+        "thrice": "W_2",
+        "left": "W_4"
+    },
+    {
+        "look": "W_1",
+        "thrice": "W_2",
+        "jump": "W_3",
+        "left": "W_4"
+    },
+    {
+        "run": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3",
+        "right": "W_4"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "look": "W_3"
     },
     {
         "jump": "W_1",
@@ -105,222 +593,375 @@
     },
     {
         "run": "W_1",
-        "turn": "W_2",
-        "right": "W_3"
+        "right": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_2",
+        "turn": "W_3",
+        "left": "W_4"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_2",
+        "run": "W_3",
+        "left": "W_4"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3",
+        "left": "W_4"
+    },
+    {
+        "walk": "W_2"
     },
     {
         "walk": "W_1",
+        "look": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "turn": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "thrice": "W_4",
+        "around": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "thrice": "W_4",
+        "around": "W_3"
+    },
+    {
+        "jump": "W_3",
+        "right": "W_2",
+        "left": "W_4"
+    },
+    {
+        "look": "W_3",
+        "right": "W_2",
+        "left": "W_4"
+    },
+    {
+        "run": "W_1",
+        "right": "W_2",
+        "jump": "W_3",
+        "left": "W_4"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "run": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "walk": "W_3",
+        "right": "W_2",
+        "left": "W_4"
+    },
+    {
+        "run": "W_3",
+        "left": "W_2",
+        "right": "W_4"
+    },
+    {
+        "look": "W_1",
+        "right": "W_4",
+        "turn": "W_3"
+    },
+    {
+        "turn": "W_1",
         "twice": "W_2",
+        "run": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "twice": "W_2",
+        "turn": "W_3"
+    },
+    {
+        "run": "W_1",
+        "twice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "run": "W_1",
+        "right": "W_2",
         "look": "W_3",
         "left": "W_4"
     },
     {
-        "look": "W_1",
-        "left": "W_2",
-        "jump": "W_3"
-    },
-    {
-        "jump": "W_3",
-        "right": "W_4"
-    },
-    {
-        "turn": "W_1",
+        "jump": "W_1",
         "right": "W_2",
         "run": "W_3",
         "left": "W_4"
     },
     {
         "look": "W_1",
-        "turn": "W_2",
-        "thrice": "W_3"
-    },
-    {
-        "around": "W_1",
-        "left": "W_2"
-    },
-    {
-        "jump": "W_1",
-        "left": "W_2",
-        "around": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "thrice": "W_4",
-        "look": "W_3"
-    },
-    {
-        "turn": "W_1",
-        "right": "W_2",
-        "jump": "W_3"
-    },
-    {
-        "run": "W_1",
         "right": "W_2",
         "jump": "W_3",
         "left": "W_4"
     },
     {
-        "around": "W_1",
-        "run": "W_2",
-        "left": "W_3"
-    },
-    {
-        "turn": "W_1",
-        "right": "W_2",
-        "jump": "W_3"
-    },
-    {
-        "around": "W_1",
-        "thrice": "W_4",
-        "walk": "W_3"
-    },
-    {
-        "turn": "W_1",
-        "twice": "W_2",
-        "around": "W_3"
+        "walk": "W_1",
+        "left": "W_2"
     },
     {
         "run": "W_1",
-        "twice": "W_2",
-        "turn": "W_3",
+        "left": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "thrice": "W_2",
+        "look": "W_3",
+        "left": "W_4"
+    },
+    {
+        "walk": "W_1",
+        "thrice": "W_2",
+        "jump": "W_3",
+        "left": "W_4"
+    },
+    {
+        "walk": "W_1",
+        "thrice": "W_2",
+        "run": "W_3",
         "right": "W_4"
     },
     {
         "jump": "W_1",
-        "right": "W_2",
-        "walk": "W_3"
+        "thrice": "W_4",
+        "look": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "twice": "W_4",
+        "jump": "W_3"
+    },
+    {
+        "look": "W_1",
+        "thrice": "W_4",
+        "turn": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "jump": "W_2"
+    },
+    {
+        "run": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "look": "W_1",
+        "run": "W_2"
+    },
+    {
+        "look": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "thrice": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "thrice": "W_2"
+    },
+    {
+        "run": "W_1",
+        "twice": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "turn": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2"
+    },
+    {
+        "look": "W_1",
+        "thrice": "W_2",
+        "run": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "turn": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "turn": "W_2",
+        "right": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "look": "W_2"
+    },
+    {
+        "run": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2"
     },
     {
         "run": "W_1",
         "thrice": "W_2",
-        "turn": "W_3",
+        "look": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "run": "W_1",
+        "twice": "W_2",
+        "walk": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "run": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "jump": "W_3",
+        "left": "W_2",
+        "right": "W_4"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "jump": "W_3",
+        "left": "W_4"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "walk": "W_3",
+        "right": "W_4"
+    },
+    {
+        "turn": "W_1",
+        "run": "W_2",
+        "right": "W_3"
+    },
+    {
+        "walk": "W_2",
+        "right": "W_3"
+    },
+    {
+        "look": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "jump": "W_3",
         "right": "W_4"
     },
     {
         "look": "W_1",
-        "right": "W_2",
-        "walk": "W_3"
-    },
-    {
-        "around": "W_1",
-        "twice": "W_2",
+        "left": "W_2",
         "walk": "W_3",
         "right": "W_4"
     },
     {
         "look": "W_1",
-        "turn": "W_2"
-    },
-    {
-        "look": "W_1",
-        "thrice": "W_2",
-        "around": "W_3",
-        "twice": "W_4"
-    },
-    {
-        "turn": "W_1",
         "left": "W_4",
-        "run": "W_3"
-    },
-    {
-        "around": "W_1",
-        "walk": "W_2",
-        "twice": "W_3"
-    },
-    {
-        "turn": "W_1",
-        "right": "W_2",
-        "look": "W_3",
-        "left": "W_4"
-    },
-    {
-        "jump": "W_3",
-        "twice": "W_2"
-    },
-    {
-        "walk": "W_1",
-        "right": "W_2",
-        "jump": "W_3",
-        "left": "W_4"
-    },
-    {
-        "walk": "W_1",
-        "left": "W_2"
-    },
-    {
-        "look": "W_1",
-        "jump": "W_2",
-        "right": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "thrice": "W_2",
-        "look": "W_3",
-        "twice": "W_4"
-    },
-    {
-        "run": "W_1",
-        "look": "W_2"
-    },
-    {
-        "walk": "W_1",
-        "around": "W_2"
-    },
-    {
-        "look": "W_1",
-        "run": "W_2"
-    },
-    {
-        "turn": "W_1",
-        "twice": "W_2"
-    },
-    {
-        "look": "W_1",
-        "thrice": "W_4",
-        "run": "W_3"
-    },
-    {
-        "run": "W_1",
-        "walk": "W_2",
-        "right": "W_3"
-    },
-    {
-        "look": "W_1",
-        "run": "W_2"
-    },
-    {
-        "walk": "W_1",
-        "twice": "W_4",
         "turn": "W_3"
     },
     {
+        "turn": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "jump": "W_3",
+        "right": "W_2"
+    },
+    {
         "run": "W_1",
+        "left": "W_2",
+        "turn": "W_3"
+    },
+    {
+        "walk": "W_1",
         "left": "W_2",
         "turn": "W_3",
         "right": "W_4"
     },
     {
-        "look": "W_1",
-        "walk": "W_2",
-        "left": "W_3"
+        "jump": "W_3",
+        "right": "W_4"
     },
     {
-        "walk": "W_1",
-        "left": "W_4",
-        "turn": "W_3"
-    },
-    {
-        "turn": "W_3",
-        "left": "W_2"
-    },
-    {
-        "run": "W_1",
-        "left": "W_4",
-        "look": "W_3"
+        "walk": "W_3",
+        "left": "W_2",
+        "right": "W_4"
     },
     {
         "run": "W_1",
         "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "run": "W_1",
+        "right": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "jump": "W_3",
+        "right": "W_2"
     },
     {
         "look": "W_1",
@@ -328,13 +969,8 @@
         "walk": "W_3"
     },
     {
-        "walk": "W_1",
-        "look": "W_2"
-    },
-    {
-        "walk": "W_1",
-        "run": "W_2",
-        "twice": "W_3"
+        "look": "W_1",
+        "walk": "W_2"
     },
     {
         "walk": "W_1",
@@ -342,26 +978,105 @@
     },
     {
         "run": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "look": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "run": "W_1",
         "jump": "W_2",
         "twice": "W_3"
     },
     {
+        "run": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "walk": "W_2",
+        "thrice": "W_3"
+    },
+    {
         "walk": "W_1",
-        "turn": "W_2"
+        "run": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "run": "W_1",
+        "walk": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "look": "W_1",
+        "walk": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "run": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "look": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2"
+    },
+    {
+        "walk": "W_2"
     },
     {
         "jump": "W_1",
         "left": "W_2",
-        "walk": "W_3"
+        "around": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2",
+        "around": "W_3"
     },
     {
         "look": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "walk": "W_1",
         "thrice": "W_4",
-        "turn": "W_3"
+        "jump": "W_3"
     },
     {
         "jump": "W_1",
-        "look": "W_2",
+        "turn": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "look": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2",
+        "right": "W_3"
+    },
+    {
+        "run": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "run": "W_2",
         "left": "W_3"
     },
     {
@@ -369,15 +1084,51 @@
         "jump": "W_2"
     },
     {
-        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "look": "W_1",
         "left": "W_2",
         "around": "W_3",
         "thrice": "W_4"
     },
     {
-        "run": "W_1",
-        "walk": "W_2",
+        "turn": "W_1",
+        "right": "W_2",
+        "around": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2",
+        "around": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2",
         "thrice": "W_3"
+    },
+    {
+        "run": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "look": "W_3"
     },
     {
         "jump": "W_1",
@@ -385,386 +1136,2997 @@
         "look": "W_3"
     },
     {
+        "jump": "W_2"
+    },
+    {
+        "walk": "W_2"
+    },
+    {
+        "look": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "look": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "run": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "turn": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "look": "W_3",
+        "left": "W_4"
+    },
+    {
+        "run": "W_1",
+        "left": "W_4",
+        "look": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_4",
+        "jump": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2"
+    },
+    {
+        "around": "W_1",
+        "left": "W_2"
+    },
+    {
+        "around": "W_1",
+        "left": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "turn": "W_2",
+        "twice": "W_3"
+    },
+    {
         "run": "W_1",
         "look": "W_2",
         "thrice": "W_3"
+    },
+    {
+        "look": "W_1",
+        "jump": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2"
+    },
+    {
+        "run": "W_2"
+    },
+    {
+        "jump": "W_2"
+    },
+    {
+        "look": "W_1",
+        "run": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3",
+        "left": "W_4"
+    },
+    {
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "look": "W_1",
+        "run": "W_2",
+        "right": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "look": "W_1",
+        "jump": "W_2",
+        "right": "W_3"
+    },
+    {
+        "run": "W_3",
+        "right": "W_2"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "walk": "W_3",
+        "left": "W_2"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2",
+        "right": "W_3"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "turn": "W_3",
+        "right": "W_2",
+        "thrice": "W_4"
+    },
+    {
+        "walk": "W_3",
+        "thrice": "W_2"
+    },
+    {
+        "walk": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "right": "W_2",
+        "run": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2",
+        "turn": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "walk": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "walk": "W_3",
+        "thrice": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "thrice": "W_2",
+        "look": "W_3"
+    },
+    {
+        "run": "W_1",
+        "twice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "thrice": "W_2",
+        "look": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "look": "W_1",
+        "turn": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "run": "W_1",
+        "thrice": "W_4",
+        "jump": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "run": "W_1",
+        "look": "W_2"
+    },
+    {
+        "look": "W_1",
+        "run": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "turn": "W_2"
+    },
+    {
+        "run": "W_1",
+        "look": "W_2",
+        "right": "W_3"
+    },
+    {
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "run": "W_1",
+        "turn": "W_2",
+        "right": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "look": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2"
+    },
+    {
+        "run": "W_1",
+        "look": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2",
+        "left": "W_3"
+    },
+    {
+        "run": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "run": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2"
+    },
+    {
+        "run": "W_1",
+        "turn": "W_2"
+    },
+    {
+        "run": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "thrice": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "thrice": "W_2",
+        "left": "W_3"
+    },
+    {
+        "look": "W_3",
+        "left": "W_2"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "turn": "W_3"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "run": "W_1",
+        "right": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "run": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_4",
+        "jump": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "walk": "W_3",
+        "right": "W_4"
+    },
+    {
+        "jump": "W_1",
+        "right": "W_4",
+        "turn": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "jump": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "jump": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "look": "W_2"
+    },
+    {
+        "jump": "W_3",
+        "right": "W_2"
+    },
+    {
+        "turn": "W_3",
+        "right": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "run": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "run": "W_3",
+        "right": "W_4"
+    },
+    {
+        "look": "W_3",
+        "left": "W_4"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_4",
+        "jump": "W_3"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "run": "W_1",
+        "right": "W_4",
+        "look": "W_3"
+    },
+    {
+        "jump": "W_3",
+        "left": "W_2",
+        "right": "W_4"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "walk": "W_3",
+        "right": "W_4"
+    },
+    {
+        "look": "W_1",
+        "turn": "W_2",
+        "right": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "look": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_3",
+        "left": "W_2",
+        "twice": "W_4"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "jump": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "walk": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_4",
+        "jump": "W_3"
+    },
+    {
+        "walk": "W_3",
+        "left": "W_4"
+    },
+    {
+        "run": "W_1",
+        "left": "W_4",
+        "walk": "W_3"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "turn": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "run": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "walk": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "look": "W_3"
+    },
+    {
+        "jump": "W_3",
+        "left": "W_2"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "look": "W_3"
+    },
+    {
+        "walk": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "turn": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "look": "W_1",
+        "walk": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "run": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "run": "W_2"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "right": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "right": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "look": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "turn": "W_3"
+    },
+    {
+        "look": "W_3",
+        "left": "W_2"
+    },
+    {
+        "run": "W_1",
+        "right": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "run": "W_1",
+        "right": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "run": "W_3",
+        "left": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2",
+        "run": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "right": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "look": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "look": "W_1",
+        "turn": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "look": "W_1",
+        "jump": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "run": "W_2",
+        "left": "W_3"
+    },
+    {
+        "look": "W_1",
+        "turn": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2",
+        "left": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "around": "W_2"
+    },
+    {
+        "look": "W_1",
+        "thrice": "W_2",
+        "around": "W_3"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2",
+        "right": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2",
+        "right": "W_3"
+    },
+    {
+        "run": "W_1",
+        "turn": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "jump": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "walk": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "walk": "W_1",
+        "right": "W_2",
+        "jump": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "jump": "W_1",
+        "right": "W_2",
+        "run": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "look": "W_3",
+        "left": "W_2",
+        "twice": "W_4"
+    },
+    {
+        "run": "W_1",
+        "right": "W_2",
+        "walk": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "look": "W_1",
+        "twice": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "thrice": "W_2",
+        "left": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "thrice": "W_2",
+        "left": "W_3"
+    },
+    {
+        "look": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "look": "W_2"
+    },
+    {
+        "run": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "run": "W_1",
+        "right": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "walk": "W_3",
+        "right": "W_4"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "turn": "W_3",
+        "right": "W_4"
+    },
+    {
+        "look": "W_1",
+        "left": "W_4",
+        "walk": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_4",
+        "run": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "right": "W_2",
+        "run": "W_3",
+        "left": "W_4"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_4",
+        "look": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "twice": "W_2",
+        "walk": "W_3",
+        "right": "W_4"
+    },
+    {
+        "look": "W_3",
+        "twice": "W_2",
+        "left": "W_4"
+    },
+    {
+        "look": "W_1",
+        "thrice": "W_2",
+        "jump": "W_3",
+        "left": "W_4"
+    },
+    {
+        "jump": "W_3",
+        "right": "W_2",
+        "thrice": "W_4"
+    },
+    {
+        "run": "W_3",
+        "left": "W_2",
+        "thrice": "W_4"
+    },
+    {
+        "turn": "W_3",
+        "right": "W_2",
+        "thrice": "W_4"
+    },
+    {
+        "look": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "run": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "run": "W_3",
+        "left": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2",
+        "look": "W_3"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "run": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "run": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "run": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "look": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "run": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "right": "W_2",
+        "look": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "look": "W_1",
+        "run": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "look": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2"
+    },
+    {
+        "run": "W_1",
+        "look": "W_2",
+        "right": "W_3"
+    },
+    {
+        "look": "W_1",
+        "jump": "W_2",
+        "right": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_3",
+        "left": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "right": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "run": "W_1",
+        "walk": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "run": "W_2"
+    },
+    {
+        "look": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "run": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "look": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "run": "W_3"
+    },
+    {
+        "jump": "W_3",
+        "left": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_4",
+        "look": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_4",
+        "run": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_4",
+        "jump": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_4",
+        "run": "W_3"
+    },
+    {
+        "run": "W_1",
+        "left": "W_4",
+        "jump": "W_3"
+    },
+    {
+        "walk": "W_3",
+        "right": "W_4"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "turn": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2"
+    },
+    {
+        "jump": "W_3",
+        "left": "W_2",
+        "right": "W_4"
+    },
+    {
+        "look": "W_1",
+        "right": "W_4",
+        "jump": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "walk": "W_3",
+        "left": "W_4"
+    },
+    {
+        "run": "W_1",
+        "thrice": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "run": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "twice": "W_2",
+        "run": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "right": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "look": "W_3"
+    },
+    {
+        "run": "W_1",
+        "left": "W_4",
+        "look": "W_3"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "turn": "W_3",
+        "left": "W_4"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "run": "W_3",
+        "right": "W_4"
+    },
+    {
+        "walk": "W_1",
+        "look": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "run": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "look": "W_3"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "look": "W_2"
+    },
+    {
+        "look": "W_1",
+        "run": "W_2"
+    },
+    {
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_2",
+        "look": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2",
+        "right": "W_3"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2",
+        "right": "W_3"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "twice": "W_2",
+        "turn": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "twice": "W_2",
+        "run": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "look": "W_3",
+        "left": "W_4"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "jump": "W_3",
+        "left": "W_4"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "walk": "W_3",
+        "left": "W_4"
+    },
+    {
+        "run": "W_1",
+        "look": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "thrice": "W_2",
+        "run": "W_3"
+    },
+    {
+        "look": "W_2"
+    },
+    {
+        "run": "W_3",
+        "thrice": "W_2",
+        "left": "W_4"
+    },
+    {
+        "turn": "W_1",
+        "thrice": "W_2",
+        "jump": "W_3",
+        "left": "W_4"
+    },
+    {
+        "jump": "W_1",
+        "thrice": "W_2",
+        "turn": "W_3",
+        "left": "W_4"
+    },
+    {
+        "look": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "look": "W_2"
+    },
+    {
+        "run": "W_1",
+        "look": "W_2"
+    },
+    {
+        "look": "W_1",
+        "walk": "W_2",
+        "right": "W_3"
+    },
+    {
+        "run": "W_1",
+        "turn": "W_2",
+        "right": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "run": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "look": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "run": "W_2"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2",
+        "right": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "thrice": "W_2",
+        "turn": "W_3",
+        "left": "W_4"
+    },
+    {
+        "turn": "W_1",
+        "thrice": "W_2",
+        "jump": "W_3",
+        "left": "W_4"
+    },
+    {
+        "turn": "W_1",
+        "twice": "W_2",
+        "walk": "W_3",
+        "right": "W_4"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2"
+    },
+    {
+        "run": "W_1",
+        "twice": "W_2",
+        "around": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "run": "W_1",
+        "thrice": "W_2",
+        "around": "W_3"
+    },
+    {
+        "run": "W_2",
+        "right": "W_3"
+    },
+    {
+        "look": "W_1",
+        "turn": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "run": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "look": "W_2"
+    },
+    {
+        "look": "W_1",
+        "run": "W_2"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "turn": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "walk": "W_1",
+        "right": "W_2",
+        "jump": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "turn": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "run": "W_2"
+    },
+    {
+        "run": "W_1",
+        "look": "W_2"
+    },
+    {
+        "look": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2"
+    },
+    {
+        "look": "W_1",
+        "run": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "look": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "jump": "W_3",
+        "right": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "run": "W_2"
+    },
+    {
+        "run": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "look": "W_2"
+    },
+    {
+        "run": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "right": "W_2",
+        "run": "W_3"
+    },
+    {
+        "walk": "W_3",
+        "right": "W_2"
+    },
+    {
+        "look": "W_3",
+        "left": "W_2"
+    },
+    {
+        "run": "W_3",
+        "left": "W_2",
+        "right": "W_4"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "turn": "W_3",
+        "right": "W_4"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2",
+        "jump": "W_3",
+        "right": "W_4"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "thrice": "W_2"
+    },
+    {
+        "turn": "W_1"
+    },
+    {
+        "jump": "W_1"
+    },
+    {
+        "walk": "W_3",
+        "left": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "walk": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "jump": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "walk": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "walk": "W_3",
+        "left": "W_2"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "right": "W_3"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2",
+        "right": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2",
+        "right": "W_3"
+    },
+    {
+        "look": "W_3",
+        "twice": "W_2"
+    },
+    {
+        "walk": "W_3",
+        "twice": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "thrice": "W_2",
+        "look": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "look": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "run": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2",
+        "right": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "run": "W_3",
+        "right": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "walk": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2"
+    },
+    {
+        "look": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "run": "W_3"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_2",
+        "look": "W_3"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "run": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_2",
+        "run": "W_3"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "turn": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "walk": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "run": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "look": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "turn": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_4",
+        "walk": "W_3"
+    },
+    {
+        "run": "W_1",
+        "thrice": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "thrice": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "look": "W_2"
+    },
+    {
+        "jump": "W_2"
+    },
+    {
+        "run": "W_1",
+        "turn": "W_2"
+    },
+    {
+        "look": "W_1",
+        "jump": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2",
+        "right": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "look": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "right": "W_2",
+        "look": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "look": "W_3",
+        "left": "W_2",
+        "thrice": "W_4"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "walk": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "jump": "W_1",
+        "run": "W_2",
+        "left": "W_3"
+    },
+    {
+        "run": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "run": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "look": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "look": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "run": "W_2"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "walk": "W_3",
+        "right": "W_4"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "turn": "W_3",
+        "left": "W_4"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_4",
+        "look": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "thrice": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "look": "W_1",
+        "twice": "W_2",
+        "run": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "twice": "W_2",
+        "look": "W_3"
+    },
+    {
+        "run": "W_1",
+        "thrice": "W_2",
+        "jump": "W_3",
+        "left": "W_4"
+    },
+    {
+        "jump": "W_3",
+        "thrice": "W_2",
+        "right": "W_4"
+    },
+    {
+        "turn": "W_1",
+        "twice": "W_2",
+        "jump": "W_3",
+        "right": "W_4"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2",
+        "right": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "right": "W_3"
+    },
+    {
+        "left": "W_3",
+        "jump": "W_2"
+    },
+    {
+        "left": "W_1",
+        "walk": "W_2",
+        "right": "W_3"
+    },
+    {
+        "left": "W_3",
+        "run": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "run": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "jump": "W_3",
+        "left": "W_4"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "look": "W_3",
+        "right": "W_4"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "walk": "W_3",
+        "left": "W_4"
+    },
+    {
+        "jump": "W_1",
+        "look": "W_2"
+    },
+    {
+        "run": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "look": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "look": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "turn": "W_3",
+        "twice": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "twice": "W_2",
+        "run": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "look": "W_3"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "run": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "run": "W_1",
+        "right": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "walk": "W_3",
+        "left": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "run": "W_2"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "look": "W_2"
     },
     {
         "look": "W_2",
         "right": "W_3"
     },
     {
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "run": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2"
+    },
+    {
+        "run": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
         "turn": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "look": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "walk": "W_3",
+        "left": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "right": "W_2",
+        "look": "W_3"
+    },
+    {
+        "run": "W_1",
+        "right": "W_2",
+        "look": "W_3"
+    },
+    {
+        "run": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "thrice": "W_2",
+        "look": "W_3"
+    },
+    {
+        "jump": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "run": "W_1",
+        "thrice": "W_2",
+        "around": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "run": "W_1",
+        "turn": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "walk": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "look": "W_1",
+        "run": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "around": "W_2"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "look": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "look": "W_1",
+        "thrice": "W_2",
+        "jump": "W_3",
+        "left": "W_4"
+    },
+    {
+        "jump": "W_1",
+        "turn": "W_2",
+        "right": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2",
+        "run": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "run": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "right": "W_2",
+        "run": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3",
+        "right": "W_4"
+    },
+    {
+        "look": "W_1",
+        "thrice": "W_2",
+        "turn": "W_3",
+        "left": "W_4"
+    },
+    {
+        "run": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3",
+        "left": "W_4"
+    },
+    {
+        "look": "W_1",
+        "thrice": "W_2",
+        "turn": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "look": "W_2"
+    },
+    {
+        "look": "W_1",
+        "thrice": "W_2",
+        "run": "W_3"
+    },
+    {
+        "left": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "left": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "left": "W_1",
+        "look": "W_2"
+    },
+    {
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_2"
+    },
+    {
+        "look": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "look": "W_2"
+    },
+    {
+        "walk": "W_3",
+        "thrice": "W_2"
+    },
+    {
+        "run": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "look": "W_1",
+        "thrice": "W_2",
+        "around": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "run": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "run": "W_3"
+    },
+    {
+        "run": "W_3",
+        "left": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "run": "W_1",
+        "twice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "look": "W_1",
+        "thrice": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "run": "W_1",
+        "twice": "W_2",
+        "look": "W_3"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "around": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "around": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "around": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2"
+    },
+    {
+        "run": "W_2",
+        "left": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "run": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "right": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "turn": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "run": "W_1",
+        "turn": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "run": "W_1",
+        "look": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "jump": "W_3",
+        "left": "W_2"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "left": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "left": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "left": "W_1",
+        "around": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "run": "W_1",
+        "right": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "jump": "W_3",
+        "thrice": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "run": "W_1",
+        "look": "W_2"
+    },
+    {
+        "look": "W_2"
+    },
+    {
+        "run": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2",
+        "right": "W_3"
+    },
+    {
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "look": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "run": "W_1",
+        "look": "W_2"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_2",
+        "run": "W_3",
+        "left": "W_4"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "look": "W_3",
+        "right": "W_4"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3",
+        "left": "W_4"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_3"
+    },
+    {
+        "run": "W_1",
+        "right": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "walk": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "run": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2",
+        "jump": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "jump": "W_1",
         "around": "W_2",
         "twice": "W_3"
     },
     {
         "walk": "W_1",
-        "look": "W_2"
-    },
-    {
-        "jump": "W_2",
+        "around": "W_2",
         "twice": "W_3"
     },
     {
-        "run": "W_1",
-        "left": "W_4",
-        "walk": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "left": "W_2"
-    },
-    {
-        "turn": "W_1",
-        "jump": "W_2",
-        "twice": "W_3"
-    },
-    {
-        "around": "W_1",
-        "walk": "W_2"
-    },
-    {
-        "run": "W_1",
-        "jump": "W_2"
-    },
-    {
-        "turn": "W_1",
-        "look": "W_2",
-        "left": "W_3"
-    },
-    {
         "walk": "W_1",
-        "around": "W_2"
-    },
-    {
-        "run": "W_1",
-        "look": "W_2",
-        "right": "W_3"
-    },
-    {
-        "run": "W_3",
-        "right": "W_2"
-    },
-    {
-        "around": "W_1",
-        "turn": "W_2",
-        "right": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "right": "W_2",
-        "look": "W_3",
-        "thrice": "W_4"
-    },
-    {
-        "look": "W_1",
-        "jump": "W_2"
-    },
-    {
-        "turn": "W_1",
-        "left": "W_2",
-        "look": "W_3",
+        "thrice": "W_2",
+        "around": "W_3",
         "twice": "W_4"
     },
     {
-        "look": "W_3",
-        "twice": "W_2"
-    },
-    {
         "jump": "W_1",
-        "thrice": "W_4",
-        "turn": "W_3"
-    },
-    {
-        "run": "W_1",
-        "right": "W_2",
-        "around": "W_3"
-    },
-    {
-        "run": "W_1",
-        "walk": "W_2"
-    },
-    {
-        "turn": "W_1",
-        "walk": "W_2",
-        "right": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "look": "W_2"
-    },
-    {
-        "look": "W_1",
-        "run": "W_2",
-        "left": "W_3"
-    },
-    {
-        "run": "W_2"
-    },
-    {
-        "look": "W_1",
-        "left": "W_2"
-    },
-    {
-        "run": "W_3",
-        "right": "W_2"
-    },
-    {
-        "jump": "W_3",
-        "right": "W_2"
-    },
-    {
-        "turn": "W_1",
-        "right": "W_2",
-        "jump": "W_3"
-    },
-    {
-        "look": "W_1",
-        "right": "W_2",
-        "around": "W_3"
-    },
-    {
-        "walk": "W_2"
-    },
-    {
-        "jump": "W_1",
-        "right": "W_4",
-        "run": "W_3"
-    },
-    {
-        "around": "W_1",
-        "look": "W_2"
-    },
-    {
-        "walk": "W_1",
-        "look": "W_2"
-    },
-    {
-        "walk": "W_3",
-        "right": "W_2",
-        "thrice": "W_4"
-    },
-    {
-        "look": "W_3",
-        "left": "W_4"
-    },
-    {
-        "run": "W_1",
-        "right": "W_2",
-        "around": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "right": "W_2",
-        "turn": "W_3",
-        "left": "W_4"
-    },
-    {
-        "run": "W_1",
-        "look": "W_2",
-        "left": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "left": "W_2",
-        "walk": "W_3",
-        "twice": "W_4"
-    },
-    {
-        "look": "W_1",
-        "jump": "W_2"
-    },
-    {
-        "jump": "W_3",
-        "left": "W_2",
-        "right": "W_4"
-    },
-    {
-        "run": "W_3",
-        "right": "W_2",
-        "twice": "W_4"
-    },
-    {
-        "look": "W_1",
-        "left": "W_2",
-        "walk": "W_3"
-    },
-    {
-        "walk": "W_2"
-    },
-    {
-        "run": "W_1",
-        "right": "W_2",
-        "walk": "W_3"
-    },
-    {
-        "run": "W_2"
-    },
-    {
-        "around": "W_1",
-        "jump": "W_2",
-        "right": "W_3"
-    },
-    {
-        "look": "W_1",
-        "left": "W_2",
-        "around": "W_3"
-    },
-    {
-        "jump": "W_3",
-        "left": "W_2"
-    },
-    {
-        "look": "W_1",
-        "left": "W_2",
-        "jump": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "right": "W_2",
-        "look": "W_3"
-    },
-    {
-        "look": "W_1",
-        "walk": "W_2",
+        "around": "W_2",
         "thrice": "W_3"
     },
     {
-        "run": "W_2",
-        "right": "W_3"
+        "walk": "W_1",
+        "around": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "left": "W_3"
+    },
+    {
+        "run": "W_1",
+        "right": "W_2",
+        "left": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_3"
     },
     {
         "walk": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2"
+    },
+    {
+        "run": "W_1",
+        "thrice": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "jump": "W_1",
         "thrice": "W_2",
         "around": "W_3"
     },
     {
-        "walk": "W_2",
-        "left": "W_3"
-    },
-    {
-        "around": "W_1",
-        "look": "W_2"
-    },
-    {
-        "walk": "W_1",
-        "look": "W_2"
-    },
-    {
-        "run": "W_1",
-        "left": "W_2",
-        "look": "W_3",
-        "twice": "W_4"
-    },
-    {
         "turn": "W_1",
-        "right": "W_2",
-        "jump": "W_3",
-        "twice": "W_4"
-    },
-    {
-        "run": "W_1",
-        "twice": "W_2",
-        "left": "W_3"
-    },
-    {
-        "run": "W_1",
-        "walk": "W_2"
+        "around": "W_2"
     },
     {
         "jump": "W_1",
-        "right": "W_2",
-        "walk": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "left": "W_2",
-        "walk": "W_3",
-        "right": "W_4"
-    },
-    {
-        "around": "W_1",
         "look": "W_2",
-        "twice": "W_3"
+        "thrice": "W_3"
     },
     {
-        "jump": "W_1",
-        "right": "W_2",
-        "run": "W_3",
-        "left": "W_4"
+        "look": "W_2"
     },
     {
-        "jump": "W_1",
-        "thrice": "W_2",
-        "walk": "W_3",
-        "left": "W_4"
-    },
-    {
-        "turn": "W_1",
-        "left": "W_2",
-        "run": "W_3",
-        "thrice": "W_4"
+        "look": "W_1",
+        "jump": "W_2",
+        "thrice": "W_3"
     },
     {
         "walk": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_1",
         "turn": "W_2",
         "left": "W_3"
     },
     {
-        "turn": "W_1",
-        "left": "W_2",
-        "jump": "W_3"
-    },
-    {
         "jump": "W_1",
-        "walk": "W_2"
-    },
-    {
-        "walk": "W_1",
-        "look": "W_2"
-    },
-    {
-        "run": "W_1",
-        "right": "W_2",
-        "jump": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "jump": "W_2"
-    },
-    {
-        "around": "W_1",
-        "jump": "W_2"
-    },
-    {
-        "around": "W_1",
-        "walk": "W_2"
-    },
-    {
-        "walk": "W_1",
         "look": "W_2",
         "left": "W_3"
     },
     {
-        "jump": "W_1",
-        "right": "W_2",
+        "around": "W_1",
+        "thrice": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
         "run": "W_3"
     },
     {
-        "run": "W_1",
-        "walk": "W_2",
-        "twice": "W_3"
+        "around": "W_1",
+        "twice": "W_2",
+        "jump": "W_3"
     },
     {
-        "walk": "W_1",
-        "thrice": "W_2",
-        "turn": "W_3"
+        "run": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2"
     },
     {
         "turn": "W_1",
-        "right": "W_2",
-        "walk": "W_3"
+        "walk": "W_2"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "run": "W_3"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_2",
+        "look": "W_3"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_3",
+        "left": "W_2"
     },
     {
         "walk": "W_1",
@@ -772,22 +4134,38 @@
         "run": "W_3"
     },
     {
-        "turn": "W_1",
-        "left": "W_4",
+        "look": "W_1",
+        "left": "W_2",
         "walk": "W_3"
     },
     {
-        "turn": "W_1",
-        "left": "W_4",
-        "look": "W_3"
-    },
-    {
         "jump": "W_1",
-        "walk": "W_2"
+        "turn": "W_2"
     },
     {
-        "around": "W_1",
-        "jump": "W_2"
+        "walk": "W_1",
+        "jump": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "look": "W_1",
+        "run": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "run": "W_1",
+        "look": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2",
+        "thrice": "W_3"
     },
     {
         "turn": "W_1",
@@ -795,282 +4173,47 @@
         "jump": "W_3"
     },
     {
-        "jump": "W_1",
-        "thrice": "W_2",
-        "run": "W_3"
-    },
-    {
-        "look": "W_1",
-        "left": "W_2",
-        "jump": "W_3"
-    },
-    {
-        "walk": "W_3",
-        "left": "W_4"
-    },
-    {
-        "look": "W_1",
-        "jump": "W_2"
-    },
-    {
-        "around": "W_1",
-        "twice": "W_2",
-        "walk": "W_3"
-    },
-    {
-        "walk": "W_2"
-    },
-    {
-        "around": "W_1",
-        "thrice": "W_2",
-        "jump": "W_3"
-    },
-    {
-        "around": "W_1",
-        "look": "W_2",
-        "left": "W_3"
-    },
-    {
-        "run": "W_1",
-        "thrice": "W_2",
-        "turn": "W_3"
-    },
-    {
-        "look": "W_1",
+        "turn": "W_1",
         "right": "W_2",
         "jump": "W_3",
         "left": "W_4"
     },
     {
-        "jump": "W_1",
-        "walk": "W_2"
+        "run": "W_1",
+        "left": "W_4",
+        "walk": "W_3"
     },
     {
-        "walk": "W_1",
-        "twice": "W_2",
-        "turn": "W_3",
-        "left": "W_4"
+        "around": "W_2"
+    },
+    {
+        "look": "W_1",
+        "turn": "W_2",
+        "right": "W_3"
     },
     {
         "jump": "W_1",
-        "look": "W_2"
+        "look": "W_2",
+        "right": "W_3"
     },
     {
-        "jump": "W_1",
+        "look": "W_1",
         "walk": "W_2",
         "right": "W_3"
     },
     {
-        "run": "W_1",
-        "left": "W_2",
-        "around": "W_3"
-    },
-    {
-        "look": "W_1",
-        "walk": "W_2"
-    },
-    {
-        "around": "W_1",
-        "look": "W_2",
-        "right": "W_3"
-    },
-    {
-        "jump": "W_3",
-        "twice": "W_2",
-        "right": "W_4"
-    },
-    {
-        "look": "W_1",
-        "jump": "W_2"
-    },
-    {
-        "turn": "W_1",
-        "twice": "W_2",
-        "around": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "turn": "W_2",
-        "right": "W_3"
-    },
-    {
-        "walk": "W_2"
-    },
-    {
-        "run": "W_1",
-        "left": "W_2",
-        "turn": "W_3",
-        "thrice": "W_4"
-    },
-    {
-        "walk": "W_1",
-        "jump": "W_2"
-    },
-    {
-        "jump": "W_1",
-        "look": "W_2"
-    },
-    {
-        "run": "W_1",
-        "left": "W_2"
-    },
-    {
-        "around": "W_2"
-    },
-    {
-        "run": "W_1",
-        "left": "W_2",
-        "look": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "jump": "W_2"
-    },
-    {
-        "run": "W_1",
-        "thrice": "W_2",
-        "jump": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "right": "W_2",
-        "look": "W_3"
-    },
-    {
-        "walk": "W_3",
-        "left": "W_2",
-        "right": "W_4"
-    },
-    {
-        "around": "W_1",
-        "run": "W_2",
-        "right": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "thrice": "W_2"
-    },
-    {
-        "jump": "W_1",
-        "left": "W_2",
-        "around": "W_3"
-    },
-    {
-        "around": "W_1",
-        "walk": "W_2"
-    },
-    {
-        "run": "W_1",
-        "right": "W_2",
-        "walk": "W_3",
-        "twice": "W_4"
-    },
-    {
-        "around": "W_1",
-        "walk": "W_2"
-    },
-    {
-        "turn": "W_1",
-        "right": "W_2",
-        "jump": "W_3"
-    },
-    {
-        "around": "W_1",
-        "look": "W_2",
-        "left": "W_3"
-    },
-    {
-        "turn": "W_1",
-        "twice": "W_2",
-        "walk": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "right": "W_2",
-        "look": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "around": "W_2"
-    },
-    {
-        "around": "W_1",
-        "look": "W_2",
-        "right": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "right": "W_2",
-        "jump": "W_3"
-    },
-    {
-        "around": "W_1",
-        "jump": "W_2"
-    },
-    {
-        "look": "W_1",
-        "walk": "W_2"
-    },
-    {
-        "jump": "W_1",
-        "look": "W_2",
-        "left": "W_3"
-    },
-    {
         "around": "W_1",
         "run": "W_2",
         "left": "W_3"
     },
     {
         "around": "W_1",
-        "thrice": "W_2",
-        "jump": "W_3"
-    },
-    {
-        "around": "W_1",
-        "twice": "W_2",
-        "walk": "W_3",
-        "thrice": "W_4"
-    },
-    {
-        "turn": "W_1",
-        "left": "W_2",
-        "around": "W_3"
-    },
-    {
-        "around": "W_1",
-        "twice": "W_4",
-        "walk": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "look": "W_2"
-    },
-    {
-        "walk": "W_1",
-        "turn": "W_2",
-        "thrice": "W_3"
-    },
-    {
-        "around": "W_1",
-        "turn": "W_2",
+        "jump": "W_2",
         "right": "W_3"
     },
     {
-        "turn": "W_1",
-        "jump": "W_2"
-    },
-    {
-        "around": "W_2"
-    },
-    {
-        "turn": "W_1",
-        "left": "W_2",
-        "walk": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "run": "W_2",
+        "around": "W_1",
+        "jump": "W_2",
         "left": "W_3"
     },
     {
@@ -1078,23 +4221,518 @@
         "run": "W_2"
     },
     {
-        "look": "W_1",
-        "right": "W_4",
-        "run": "W_3"
+        "walk": "W_2"
     },
     {
-        "walk": "W_3",
-        "twice": "W_2"
+        "look": "W_2"
+    },
+    {
+        "run": "W_1",
+        "turn": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "look": "W_1",
+        "run": "W_2",
+        "left": "W_3"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "run": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "look": "W_1",
+        "run": "W_2",
+        "right": "W_3"
+    },
+    {
+        "run": "W_1",
+        "look": "W_2",
+        "right": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2",
+        "turn": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "right": "W_2",
+        "jump": "W_3"
     },
     {
         "turn": "W_1",
+        "right": "W_2",
+        "look": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "run": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "look": "W_2",
+        "right": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "turn": "W_2",
+        "right": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "look": "W_1",
         "thrice": "W_2",
-        "look": "W_3",
+        "walk": "W_3"
+    },
+    {
+        "run": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "jump": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2"
+    },
+    {
+        "walk": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2"
+    },
+    {
+        "jump": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "look": "W_2"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "around": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "run": "W_1",
+        "right": "W_2",
+        "around": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "jump": "W_1",
+        "right": "W_2",
+        "around": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "walk": "W_1",
+        "turn": "W_2"
+    },
+    {
+        "run": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "jump": "W_3",
         "right": "W_4"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2",
+        "jump": "W_3",
+        "right": "W_4"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_4",
+        "look": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "turn": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "look": "W_2"
+    },
+    {
+        "look": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "run": "W_1",
+        "look": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "run": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "walk": "W_2"
+    },
+    {
+        "look": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "thrice": "W_2",
+        "around": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "thrice": "W_2",
+        "around": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "twice": "W_2",
+        "around": "W_3"
     },
     {
         "around": "W_1",
         "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "look": "W_2"
+    },
+    {
+        "look": "W_2"
+    },
+    {
+        "look": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "look": "W_1",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_3"
+    },
+    {
+        "run": "W_1",
+        "right": "W_2",
+        "left": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "thrice": "W_2",
+        "run": "W_3"
+    },
+    {
+        "look": "W_1",
+        "twice": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "thrice": "W_2",
+        "look": "W_3"
+    },
+    {
+        "look": "W_1",
+        "thrice": "W_2",
+        "run": "W_3"
+    },
+    {
+        "run": "W_3",
+        "twice": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "thrice": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "run": "W_3"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_2",
+        "run": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "turn": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "run": "W_1",
+        "turn": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "run": "W_1",
+        "turn": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "left": "W_3",
+        "jump": "W_2"
+    },
+    {
+        "left": "W_3",
+        "run": "W_2"
+    },
+    {
+        "left": "W_3",
+        "look": "W_2"
+    },
+    {
+        "run": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "look": "W_2",
+        "right": "W_3"
+    },
+    {
+        "look": "W_1",
+        "turn": "W_2",
+        "left": "W_3"
+    },
+    {
+        "left": "W_1",
+        "walk": "W_2",
+        "right": "W_3"
+    },
+    {
+        "left": "W_1",
+        "turn": "W_2",
         "right": "W_3"
     },
     {
@@ -1102,126 +4740,40 @@
         "look": "W_2"
     },
     {
-        "look": "W_1",
-        "left": "W_2",
-        "walk": "W_3"
-    },
-    {
         "around": "W_1",
-        "twice": "W_2",
-        "walk": "W_3",
-        "right": "W_4"
-    },
-    {
-        "look": "W_2"
-    },
-    {
-        "look": "W_3",
-        "thrice": "W_2"
-    },
-    {
-        "around": "W_1",
-        "thrice": "W_2",
-        "run": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "left": "W_2",
-        "look": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "left": "W_2",
-        "walk": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "jump": "W_2"
-    },
-    {
-        "look": "W_1",
         "jump": "W_2",
-        "left": "W_3"
-    },
-    {
-        "run": "W_1",
-        "around": "W_2"
-    },
-    {
-        "look": "W_1",
-        "run": "W_2",
-        "left": "W_3"
-    },
-    {
-        "run": "W_1",
-        "look": "W_2"
-    },
-    {
-        "run": "W_1",
-        "right": "W_2",
-        "look": "W_3"
-    },
-    {
-        "jump": "W_2"
-    },
-    {
-        "walk": "W_1",
-        "around": "W_2"
-    },
-    {
-        "look": "W_2",
         "thrice": "W_3"
     },
     {
-        "run": "W_1",
-        "around": "W_2"
-    },
-    {
-        "look": "W_1",
-        "walk": "W_2",
-        "left": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "left": "W_2",
-        "run": "W_3"
-    },
-    {
-        "look": "W_1",
-        "thrice": "W_2",
-        "jump": "W_3",
-        "left": "W_4"
-    },
-    {
-        "run": "W_1",
-        "thrice": "W_2",
-        "look": "W_3"
-    },
-    {
-        "left": "W_1",
-        "run": "W_2"
-    },
-    {
-        "look": "W_2",
-        "left": "W_3"
+        "around": "W_1",
+        "look": "W_2"
     },
     {
         "around": "W_1",
-        "walk": "W_2",
-        "right": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "run": "W_2"
-    },
-    {
-        "run": "W_1",
         "walk": "W_2"
+    },
+    {
+        "walk": "W_3",
+        "thrice": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "thrice": "W_2",
+        "look": "W_3"
+    },
+    {
+        "jump": "W_3",
+        "twice": "W_2"
     },
     {
         "jump": "W_1",
         "left": "W_2",
-        "look": "W_3"
+        "around": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2",
+        "around": "W_3"
     },
     {
         "run": "W_1",
@@ -1229,39 +4781,16 @@
         "around": "W_3"
     },
     {
-        "around": "W_1",
-        "turn": "W_2",
-        "thrice": "W_3"
-    },
-    {
         "run": "W_1",
-        "thrice": "W_2",
-        "look": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "right": "W_2",
-        "around": "W_3",
+        "left": "W_2",
+        "turn": "W_3",
         "thrice": "W_4"
     },
     {
         "look": "W_1",
-        "left": "W_2"
-    },
-    {
-        "look": "W_1",
-        "run": "W_2",
-        "left": "W_3"
-    },
-    {
-        "around": "W_1",
-        "look": "W_2",
-        "left": "W_3"
-    },
-    {
-        "look": "W_1",
-        "walk": "W_2",
-        "thrice": "W_3"
+        "left": "W_2",
+        "jump": "W_3",
+        "thrice": "W_4"
     },
     {
         "run": "W_1",
@@ -1269,431 +4798,255 @@
         "jump": "W_3"
     },
     {
-        "around": "W_1",
-        "jump": "W_2",
-        "left": "W_3"
-    },
-    {
-        "left": "W_1",
-        "walk": "W_2"
-    },
-    {
         "run": "W_1",
-        "right": "W_2",
-        "walk": "W_3"
+        "left": "W_2",
+        "around": "W_3"
     },
     {
         "walk": "W_1",
-        "thrice": "W_2",
-        "run": "W_3"
+        "right": "W_2",
+        "around": "W_3"
     },
     {
         "look": "W_1",
-        "jump": "W_2"
+        "left": "W_2",
+        "around": "W_3"
     },
     {
-        "walk": "W_1",
-        "look": "W_2",
-        "left": "W_3"
+        "jump": "W_3",
+        "thrice": "W_2"
     },
     {
-        "walk": "W_1",
-        "look": "W_2"
+        "jump": "W_3",
+        "twice": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3"
     },
     {
         "around": "W_1",
         "twice": "W_2",
-        "jump": "W_3",
+        "walk": "W_3"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_2",
+        "turn": "W_3"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "turn": "W_3"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "right": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2",
+        "right": "W_3"
+    },
+    {
+        "look": "W_1",
+        "run": "W_2",
+        "right": "W_3"
+    },
+    {
+        "look": "W_1",
+        "run": "W_2",
+        "left": "W_3"
+    },
+    {
+        "run": "W_1",
+        "turn": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "run": "W_2",
+        "left": "W_3"
+    },
+    {
+        "run": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_2",
+        "look": "W_3",
         "left": "W_4"
     },
     {
-        "jump": "W_3",
+        "around": "W_1",
+        "twice": "W_2",
+        "walk": "W_3",
+        "left": "W_4"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3",
+        "left": "W_4"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "look": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "look": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "run": "W_2"
+    },
+    {
+        "run": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "walk": "W_1",
         "right": "W_2"
     },
     {
         "turn": "W_1",
-        "left": "W_3"
-    },
-    {
-        "around": "W_1",
-        "look": "W_2",
-        "left": "W_3"
-    },
-    {
-        "run": "W_1",
-        "left": "W_2",
-        "look": "W_3",
-        "twice": "W_4"
-    },
-    {
-        "jump": "W_1",
-        "around": "W_2",
-        "thrice": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "around": "W_2",
-        "thrice": "W_3"
-    },
-    {
-        "turn": "W_1",
-        "right": "W_2",
-        "left": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "jump": "W_2",
-        "left": "W_3"
-    },
-    {
-        "look": "W_1",
-        "thrice": "W_2",
-        "walk": "W_3"
-    },
-    {
-        "look": "W_1",
-        "around": "W_2"
-    },
-    {
-        "run": "W_1",
-        "look": "W_2"
-    },
-    {
-        "walk": "W_2",
-        "right": "W_3"
-    },
-    {
-        "around": "W_1",
-        "thrice": "W_2",
-        "run": "W_3"
-    },
-    {
-        "look": "W_1",
-        "walk": "W_2"
-    },
-    {
-        "around": "W_1",
-        "thrice": "W_2",
-        "jump": "W_3"
-    },
-    {
-        "around": "W_1",
-        "walk": "W_2",
-        "left": "W_3"
-    },
-    {
-        "run": "W_3",
         "left": "W_2"
     },
     {
         "jump": "W_1",
-        "look": "W_2",
-        "thrice": "W_3"
-    },
-    {
-        "run": "W_1",
-        "look": "W_2",
-        "thrice": "W_3"
-    },
-    {
-        "turn": "W_3",
-        "left": "W_2",
-        "right": "W_4"
-    },
-    {
-        "around": "W_2"
-    },
-    {
-        "run": "W_1",
-        "walk": "W_2",
-        "left": "W_3"
-    },
-    {
-        "around": "W_1",
-        "walk": "W_2",
-        "left": "W_3"
-    },
-    {
-        "look": "W_2"
-    },
-    {
-        "walk": "W_1",
-        "turn": "W_2",
-        "left": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "right": "W_2",
-        "around": "W_3"
-    },
-    {
-        "around": "W_1",
-        "run": "W_2"
-    },
-    {
-        "walk": "W_1",
-        "look": "W_2",
-        "left": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "turn": "W_2",
-        "left": "W_3"
-    },
-    {
-        "run": "W_1",
-        "right": "W_2",
-        "turn": "W_3"
-    },
-    {
-        "look": "W_1",
-        "run": "W_2",
-        "left": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "jump": "W_2",
-        "right": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "around": "W_2",
-        "twice": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "thrice": "W_2",
-        "walk": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "walk": "W_2"
-    },
-    {
-        "look": "W_1",
-        "left": "W_2"
-    },
-    {
-        "jump": "W_2"
-    },
-    {
-        "around": "W_1",
-        "jump": "W_2"
-    },
-    {
-        "look": "W_1",
-        "right": "W_2",
-        "around": "W_3",
-        "twice": "W_4"
-    },
-    {
-        "look": "W_1",
-        "run": "W_2"
-    },
-    {
-        "walk": "W_1",
-        "right": "W_2",
-        "around": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "left": "W_4",
-        "turn": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "run": "W_2"
-    },
-    {
-        "run": "W_1",
-        "jump": "W_2",
-        "thrice": "W_3"
-    },
-    {
-        "around": "W_1",
-        "look": "W_2"
-    },
-    {
-        "turn": "W_1",
-        "right": "W_2",
-        "around": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "run": "W_2"
-    },
-    {
-        "run": "W_1",
-        "around": "W_2"
-    },
-    {
-        "turn": "W_1",
-        "thrice": "W_2",
-        "around": "W_3"
-    },
-    {
-        "around": "W_1",
-        "run": "W_2",
-        "right": "W_3"
-    },
-    {
-        "walk": "W_2"
-    },
-    {
-        "walk": "W_2"
-    },
-    {
-        "walk": "W_1",
-        "around": "W_2"
-    },
-    {
-        "around": "W_1",
-        "run": "W_2",
-        "thrice": "W_3"
-    },
-    {
-        "run": "W_1",
-        "right": "W_2",
-        "left": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "twice": "W_2",
-        "look": "W_3"
-    },
-    {
-        "run": "W_1",
-        "thrice": "W_2",
-        "walk": "W_3"
-    },
-    {
-        "around": "W_1",
-        "twice": "W_2",
-        "turn": "W_3"
-    },
-    {
-        "turn": "W_2",
-        "twice": "W_3"
-    },
-    {
-        "left": "W_3",
-        "run": "W_2"
-    },
-    {
-        "walk": "W_1",
-        "turn": "W_2",
-        "right": "W_3"
-    },
-    {
-        "left": "W_1",
-        "look": "W_2",
-        "right": "W_3"
-    },
-    {
-        "around": "W_1",
-        "jump": "W_2",
-        "thrice": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "thrice": "W_2",
-        "look": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "left": "W_2",
-        "around": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "left": "W_2",
-        "turn": "W_3",
-        "thrice": "W_4"
-    },
-    {
-        "jump": "W_1",
-        "left": "W_2",
-        "around": "W_3"
-    },
-    {
-        "look": "W_1",
-        "twice": "W_2",
-        "walk": "W_3"
-    },
-    {
-        "around": "W_1",
-        "thrice": "W_2",
-        "turn": "W_3"
-    },
-    {
-        "around": "W_1",
-        "jump": "W_2",
-        "right": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "look": "W_2",
-        "left": "W_3"
-    },
-    {
-        "look": "W_1",
-        "walk": "W_2",
-        "left": "W_3"
-    },
-    {
-        "around": "W_1",
-        "thrice": "W_2",
-        "walk": "W_3",
-        "left": "W_4"
-    },
-    {
-        "around": "W_1",
-        "turn": "W_2",
-        "thrice": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "around": "W_2"
-    },
-    {
-        "run": "W_2",
-        "left": "W_3"
-    },
-    {
-        "run": "W_1",
-        "walk": "W_2"
-    },
-    {
-        "jump": "W_1",
-        "left": "W_2"
+        "right": "W_2"
     },
     {
         "around": "W_3",
         "thrice": "W_2"
     },
     {
-        "run": "W_1",
+        "around": "W_3",
+        "twice": "W_2"
+    },
+    {
+        "turn": "W_1",
         "around": "W_2"
     },
     {
         "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2"
+    },
+    {
+        "look": "W_1",
         "turn": "W_2",
         "right": "W_3"
+    },
+    {
+        "run": "W_2",
+        "right": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "left": "W_1",
+        "walk": "W_2",
+        "thrice": "W_3"
     },
     {
         "left": "W_1",
         "turn": "W_2"
     },
     {
-        "walk": "W_1",
+        "left": "W_1",
+        "run": "W_2"
+    },
+    {
         "jump": "W_2"
     },
     {
-        "around": "W_1",
-        "walk": "W_2"
+        "walk": "W_1",
+        "run": "W_2"
+    },
+    {
+        "run": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "turn": "W_2"
     },
     {
         "walk": "W_1",
+        "turn": "W_2"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "turn": "W_1",
         "left": "W_2",
         "around": "W_3"
     },
@@ -1702,28 +5055,89 @@
         "jump": "W_2"
     },
     {
-        "jump": "W_1",
-        "left": "W_2",
-        "walk": "W_3"
+        "around": "W_1",
+        "run": "W_2"
     },
     {
         "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "run": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "run": "W_3"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "look": "W_3"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2",
+        "right": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2",
+        "right": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "right": "W_3"
+    },
+    {
+        "run": "W_3",
+        "thrice": "W_2"
+    },
+    {
+        "walk": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "turn": "W_2",
+        "right": "W_3"
+    },
+    {
         "run": "W_2",
         "left": "W_3"
     },
     {
         "walk": "W_1",
-        "thrice": "W_2",
+        "left": "W_2"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_4",
         "run": "W_3"
     },
     {
         "look": "W_1",
-        "turn": "W_2",
-        "right": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "left": "W_2"
+        "left": "W_2",
+        "walk": "W_3",
+        "right": "W_4"
     },
     {
         "jump": "W_1",
@@ -1732,18 +5146,50 @@
         "right": "W_4"
     },
     {
-        "jump": "W_1",
+        "look": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "look": "W_1",
         "turn": "W_2",
         "right": "W_3"
+    },
+    {
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "left": "W_1",
+        "walk": "W_2"
     },
     {
         "left": "W_1",
         "turn": "W_2"
     },
     {
+        "left": "W_1",
+        "look": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2",
+        "twice": "W_3"
+    },
+    {
         "look": "W_1",
         "around": "W_2",
-        "thrice": "W_3"
+        "twice": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "twice": "W_2",
+        "around": "W_3"
     },
     {
         "turn": "W_1",
@@ -1751,17 +5197,57 @@
         "around": "W_3"
     },
     {
+        "walk": "W_1",
+        "twice": "W_2",
+        "around": "W_3"
+    },
+    {
+        "walk": "W_2"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
         "jump": "W_1",
         "walk": "W_2"
     },
     {
+        "walk": "W_1",
+        "run": "W_2",
+        "right": "W_3"
+    },
+    {
+        "look": "W_1",
+        "jump": "W_2",
+        "right": "W_3"
+    },
+    {
+        "jump": "W_2",
+        "right": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
         "walk": "W_2",
         "right": "W_3"
     },
     {
         "around": "W_1",
-        "turn": "W_2",
+        "look": "W_2",
         "right": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2"
     },
     {
         "jump": "W_1",
@@ -1773,127 +5259,21 @@
         "turn": "W_3"
     },
     {
-        "jump": "W_1",
-        "look": "W_2",
-        "thrice": "W_3"
-    },
-    {
-        "left": "W_1",
-        "look": "W_2",
-        "thrice": "W_3"
-    },
-    {
-        "jump": "W_1",
+        "around": "W_1",
         "thrice": "W_2",
-        "run": "W_3",
-        "left": "W_4"
+        "jump": "W_3"
     },
     {
-        "look": "W_1",
-        "run": "W_2",
-        "left": "W_3"
-    },
-    {
-        "walk": "W_2"
-    },
-    {
-        "run": "W_1",
-        "left": "W_2",
-        "walk": "W_3"
-    },
-    {
-        "left": "W_1",
-        "walk": "W_2",
-        "right": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "around": "W_2"
-    },
-    {
-        "jump": "W_1",
-        "around": "W_2"
-    },
-    {
-        "walk": "W_1",
-        "jump": "W_2"
-    },
-    {
-        "walk": "W_1",
-        "left": "W_3"
-    },
-    {
-        "run": "W_2"
+        "around": "W_1",
+        "twice": "W_2",
+        "turn": "W_3",
+        "thrice": "W_4"
     },
     {
         "look": "W_1",
         "turn": "W_2"
     },
     {
-        "walk": "W_1",
-        "right": "W_2",
-        "around": "W_3"
-    },
-    {
-        "around": "W_1",
-        "jump": "W_2",
-        "left": "W_3"
-    },
-    {
-        "run": "W_1",
-        "twice": "W_4",
-        "around": "W_3"
-    },
-    {
-        "look": "W_1",
-        "left": "W_2",
-        "around": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "jump": "W_2",
-        "left": "W_3"
-    },
-    {
-        "look": "W_1",
-        "right": "W_2",
-        "around": "W_3",
-        "thrice": "W_4"
-    },
-    {
-        "run": "W_1",
-        "around": "W_2",
-        "thrice": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "around": "W_2"
-    },
-    {
-        "run": "W_1",
-        "left": "W_2"
-    },
-    {
-        "jump": "W_1",
-        "walk": "W_2"
-    },
-    {
-        "around": "W_1",
-        "walk": "W_2"
-    },
-    {
-        "jump": "W_1",
-        "walk": "W_2"
-    },
-    {
-        "around": "W_1",
-        "walk": "W_2"
-    },
-    {
-        "walk": "W_2"
-    },
-    {
-        "turn": "W_1",
         "jump": "W_2"
     },
     {
@@ -1901,19 +5281,418 @@
         "walk": "W_2"
     },
     {
+        "left": "W_1",
+        "turn": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "left": "W_1",
+        "walk": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "left": "W_1",
+        "walk": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "jump": "W_3",
+        "twice": "W_2",
+        "left": "W_4"
+    },
+    {
         "look": "W_1",
-        "left": "W_2",
-        "jump": "W_3"
+        "thrice": "W_2",
+        "walk": "W_3",
+        "left": "W_4"
     },
     {
         "turn": "W_1",
+        "thrice": "W_2",
+        "look": "W_3",
+        "left": "W_4"
+    },
+    {
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "look": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "walk": "W_2"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "look": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "look": "W_3"
+    },
+    {
+        "left": "W_1",
+        "turn": "W_2",
+        "right": "W_3"
+    },
+    {
+        "left": "W_3",
+        "turn": "W_2"
+    },
+    {
+        "left": "W_3",
+        "run": "W_2"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "jump": "W_2"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2"
+    },
+    {
+        "look": "W_3",
+        "thrice": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "look": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "look": "W_1",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2"
+    },
+    {
+        "run": "W_2"
+    },
+    {
+        "run": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "look": "W_2"
+    },
+    {
+        "look": "W_1",
+        "turn": "W_2"
+    },
+    {
+        "walk": "W_2"
+    },
+    {
+        "run": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "twice": "W_2",
+        "around": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "run": "W_1",
+        "thrice": "W_4",
+        "around": "W_3"
+    },
+    {
+        "look": "W_1",
+        "twice": "W_4",
+        "around": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "run": "W_1",
+        "jump": "W_2",
+        "right": "W_3"
+    },
+    {
+        "jump": "W_2",
+        "right": "W_3"
+    },
+    {
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "right": "W_2",
+        "around": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "around": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "run": "W_1",
         "right": "W_2",
         "around": "W_3",
         "thrice": "W_4"
     },
     {
         "jump": "W_1",
+        "around": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "run": "W_2"
+    },
+    {
+        "run": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "jump": "W_1",
         "look": "W_2"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "run": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "look": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "run": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "jump": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "look": "W_2"
+    },
+    {
+        "run": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "look": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "walk": "W_2"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2",
+        "run": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "around": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2",
+        "around": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "around": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2"
+    },
+    {
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2"
     },
     {
         "walk": "W_1",
@@ -1921,13 +5700,40 @@
         "around": "W_3"
     },
     {
+        "jump": "W_1",
+        "right": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "run": "W_1",
+        "right": "W_2",
+        "walk": "W_3"
+    },
+    {
         "turn": "W_1",
         "right": "W_2",
         "walk": "W_3"
     },
     {
-        "jump": "W_1",
+        "walk": "W_1",
         "around": "W_2"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2"
+    },
+    {
+        "left": "W_1",
+        "look": "W_2",
+        "right": "W_3"
+    },
+    {
+        "left": "W_3",
+        "jump": "W_2"
     },
     {
         "left": "W_1",
@@ -1935,6 +5741,14 @@
         "right": "W_3"
     },
     {
+        "walk": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
         "look": "W_1",
         "around": "W_2"
     },
@@ -1943,27 +5757,71 @@
         "around": "W_2"
     },
     {
-        "run": "W_1",
+        "run": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
         "look": "W_2",
         "left": "W_3"
     },
     {
         "around": "W_1",
-        "run": "W_2"
+        "look": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2"
     },
     {
         "look": "W_1",
         "left": "W_2"
     },
     {
+        "run": "W_1",
+        "left": "W_2"
+    },
+    {
         "around": "W_1",
         "turn": "W_2",
         "right": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
     },
     {
         "around": "W_1",
         "jump": "W_2",
-        "thrice": "W_3"
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "twice": "W_3"
     },
     {
         "around": "W_1",
@@ -1971,210 +5829,83 @@
         "left": "W_3"
     },
     {
-        "turn": "W_1",
+        "around": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_1",
         "thrice": "W_2",
         "walk": "W_3"
     },
     {
-        "walk": "W_1",
+        "look": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "run": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "twice": "W_2",
+        "around": "W_3"
+    },
+    {
+        "run": "W_1",
         "thrice": "W_2",
         "around": "W_3"
     },
     {
+        "run": "W_1",
+        "twice": "W_2",
+        "around": "W_3"
+    },
+    {
         "walk": "W_1",
-        "look": "W_2"
+        "jump": "W_2"
     },
     {
         "turn": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "run": "W_1",
         "left": "W_2",
         "walk": "W_3"
     },
     {
-        "walk": "W_1",
+        "turn": "W_1",
+        "right": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "walk": "W_3",
+        "left": "W_4"
+    },
+    {
+        "run": "W_1",
         "left": "W_4",
-        "run": "W_3"
+        "jump": "W_3"
     },
     {
-        "around": "W_1",
-        "thrice": "W_2",
+        "jump": "W_1",
+        "left": "W_4",
         "walk": "W_3"
-    },
-    {
-        "run": "W_1",
-        "right": "W_2",
-        "around": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "run": "W_2"
-    },
-    {
-        "around": "W_1",
-        "run": "W_2"
-    },
-    {
-        "around": "W_1",
-        "walk": "W_2"
-    },
-    {
-        "look": "W_1",
-        "right": "W_2",
-        "around": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "jump": "W_2"
-    },
-    {
-        "around": "W_1",
-        "walk": "W_2"
-    },
-    {
-        "look": "W_1",
-        "left": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "around": "W_2"
-    },
-    {
-        "around": "W_3",
-        "thrice": "W_4"
-    },
-    {
-        "around": "W_1",
-        "jump": "W_2"
-    },
-    {
-        "run": "W_1",
-        "around": "W_2"
-    },
-    {
-        "walk": "W_2"
-    },
-    {
-        "walk": "W_2",
-        "thrice": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "left": "W_2"
-    },
-    {
-        "jump": "W_1",
-        "around": "W_2",
-        "thrice": "W_3"
-    },
-    {
-        "around": "W_1",
-        "turn": "W_2",
-        "thrice": "W_3"
-    },
-    {
-        "around": "W_1",
-        "thrice": "W_2",
-        "left": "W_3"
-    },
-    {
-        "jump": "W_1",
-        "around": "W_2"
-    },
-    {
-        "walk": "W_2",
-        "thrice": "W_3"
-    },
-    {
-        "run": "W_1",
-        "thrice": "W_2",
-        "walk": "W_3"
-    },
-    {
-        "around": "W_1",
-        "walk": "W_2"
-    },
-    {
-        "jump": "W_1",
-        "left": "W_2",
-        "run": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "around": "W_2"
-    },
-    {
-        "around": "W_1",
-        "look": "W_2",
-        "left": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "jump": "W_2"
-    },
-    {
-        "walk": "W_1",
-        "look": "W_2"
-    },
-    {
-        "run": "W_1",
-        "left": "W_2"
-    },
-    {
-        "walk": "W_1",
-        "around": "W_2",
-        "twice": "W_3"
-    },
-    {
-        "around": "W_2",
-        "twice": "W_3"
-    },
-    {
-        "around": "W_1",
-        "look": "W_2",
-        "right": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "around": "W_2",
-        "twice": "W_3"
-    },
-    {
-        "around": "W_1",
-        "jump": "W_2"
-    },
-    {
-        "look": "W_1",
-        "right": "W_2",
-        "around": "W_3"
-    },
-    {
-        "look": "W_1",
-        "around": "W_2"
-    },
-    {
-        "run": "W_1",
-        "left": "W_2",
-        "walk": "W_3"
-    },
-    {
-        "turn": "W_1",
-        "around": "W_2"
-    },
-    {
-        "left": "W_1",
-        "around": "W_2",
-        "thrice": "W_3"
-    },
-    {
-        "look": "W_1",
-        "around": "W_2"
-    },
-    {
-        "jump": "W_1",
-        "around": "W_2"
-    },
-    {
-        "jump": "W_1",
-        "around": "W_2"
     },
     {
         "around": "W_1",
@@ -2183,24 +5914,598 @@
     },
     {
         "around": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "run": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "look": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "walk": "W_2"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "walk": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_3"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "left": "W_3"
+    },
+    {
+        "run": "W_1",
+        "right": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "around": "W_3",
+        "thrice": "W_2",
+        "twice": "W_4"
+    },
+    {
+        "around": "W_3",
+        "twice": "W_2",
+        "thrice": "W_4"
+    },
+    {
+        "around": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2"
+    },
+    {
+        "jump": "W_2"
+    },
+    {
+        "look": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "look": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "turn": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "walk": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "walk": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "turn": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "walk": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "walk": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "walk": "W_3",
+        "twice": "W_2"
+    },
+    {
+        "run": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "twice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "jump": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "look": "W_3"
+    },
+    {
+        "look": "W_3",
+        "left": "W_2",
+        "thrice": "W_4"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "around": "W_2"
+    },
+    {
+        "around": "W_1",
         "walk": "W_2",
         "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2",
+        "right": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "walk": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "around": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "right": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "walk": "W_3",
+        "left": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2"
+    },
+    {
+        "look": "W_1",
+        "thrice": "W_2",
+        "around": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "left": "W_1",
+        "around": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "left": "W_1",
+        "around": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "around": "W_2"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "look": "W_1"
+    },
+    {
+        "walk": "W_1"
     },
     {
         "jump": "W_1"
     },
     {
         "around": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3",
+        "left": "W_4"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "walk": "W_3",
+        "left": "W_4"
+    },
+    {
+        "around": "W_1",
         "twice": "W_2",
         "look": "W_3",
         "left": "W_4"
     },
     {
+        "jump": "W_1",
         "walk": "W_2"
     },
     {
+        "look": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "run": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
         "walk": "W_1",
-        "right": "W_2",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
         "around": "W_3"
     },
     {
@@ -2208,9 +6513,31 @@
         "walk": "W_2"
     },
     {
+        "around": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
         "walk": "W_1",
         "left": "W_2",
         "around": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "left": "W_3"
     },
     {
         "around": "W_1",
@@ -2219,21 +6546,71 @@
     },
     {
         "around": "W_1",
+        "run": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
         "look": "W_2"
     },
     {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2"
+    },
+    {
         "walk": "W_1",
-        "look": "W_2",
+        "jump": "W_2",
         "right": "W_3"
     },
     {
-        "look": "W_1",
-        "left": "W_2",
-        "walk": "W_3"
+        "walk": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2",
+        "left": "W_3"
     },
     {
         "run": "W_1",
+        "left": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "look": "W_3"
+    },
+    {
+        "look": "W_3",
+        "left": "W_2"
+    },
+    {
+        "jump": "W_1",
         "around": "W_2"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "run": "W_3"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "look": "W_3"
     },
     {
         "around": "W_1",
@@ -2242,11 +6619,29 @@
     },
     {
         "left": "W_1",
-        "look": "W_2",
+        "walk": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "left": "W_1",
+        "turn": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "left": "W_1",
+        "turn": "W_2",
         "twice": "W_3"
     },
     {
+        "turn": "W_1",
+        "around": "W_2"
+    },
+    {
         "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "jump": "W_1",
         "thrice": "W_2",
         "around": "W_3"
     },
@@ -2256,24 +6651,77 @@
         "right": "W_3"
     },
     {
+        "walk": "W_1",
+        "turn": "W_2",
+        "right": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "turn": "W_2",
+        "left": "W_3"
+    },
+    {
         "left": "W_1",
         "look": "W_2"
+    },
+    {
+        "left": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "left": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "run": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2"
     },
     {
         "walk": "W_2"
     },
     {
         "around": "W_1",
+        "look": "W_2"
+    },
+    {
+        "around": "W_1",
         "jump": "W_2"
     },
     {
-        "run": "W_1",
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "look": "W_1",
+        "jump": "W_2",
+        "left": "W_3"
+    },
+    {
         "look": "W_2",
         "left": "W_3"
     },
     {
         "around": "W_1",
-        "jump": "W_2",
+        "turn": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2",
         "thrice": "W_3"
     },
     {
@@ -2282,26 +6730,75 @@
     },
     {
         "around": "W_1",
-        "jump": "W_2",
+        "walk": "W_2",
+        "right": "W_3"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2",
         "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "right": "W_3"
     },
     {
         "walk": "W_1",
         "around": "W_2"
     },
     {
+        "look": "W_1",
+        "around": "W_2"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2"
+    },
+    {
         "walk": "W_1",
-        "turn": "W_2",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2",
+        "right": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2",
         "left": "W_3"
     },
     {
         "around": "W_1",
-        "thrice": "W_2",
-        "look": "W_3",
+        "twice": "W_2",
+        "run": "W_3",
         "left": "W_4"
     },
     {
+        "around": "W_1",
+        "thrice": "W_2",
+        "turn": "W_3",
+        "right": "W_4"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "jump": "W_3",
+        "left": "W_4"
+    },
+    {
+        "jump": "W_1",
         "run": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "look": "W_2"
     },
     {
         "around": "W_1",
@@ -2311,7 +6808,25 @@
     {
         "around": "W_1",
         "jump": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
         "thrice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
     },
     {
         "around": "W_1",
@@ -2319,8 +6834,28 @@
         "right": "W_3"
     },
     {
+        "around": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
         "walk": "W_1",
         "jump": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "turn": "W_2",
+        "right": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "turn": "W_2",
         "left": "W_3"
     },
     {
@@ -2329,7 +6864,27 @@
         "thrice": "W_3"
     },
     {
-        "walk": "W_1",
+        "around": "W_1",
+        "turn": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "look": "W_1",
+        "thrice": "W_2",
+        "around": "W_3"
+    },
+    {
+        "run": "W_1",
+        "twice": "W_2",
+        "around": "W_3"
+    },
+    {
+        "jump": "W_1",
         "twice": "W_2",
         "around": "W_3"
     },
@@ -2337,10 +6892,27 @@
         "around": "W_1"
     },
     {
-        "jump": "W_1",
-        "right": "W_2",
+        "walk": "W_1",
+        "left": "W_2",
+        "around": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "around": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
         "around": "W_3",
         "thrice": "W_4"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2",
+        "twice": "W_3"
     },
     {
         "around": "W_1",
@@ -2348,6 +6920,19 @@
         "thrice": "W_3"
     },
     {
+        "around": "W_1",
+        "walk": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "jump": "W_1",
         "around": "W_2"
     },
     {
@@ -2357,15 +6942,47 @@
         "left": "W_4"
     },
     {
+        "around": "W_1",
+        "twice": "W_2",
+        "look": "W_3",
+        "left": "W_4"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_2",
+        "jump": "W_3",
+        "right": "W_4"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2"
+    },
+    {
         "jump": "W_1",
         "around": "W_2"
     },
     {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "around": "W_3",
+        "thrice": "W_2"
+    },
+    {
         "around": "W_3",
         "twice": "W_2"
     },
     {
-        "turn": "W_1",
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "look": "W_1",
         "around": "W_2"
     },
     {
@@ -2375,11 +6992,47 @@
     },
     {
         "walk": "W_1",
+        "look": "W_2",
+        "right": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2",
+        "right": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "look": "W_2"
+    },
+    {
+        "walk": "W_1",
         "run": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3"
     },
     {
         "around": "W_3",
-        "twice": "W_2"
+        "thrice": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2"
     },
     {
         "around": "W_1",
@@ -2387,11 +7040,102 @@
     },
     {
         "around": "W_1",
-        "run": "W_2",
+        "jump": "W_2",
+        "right": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2",
+        "right": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2",
         "left": "W_3"
     },
     {
+        "run": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2"
+    },
+    {
+        "look": "W_1",
         "walk": "W_2"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "look": "W_1",
+        "thrice": "W_2",
+        "around": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "run": "W_1",
+        "thrice": "W_2",
+        "around": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "left": "W_1",
+        "run": "W_2",
+        "right": "W_3"
+    },
+    {
+        "left": "W_3",
+        "look": "W_2"
+    },
+    {
+        "left": "W_3",
+        "jump": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2"
     },
     {
         "around": "W_1",
@@ -2402,29 +7146,16 @@
         "around": "W_2"
     },
     {
-        "turn": "W_1",
-        "right": "W_2",
-        "around": "W_3"
-    },
-    {
-        "around": "W_2"
-    },
-    {
-        "left": "W_3",
-        "look": "W_2"
-    },
-    {
         "run": "W_1",
-        "left": "W_2",
-        "around": "W_3"
-    },
-    {
-        "around": "W_1",
-        "jump": "W_2"
-    },
-    {
-        "jump": "W_1",
         "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "around": "W_3",
+        "thrice": "W_2"
     },
     {
         "around": "W_3",
@@ -2432,22 +7163,78 @@
     },
     {
         "turn": "W_1",
-        "walk": "W_2"
+        "thrice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "run": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "look": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "left": "W_3",
+        "look": "W_2"
     },
     {
         "left": "W_3",
         "jump": "W_2"
     },
     {
-        "around": "W_1",
-        "look": "W_2"
+        "left": "W_3",
+        "run": "W_2"
     },
     {
+        "around": "W_1",
+        "turn": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_1",
         "jump": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
         "left": "W_3"
     },
     {
+        "around": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
         "around": "W_2"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
     },
     {
         "around": "W_2"
@@ -2457,42 +7244,117 @@
         "twice": "W_3"
     },
     {
-        "run": "W_1",
-        "twice": "W_2",
+        "around": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "thrice": "W_2",
+        "around": "W_3"
+    },
+    {
+        "look": "W_1",
+        "thrice": "W_2",
         "around": "W_3"
     },
     {
         "walk": "W_1",
+        "twice": "W_2",
+        "around": "W_3"
+    },
+    {
+        "look": "W_1",
         "thrice": "W_2",
         "left": "W_3"
     },
     {
         "walk": "W_1",
+        "left": "W_2"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2"
+    },
+    {
+        "jump": "W_1",
         "around": "W_2",
         "thrice": "W_3"
+    },
+    {
+        "around": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2",
+        "twice": "W_3"
     },
     {
         "jump": "W_1",
         "left": "W_2"
     },
     {
+        "walk": "W_1",
+        "left": "W_2"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2"
+    },
+    {
         "around": "W_1",
-        "walk": "W_2"
+        "run": "W_2"
     },
     {
         "around": "W_1",
         "look": "W_2"
     },
     {
-        "run": "W_1",
+        "around": "W_1",
         "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "run": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "run": "W_1",
+        "look": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2"
     },
     {
         "around": "W_1",
         "left": "W_2"
     },
     {
-        "walk": "W_1",
+        "run": "W_1",
+        "left": "W_2",
+        "around": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "around": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "look": "W_1",
         "left": "W_2",
         "around": "W_3",
         "thrice": "W_4"
@@ -2502,29 +7364,91 @@
         "run": "W_2"
     },
     {
-        "around": "W_3",
-        "twice": "W_2"
+        "walk": "W_2"
     },
     {
         "walk": "W_1",
+        "look": "W_2"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "run": "W_1",
         "right": "W_2",
         "left": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_3",
+        "twice": "W_2"
     },
     {
         "around": "W_3",
         "thrice": "W_2"
     },
     {
-        "run": "W_1",
+        "walk": "W_1",
         "around": "W_2"
     },
     {
-        "run": "W_1",
+        "look": "W_1",
+        "around": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_2"
+    },
+    {
+        "look": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "jump": "W_1",
         "walk": "W_2"
     },
     {
         "around": "W_1",
+        "look": "W_2"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2"
+    },
+    {
+        "around": "W_1",
         "jump": "W_2"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
     },
     {
         "look": "W_1",
@@ -2532,15 +7456,50 @@
     },
     {
         "walk": "W_1",
+        "look": "W_2"
+    },
+    {
+        "walk": "W_1",
         "run": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2"
     },
     {
         "look": "W_1",
         "around": "W_2"
     },
     {
-        "run": "W_1",
+        "jump": "W_1",
         "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "around": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "thrice": "W_2",
+        "around": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "right": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
     },
     {
         "around": "W_1",
@@ -2548,6 +7507,10 @@
         "left": "W_3"
     },
     {
+        "look": "W_1",
+        "around": "W_2"
+    },
+    {
         "walk": "W_1",
         "around": "W_2"
     },
@@ -2556,18 +7519,19 @@
         "around": "W_2"
     },
     {
-        "around": "W_1",
-        "look": "W_2"
-    },
-    {
+        "walk": "W_1",
         "around": "W_2"
     },
     {
-        "walk": "W_1",
-        "look": "W_2"
+        "look": "W_1",
+        "around": "W_2"
     },
     {
-        "look": "W_1",
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "around": "W_1",
         "walk": "W_2"
     },
     {
@@ -2579,17 +7543,85 @@
         "look": "W_2"
     },
     {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "jump": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "run": "W_2"
+    },
+    {
+        "look": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "walk": "W_2"
+    },
+    {
+        "run": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2"
+    },
+    {
         "around": "W_1",
         "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2"
     },
     {
         "walk": "W_1",
         "around": "W_2"
     },
     {
-        "look": "W_1",
-        "left": "W_2",
-        "around": "W_3"
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2"
     },
     {
         "look": "W_1",
@@ -2597,14 +7629,64 @@
         "around": "W_3"
     },
     {
+        "run": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "run": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
         "around": "W_2"
     },
     {
         "left": "W_1",
-        "jump": "W_2"
+        "run": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "left": "W_1",
+        "turn": "W_2"
+    },
+    {
+        "left": "W_1",
+        "jump": "W_2",
+        "thrice": "W_3"
     },
     {
         "walk": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "look": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2"
     },
     {
         "around": "W_2"
@@ -2625,82 +7707,28 @@
         "around": "W_3"
     },
     {
-        "walk": "W_2"
+        "jump": "W_1",
+        "left": "W_2",
+        "around": "W_3"
     },
     {
-        "around": "W_1",
+        "turn": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "walk": "W_1",
         "jump": "W_2",
-        "left": "W_3"
-    },
-    {
-        "around": "W_2"
-    },
-    {
-        "jump": "W_1",
-        "around": "W_2"
-    },
-    {
-        "jump": "W_1",
-        "around": "W_2",
         "thrice": "W_3"
     },
     {
-        "around": "W_1",
-        "jump": "W_2",
-        "left": "W_3"
-    },
-    {
-        "around": "W_2",
-        "thrice": "W_3"
-    },
-    {
-        "left": "W_1",
-        "run": "W_2"
-    },
-    {
-        "around": "W_2",
-        "twice": "W_3"
-    },
-    {
-        "left": "W_3",
+        "walk": "W_1",
         "look": "W_2"
     },
     {
         "walk": "W_1",
-        "around": "W_2"
-    },
-    {
-        "around": "W_1",
         "turn": "W_2",
         "thrice": "W_3"
-    },
-    {
-        "around": "W_3",
-        "twice": "W_2"
-    },
-    {
-        "around": "W_1",
-        "walk": "W_2"
-    },
-    {
-        "around": "W_2",
-        "twice": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "around": "W_2"
-    },
-    {
-        "run": "W_1",
-        "left": "W_2"
-    },
-    {
-        "around": "W_1",
-        "look": "W_2"
-    },
-    {
-        "look": "W_1",
-        "walk": "W_2"
     },
     {
         "around": "W_1",
@@ -2709,15 +7737,74 @@
     },
     {
         "around": "W_1",
-        "walk": "W_2"
+        "turn": "W_2",
+        "right": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "right": "W_3"
+    },
+    {
+        "around": "W_2"
     },
     {
         "look": "W_1",
+        "around": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "run": "W_1",
         "around": "W_2",
         "twice": "W_3"
     },
     {
-        "around": "W_2"
+        "jump": "W_1",
+        "around": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "around": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2",
+        "right": "W_3"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2",
+        "right": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "right": "W_3"
+    },
+    {
+        "around": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "left": "W_1",
+        "run": "W_2"
+    },
+    {
+        "left": "W_1",
+        "jump": "W_2"
     },
     {
         "left": "W_1",
@@ -2728,12 +7815,121 @@
         "thrice": "W_3"
     },
     {
+        "around": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "left": "W_3",
+        "run": "W_2"
+    },
+    {
+        "left": "W_3",
+        "look": "W_2"
+    },
+    {
+        "left": "W_3",
+        "walk": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_3",
+        "thrice": "W_2"
+    },
+    {
+        "around": "W_3",
+        "twice": "W_2"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
         "around": "W_1",
         "look": "W_2"
     },
     {
         "around": "W_1",
+        "run": "W_2"
+    },
+    {
+        "around": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
         "left": "W_2"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2"
+    },
+    {
+        "run": "W_1",
+        "walk": "W_2"
     },
     {
         "jump": "W_1",
@@ -2741,30 +7937,178 @@
     },
     {
         "look": "W_1",
-        "right": "W_2",
-        "around": "W_3"
+        "walk": "W_2"
     },
     {
-        "walk": "W_1",
-        "right": "W_2",
+        "around": "W_1",
+        "walk": "W_2",
+        "right": "W_3"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2",
         "left": "W_3"
     },
     {
-        "turn": "W_1",
-        "right": "W_2",
-        "walk": "W_3"
+        "around": "W_1",
+        "turn": "W_2",
+        "right": "W_3"
     },
     {
         "around": "W_1",
         "walk": "W_2"
     },
     {
+        "around": "W_1",
+        "look": "W_2"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "left": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "left": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "left": "W_1",
+        "run": "W_2"
+    },
+    {
+        "around": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "look": "W_2"
+    },
+    {
         "jump": "W_1",
         "run": "W_2"
     },
     {
+        "walk": "W_2"
+    },
+    {
+        "around": "W_1",
+        "left": "W_2"
+    },
+    {
+        "walk": "W_2"
+    },
+    {
         "run": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "turn": "W_1",
+        "right": "W_2",
+        "left": "W_3"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "left": "W_3"
+    },
+    {
+        "run": "W_1",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_1",
+        "right": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "walk": "W_3",
+        "right": "W_2"
+    },
+    {
+        "turn": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2"
+    },
+    {
+        "look": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "run": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "thrice": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
         "twice": "W_2",
+        "left": "W_3"
+    },
+    {
+        "look": "W_1",
+        "thrice": "W_2",
         "left": "W_3"
     },
     {
@@ -2775,6 +8119,22 @@
         "walk": "W_2"
     },
     {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "look": "W_2"
+    },
+    {
         "walk": "W_1",
         "run": "W_2"
     },
@@ -2783,8 +8143,24 @@
         "twice": "W_3"
     },
     {
+        "around": "W_2",
+        "thrice": "W_3"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2"
+    },
+    {
         "around": "W_1",
         "look": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_3",
+        "twice": "W_2"
     },
     {
         "around": "W_3",
@@ -2793,28 +8169,80 @@
     {
         "around": "W_1",
         "thrice": "W_2",
-        "walk": "W_3"
+        "jump": "W_3"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "look": "W_3"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "jump": "W_3"
+    },
+    {
+        "left": "W_1",
+        "run": "W_2"
     },
     {
         "left": "W_1",
         "look": "W_2"
     },
     {
-        "around": "W_1",
-        "run": "W_2"
-    },
-    {
-        "turn": "W_1"
+        "left": "W_1",
+        "walk": "W_2"
     },
     {
         "around": "W_1",
-        "turn": "W_2",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "walk": "W_1"
+    },
+    {
+        "jump": "W_1"
+    },
+    {
+        "look": "W_1"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
         "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "right": "W_3"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2",
+        "right": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2",
+        "thrice": "W_3"
     },
     {
         "walk": "W_1",
         "around": "W_2",
         "twice": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "around": "W_3"
     },
     {
         "walk": "W_1",
@@ -2824,8 +8252,33 @@
     {
         "jump": "W_1",
         "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2",
+        "around": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "around": "W_3",
+        "twice": "W_4"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
         "around": "W_3",
         "thrice": "W_4"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2"
     },
     {
         "around": "W_1",
@@ -2833,14 +8286,37 @@
     },
     {
         "walk": "W_1",
-        "turn": "W_2"
+        "run": "W_2"
+    },
+    {
+        "walk": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2"
     },
     {
         "walk": "W_1",
         "around": "W_2"
     },
     {
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
         "look": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_3"
+    },
+    {
+        "run": "W_1",
+        "left": "W_3"
+    },
+    {
+        "jump": "W_1",
         "left": "W_3"
     },
     {
@@ -2853,11 +8329,31 @@
     },
     {
         "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "around": "W_1",
         "look": "W_2"
     },
     {
-        "left": "W_1",
-        "walk": "W_2"
+        "around": "W_1",
+        "look": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2"
     },
     {
         "left": "W_1",
@@ -2865,8 +8361,33 @@
     },
     {
         "left": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "left": "W_1",
+        "look": "W_2"
+    },
+    {
+        "left": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "left": "W_1",
+        "around": "W_2"
+    },
+    {
+        "left": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "left": "W_1",
         "around": "W_2",
         "twice": "W_3"
+    },
+    {
+        "left": "W_1",
+        "around": "W_2",
+        "thrice": "W_3"
     },
     {
         "walk": "W_1",
@@ -2874,6 +8395,22 @@
     },
     {
         "around": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
     },
     {
         "around": "W_1",
@@ -2888,18 +8425,49 @@
         "around": "W_2"
     },
     {
-        "walk": "W_3",
-        "left": "W_2"
+        "run": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
     },
     {
         "walk": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
     },
     {
         "run": "W_1",
         "around": "W_2"
     },
     {
-        "run": "W_1",
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
         "around": "W_2"
     },
     {
@@ -2907,7 +8475,25 @@
         "around": "W_2"
     },
     {
+        "turn": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2"
+    },
+    {
         "look": "W_1"
+    },
+    {
+        "walk": "W_1"
+    },
+    {
+        "run": "W_1"
     },
     {
         "walk": "W_1",
@@ -2915,10 +8501,34 @@
         "around": "W_3"
     },
     {
+        "run": "W_1",
+        "thrice": "W_2",
+        "around": "W_3"
+    },
+    {
+        "look": "W_1",
+        "twice": "W_2",
+        "around": "W_3"
+    },
+    {
+        "run": "W_1"
+    },
+    {
         "walk": "W_1"
     },
     {
+        "jump": "W_1"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2"
+    },
+    {
         "run": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
         "around": "W_2"
     },
     {
@@ -2927,37 +8537,119 @@
         "walk": "W_3"
     },
     {
-        "around": "W_1",
-        "run": "W_2"
+        "jump": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
     },
     {
-        "around": "W_2",
-        "twice": "W_3"
-    },
-    {
-        "walk": "W_1",
-        "around": "W_2"
+        "look": "W_1",
+        "left": "W_2",
+        "walk": "W_3"
     },
     {
         "around": "W_1",
         "look": "W_2"
     },
     {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "around": "W_2",
+        "twice": "W_3"
+    },
+    {
+        "around": "W_2",
+        "thrice": "W_3"
+    },
+    {
         "run": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "turn": "W_2"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "look": "W_1",
         "left": "W_2",
         "around": "W_3"
     },
     {
         "look": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "run": "W_1",
         "around": "W_2"
     },
     {
         "around": "W_3",
+        "thrice": "W_4"
+    },
+    {
+        "around": "W_3",
+        "thrice": "W_2",
         "twice": "W_4"
+    },
+    {
+        "around": "W_3",
+        "twice": "W_2",
+        "thrice": "W_4"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
     },
     {
         "around": "W_1",
         "turn": "W_2"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
     },
     {
         "look": "W_1",
@@ -2970,11 +8662,37 @@
     },
     {
         "jump": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "look": "W_1",
+        "right": "W_2",
+        "around": "W_3"
+    },
+    {
+        "around": "W_1",
+        "left": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2"
+    },
+    {
+        "jump": "W_1",
         "left": "W_2"
     },
     {
         "left": "W_1",
         "walk": "W_2"
+    },
+    {
+        "left": "W_1",
+        "run": "W_2"
+    },
+    {
+        "left": "W_1",
+        "jump": "W_2"
     },
     {
         "walk": "W_1",
@@ -2983,6 +8701,16 @@
     {
         "walk": "W_1",
         "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "run": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2",
         "left": "W_3"
     },
     {
@@ -2997,13 +8725,38 @@
         "around": "W_2"
     },
     {
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
         "left": "W_1",
         "around": "W_2"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2",
+        "around": "W_3"
     },
     {
         "jump": "W_1",
         "left": "W_2",
         "around": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "left": "W_1",
+        "look": "W_2"
+    },
+    {
+        "left": "W_1",
+        "run": "W_2"
     },
     {
         "left": "W_1",
@@ -3023,11 +8776,131 @@
         "around": "W_2"
     },
     {
+        "run": "W_1"
+    },
+    {
+        "jump": "W_1"
+    },
+    {
         "walk": "W_1"
     },
     {
         "walk": "W_1",
         "left": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2"
+    },
+    {
+        "look": "W_1",
+        "left": "W_2"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "around": "W_1",
+        "look": "W_2"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2"
+    },
+    {
+        "run": "W_1",
+        "left": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "left": "W_2"
+    },
+    {
+        "around": "W_1",
+        "thrice": "W_2",
+        "left": "W_3"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2",
+        "left": "W_3"
+    },
+    {
+        "walk": "W_1"
+    },
+    {
+        "jump": "W_1"
+    },
+    {
+        "around": "W_1"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "around": "W_2"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2"
+    },
+    {
+        "jump": "W_1",
+        "around": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2",
+        "left": "W_3"
     },
     {
         "around": "W_1",
@@ -3036,43 +8909,6 @@
     },
     {
         "around": "W_1",
-        "jump": "W_2"
-    },
-    {
-        "around": "W_1",
-        "run": "W_2"
-    },
-    {
-        "around": "W_2"
-    },
-    {
-        "run": "W_1",
-        "left": "W_2"
-    },
-    {
-        "around": "W_1",
-        "twice": "W_2",
-        "left": "W_3"
-    },
-    {
-        "around": "W_1"
-    },
-    {
-        "around": "W_2"
-    },
-    {
-        "around": "W_2"
-    },
-    {
-        "look": "W_1",
-        "around": "W_2"
-    },
-    {
-        "look": "W_1",
-        "around": "W_2"
-    },
-    {
-        "around": "W_1",
         "look": "W_2",
         "left": "W_3"
     },
@@ -3081,7 +8917,14 @@
     },
     {
         "walk": "W_1",
-        "run": "W_2"
+        "look": "W_2"
+    },
+    {
+        "walk": "W_2"
+    },
+    {
+        "walk": "W_1",
+        "jump": "W_2"
     },
     {
         "around": "W_1",
@@ -3093,6 +8936,14 @@
     {
         "around": "W_1",
         "run": "W_2"
+    },
+    {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "walk": "W_2"
     },
     {
         "around": "W_2"
@@ -3119,6 +8970,11 @@
         "walk": "W_1",
         "around": "W_2",
         "thrice": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "around": "W_2",
+        "twice": "W_3"
     },
     {
         "around": "W_2"
@@ -3139,15 +8995,40 @@
         "twice": "W_2"
     },
     {
+        "around": "W_3",
+        "thrice": "W_2"
+    },
+    {
         "jump": "W_1",
         "walk": "W_2"
+    },
+    {
+        "walk": "W_2"
+    },
+    {
+        "run": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "around": "W_2",
+        "thrice": "W_3"
     },
     {
         "around": "W_2",
         "twice": "W_3"
     },
     {
+        "jump": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
         "run": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "look": "W_1",
         "left": "W_2",
         "around": "W_3"
     },
@@ -3171,10 +9052,28 @@
     },
     {
         "left": "W_1",
+        "run": "W_2"
+    },
+    {
+        "left": "W_1",
+        "walk": "W_2"
+    },
+    {
+        "left": "W_1",
         "around": "W_2"
     },
     {
         "run": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "walk": "W_1",
+        "left": "W_2",
+        "around": "W_3"
+    },
+    {
+        "look": "W_1",
         "left": "W_2",
         "around": "W_3"
     },
@@ -3200,6 +9099,14 @@
         "look": "W_2"
     },
     {
+        "around": "W_1",
+        "jump": "W_2"
+    },
+    {
+        "around": "W_1",
+        "run": "W_2"
+    },
+    {
         "around": "W_2"
     },
     {
@@ -3208,6 +9115,10 @@
     },
     {
         "around": "W_2"
+    },
+    {
+        "around": "W_1",
+        "twice": "W_2"
     },
     {
         "around": "W_1",
@@ -3230,7 +9141,19 @@
         "thrice": "W_2"
     },
     {
+        "around": "W_3",
+        "twice": "W_2"
+    },
+    {
         "around": "W_1"
+    },
+    {
+        "run": "W_1",
+        "around": "W_2"
+    },
+    {
+        "look": "W_1",
+        "around": "W_2"
     },
     {
         "jump": "W_1",
