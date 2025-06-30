@@ -40,10 +40,12 @@ with open(read_from) as f, open(check_with) as cw:
         
         new_line = []
         for w in line:
+            
             if w.startswith("C_") and (w in rwmap):
                 if w not in c_count:
                     c_count[w] = 0
                 
+                print(w, c_count)
                 t = rwmap[w][c_count[w]]
                 if t in rmap_r:
                     new_line.append(rmap_r[t])
