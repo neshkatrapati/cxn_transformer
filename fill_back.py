@@ -26,36 +26,17 @@ with open(read_from) as f, open(check_with) as cw:
     for li, line in enumerate(f):
         total+=1
         line = line.strip().split()
-        print(line)
+        #print(line)
         
         wmap = wmaps[li]
-        # rwmap = {}
- #        for x, y in wmap.items():
- #            if y not in rwmap:
- #                rwmap[y] = []
- #            rwmap[y].append(x)
- #
-        print(wmap)
-        c_count = {}
-        
+        rwmap = {y : x for x, y in wmap.items()}
+        #print(rwmap)
         new_line = []
-        for wi, w in enumerate(line):
-            
-            if w.startswith("C_"):
-                # if w not in c_count:
- #                    c_count[w] = 0
- #                else:
- #                    c_count[w] += 1
-                    
-                #print(w, c_count)
-                # t = rwmap[w][c_count[w]]
-                #t = wmap[str(wi)][-1]
-                t = wmap[str(wi)]
+        for w in line:
+            if w.startswith("W_") and (w in rwmap):
+                t = rwmap[w]
                 if t in rmap_r:
-                    new_line.append(t)
-                    
-                
-                
+                    new_line.append(rmap_r[t])
             else:
                 new_line.append(w)
                 
@@ -67,23 +48,21 @@ with open(read_from) as f, open(check_with) as cw:
         
         print(new_line)
         cwline = cwlines[li].strip()
+
+        # new_line = []
+  #       for w in line:
+  #           if w.startswith("W_") and (w in rwmap):
+  #               t = rwmap[w]
+  #               if t in rmap_r:
+  #                   new_line.append(rmap_r[t])
+  #           else:
+  #               new_line.append(w)
+  #       print(cwline)
+  #
+        if new_line == cwline:
+            correct +=1
         
-        new_cline = []
-        for w in cwline.split():
-            if w.startswith("C_") and (w in rwmap):
-                t = rwmap[w]
-                if t in rmap_r:
-                    new_cline.append(rmap_r[t])
-            else:
-                new_cline.append(w)
-        cline = " ".join(new_cline)
-            
-        print(cline)
-        
-        if new_line == cline:
-            correct +=1 
-        
-        print()
+        print(cwline)
         # wf.write(new_line+"\n")
 
 print(correct, total, correct * 100/ total)
