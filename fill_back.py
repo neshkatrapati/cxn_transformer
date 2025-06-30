@@ -29,26 +29,27 @@ with open(read_from) as f, open(check_with) as cw:
         #print(line)
         
         wmap = wmaps[li]
-        rwmap = {}
-        for x, y in wmap.items():
-            if y not in rwmap:
-                rwmap[y] = []
-            rwmap[y].append(x)
-            
-        print(rwmap)
+        # rwmap = {}
+ #        for x, y in wmap.items():
+ #            if y not in rwmap:
+ #                rwmap[y] = []
+ #            rwmap[y].append(x)
+ #
+ #        print(rwmap)
         c_count = {}
         
         new_line = []
-        for w in line:
+        for wi, w in enumerate(line):
             
             if w.startswith("C_") and (w in rwmap):
-                if w not in c_count:
-                    c_count[w] = 0
-                else:
-                    c_count[w] += 1
+                # if w not in c_count:
+ #                    c_count[w] = 0
+ #                else:
+ #                    c_count[w] += 1
                     
-                print(w, c_count)
-                t = rwmap[w][c_count[w]]
+                #print(w, c_count)
+                # t = rwmap[w][c_count[w]]
+                t = wmap[wi][-1]
                 if t in rmap_r:
                     new_line.append(rmap_r[t])
                     
